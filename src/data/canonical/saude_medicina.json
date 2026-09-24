@@ -1,0 +1,589 @@
+[
+  {
+    "eventId": "hospitalar",
+    "name": "Hospitalar - Feira Internacional de Tecnologia em Saúde e Hospitais",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Equipamentos Hospitalares & Farmacêutico",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "hospitalar-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-05-19",
+          "end": "2026-05-22",
+          "setupStart": "2026-05-13",
+          "breakdownEnd": "2026-05-24"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km - Vila Água Funda",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 50000,
+          "historical": 48000,
+          "estimatedCorporateDelegations": 320,
+          "confidence": "ALTA",
+          "note": "Mais de 1.000 marcas expositoras e 50.000 profissionais de saúde de 70 países."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Hospitalar Oficial",
+              "url": "https://www.hospitalar.com",
+              "retrievedAt": "2026-08-20",
+              "quote": "Hospitalar 2026: 19 a 22 de maio de 2026 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Siemens Healthineers",
+            "GE Healthcare",
+            "Philips Medical",
+            "Mindray",
+            "Johnson & Johnson MedTech"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 3200,
+            "executiveVans": 60,
+            "buses46p": 25,
+            "taxisPerDay": 750
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-20",
+          "d120Date": "2026-01-19",
+          "d90Date": "2026-02-18",
+          "activeTriggers": [
+            "HOTEL_SHIELD_JABAQUARA_BERRINI"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "ciosp",
+    "name": "CIOSP - Congresso Internacional de Odontologia de São Paulo",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Odontologia & Cirurgia Bucomaxilofacial",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JANEIRO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "ciosp-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-01-27",
+          "end": "2027-01-30"
+        },
+        "location": {
+          "venue": "Expo Center Norte",
+          "address": "Rua José Bernardo Pinto, 333 - Vila Guilherme",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 85000,
+          "historical": 80000,
+          "estimatedCorporateDelegations": 410,
+          "confidence": "ALTA",
+          "note": "Maior congresso odontológico do mundo promovido pela APCD."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "APCD / CIOSP",
+              "url": "https://www.ciosp.com.br",
+              "retrievedAt": "2026-08-18",
+              "quote": "44º CIOSP confirmado para 27 a 30 de janeiro de 2027 no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Associação Paulista de Cirurgiões-Dentistas (APCD)"
+          },
+          "sponsorsMaster": [
+            "Colgate",
+            "Oral-B / P&G",
+            "Dentsply Sirona",
+            "Straumann"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4100,
+            "executiveVans": 80,
+            "buses46p": 35,
+            "taxisPerDay": 850
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-07-31",
+          "d120Date": "2026-09-29",
+          "d90Date": "2026-10-29",
+          "activeTriggers": [
+            "BLOQUEIO_SANTANA_CENTER_NORTE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "socesp-cardiologia",
+    "name": "SOCESP - Congresso da Sociedade de Cardiologia do Estado de São Paulo",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Cardiologia & Medicina Cardiovascular",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "socesp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-04",
+          "end": "2026-06-06"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 8500,
+          "historical": 8200,
+          "estimatedCorporateDelegations": 110,
+          "confidence": "ALTA",
+          "note": "Maior congresso regional de cardiologia do mundo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SOCESP Oficial",
+              "url": "https://socesp.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "XLVI Congresso SOCESP confirmado para 4 a 6 de junho de 2026 no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 93,
+          "organizer": {
+            "company": "Sociedade de Cardiologia do Estado de São Paulo (SOCESP)"
+          },
+          "sponsorsMaster": [
+            "Novartis",
+            "AstraZeneca",
+            "Sanofi",
+            "Bayer Farmacêutica",
+            "Pfizer"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1200,
+            "executiveVans": 30,
+            "buses46p": 12,
+            "taxisPerDay": 350
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-06",
+          "d120Date": "2026-02-04",
+          "d90Date": "2026-03-06",
+          "activeTriggers": [
+            "HOTEL_BERRINI_CARDIO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "jpr-radiologia",
+    "name": "JPR - Jornada Paulista de Radiologia & Diagnóstico por Imagem",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Radiologia, Ressonância Magnética & Medicina Nuclear",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "jpr-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-30",
+          "end": "2026-05-03"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 20000,
+          "historical": 19000,
+          "estimatedCorporateDelegations": 180,
+          "confidence": "ALTA",
+          "note": "Maior evento de diagnóstico por imagem da América Latina organizado pela SPR."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Sociedade Paulista de Radiologia (SPR)",
+              "url": "https://jpr.org.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "56ª Jornada Paulista de Radiologia de 30 de abril a 3 de maio de 2026 no Transamerica."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Sociedade Paulista de Radiologia (SPR)"
+          },
+          "sponsorsMaster": [
+            "GE HealthCare",
+            "Siemens Healthineers",
+            "Canon Medical",
+            "Fujifilm Medical",
+            "Bayer"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1800,
+            "executiveVans": 35,
+            "buses46p": 15,
+            "taxisPerDay": 450
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-01",
+          "d120Date": "2025-12-31",
+          "d90Date": "2026-01-30",
+          "activeTriggers": [
+            "HOTEL_BERRINI_RADIOLOGIA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "cbot-ortopedia",
+    "name": "CBOT - Congresso Brasileiro de Ortopedia e Traumatologia",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Ortopedia, Artroscopia & Próteses",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "NOVEMBRO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "cbot-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-11-12",
+          "end": "2026-11-14"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 6500,
+          "historical": 6000,
+          "estimatedCorporateDelegations": 95,
+          "confidence": "ALTA",
+          "note": "Congresso oficial da Sociedade Brasileira de Ortopedia e Traumatologia (SBOT)."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SBOT Oficial",
+              "url": "https://sbot.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "58º Congresso Brasileiro de Ortopedia e Traumatologia no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 94,
+          "organizer": {
+            "company": "Sociedade Brasileira de Ortopedia e Traumatologia (SBOT)"
+          },
+          "sponsorsMaster": [
+            "Stryker",
+            "DePuy Synthes / J&J",
+            "Zimmer Biomet",
+            "Smith & Nephew"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1100,
+            "executiveVans": 25,
+            "buses46p": 10,
+            "taxisPerDay": 300
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-05-16",
+          "d120Date": "2026-07-15",
+          "d90Date": "2026-08-14",
+          "activeTriggers": [
+            "HOTEL_MOEMA_JABAQUARA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "sbcbm-bariatrica",
+    "name": "Congresso Brasileiro de Cirurgia Bariátrica e Metabólica (SBCBM)",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Cirurgia Digestiva & Metabólica",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "sbcbm-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-21",
+          "end": "2026-10-24"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 3800,
+          "historical": 3500,
+          "estimatedCorporateDelegations": 70,
+          "confidence": "ALTA",
+          "note": "Encontro anual de cirurgiões bariátricos e equipes multidisciplinares."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SBCBM Oficial",
+              "url": "https://sbcbm.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Congresso Brasileiro SBCBM no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)"
+          },
+          "sponsorsMaster": [
+            "Medtronic",
+            "Johnson & Johnson MedTech",
+            "Novo Nordisk",
+            "Eli Lilly"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 750,
+            "executiveVans": 18,
+            "buses46p": 8,
+            "taxisPerDay": 200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-24",
+          "d120Date": "2026-06-23",
+          "d90Date": "2026-07-23",
+          "activeTriggers": [
+            "HOTEL_BERRINI_BARIATRICA"
+          ]
+        }
+      }
+    ]
+  }
+]

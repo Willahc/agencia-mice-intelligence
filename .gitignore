@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+node_modules/
+Agência de Viagens/
+logs/
+coverage/
+dist/
+build/
+*.log
+*.db
+*.sqlite*
+*.csv
+*.xlsx
+*.zip
+*.pdf
+*.docx
+*.pptx
+*.mp4
+*.png
+*.jpg
+*.jpeg
+docs/audit-report.json
+__pycache__/
+*.pyc

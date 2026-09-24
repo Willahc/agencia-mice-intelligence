@@ -1,0 +1,496 @@
+[
+  {
+    "eventId": "apas-show",
+    "name": "APAS SHOW - Maior Feira Supermercadista e de Alimentos das Américas",
+    "category": "VAREJO_ALIMENTOS",
+    "sector": "Supermercados & Bens de Consumo (FMCG)",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "apas-show-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-05-18",
+          "end": "2026-05-21"
+        },
+        "location": {
+          "venue": "Expo Center Norte (Pavilhões Azul, Branco, Verde e Vermelho)",
+          "address": "Rua José Bernardo Pinto, 333 - Vila Guilherme",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 75000,
+          "historical": 73000,
+          "estimatedCorporateDelegations": 380,
+          "confidence": "ALTA",
+          "note": "Dados oficiais APAS: mais de 850 expositores e 75.000 profissionais qualificados."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "APAS SHOW Oficial",
+              "url": "https://apasshow.com",
+              "retrievedAt": "2026-08-21",
+              "quote": "APAS SHOW 2026: 18 a 21 de Maio no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Associação Paulista de Supermercados (APAS)"
+          },
+          "sponsorsMaster": [
+            "Ambev",
+            "Nestle",
+            "JBS / Friboi",
+            "BRF",
+            "Unilever",
+            "Heineken"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 10,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 3800,
+            "executiveVans": 75,
+            "buses46p": 30,
+            "taxisPerDay": 900
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-19",
+          "d120Date": "2026-01-18",
+          "d90Date": "2026-02-17",
+          "activeTriggers": [
+            "BLOQUEIO_HOTEL_SANTANA_PAULISTA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "feicon",
+    "name": "FEICON - Salão Internacional da Construção Civil e Arquitetura",
+    "category": "INDUSTRIA_CONSTRUCAO",
+    "sector": "Construção Civil, Engenharia & Arquitetura",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "ABRIL",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "feicon-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-07",
+          "end": "2026-04-10"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 80000,
+          "historical": 78000,
+          "estimatedCorporateDelegations": 420,
+          "confidence": "ALTA",
+          "note": "Principal evento de construção civil da América Latina organizado pela RX Brasil."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "FEICON Oficial",
+              "url": "https://feicon.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "FEICON 2026 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "RX Brasil (Reed Exhibitions)"
+          },
+          "sponsorsMaster": [
+            "Tigre",
+            "Votorantim Cimentos",
+            "Amanco Wavin",
+            "Deca",
+            "Gerdau"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4000,
+            "executiveVans": 85,
+            "buses46p": 35,
+            "taxisPerDay": 950
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-09",
+          "d120Date": "2025-12-08",
+          "d90Date": "2026-01-07",
+          "activeTriggers": [
+            "HOTEL_SHIELD_MOEMA_BERRINI"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "febraban-tech",
+    "name": "FEBRABAN TECH - Congresso de Tecnologia do Setor Financeiro",
+    "category": "TECNOLOGIA_FINANCAS",
+    "sector": "Banking, Fintechs & Inteligência Artificial",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "febraban-tech-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-23",
+          "end": "2026-06-25"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 35000,
+          "historical": 32000,
+          "estimatedCorporateDelegations": 280,
+          "confidence": "ALTA",
+          "note": "Maior congresso de tecnologia bancária e IA financeira."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Febraban Tech",
+              "url": "https://febrabantech.febraban.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "FEBRABAN TECH no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "Federação Brasileira de Bancos (FEBRABAN)"
+          },
+          "sponsorsMaster": [
+            "AWS",
+            "Microsoft",
+            "Google Cloud",
+            "IBM",
+            "Oracle",
+            "Mastercard",
+            "Visa"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2400,
+            "executiveVans": 45,
+            "buses46p": 18,
+            "taxisPerDay": 600
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-25",
+          "d120Date": "2026-02-23",
+          "d90Date": "2026-03-25",
+          "activeTriggers": [
+            "HOTEL_BERRINI_TRANSAMERICA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "beauty-fair",
+    "name": "Beauty Fair - Feira Internacional de Beleza Profissional",
+    "category": "VAREJO_COSMETICOS",
+    "sector": "Beleza, Cosméticos & Cuidados Pessoais",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "beauty-fair-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-09-05",
+          "end": "2026-09-08"
+        },
+        "location": {
+          "venue": "Expo Center Norte",
+          "address": "Rua José Bernardo Pinto, 333",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 200000,
+          "historical": 195000,
+          "estimatedCorporateDelegations": 450,
+          "confidence": "ALTA",
+          "note": "Segunda maior feira de beleza do mundo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Beauty Fair Oficial",
+              "url": "https://beautyfair.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Beauty Fair 2026 no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Beauty Fair Eventos"
+          },
+          "sponsorsMaster": [
+            "L'Oréal Paris",
+            "Wella Professionals",
+            "Taiff",
+            "Salon Line",
+            "Alfaparf"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4800,
+            "executiveVans": 90,
+            "buses46p": 45,
+            "taxisPerDay": 1200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-03-09",
+          "d120Date": "2026-05-08",
+          "d90Date": "2026-06-07",
+          "activeTriggers": [
+            "HOTEL_SANTANA_CENTER_NORTE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "intermodal-south-america",
+    "name": "Intermodal South America - Logística, Intralogística e Comércio Exterior",
+    "category": "LOGISTICA_COMEX",
+    "sector": "Logística Rodoviária, Ferroviária, Marítima & Comex",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "intermodal-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-09",
+          "end": "2027-03-11"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 45000,
+          "historical": 43000,
+          "estimatedCorporateDelegations": 310,
+          "confidence": "ALTA",
+          "note": "Maior feira de logística e comércio exterior das Américas."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Intermodal Oficial",
+              "url": "https://intermodal.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Intermodal South America 2027 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Maersk",
+            "MSC",
+            "Hapag-Lloyd",
+            "Porto de Santos",
+            "DP World",
+            "Rumo"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2800,
+            "executiveVans": 55,
+            "buses46p": 22,
+            "taxisPerDay": 680
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-10",
+          "d120Date": "2026-11-09",
+          "d90Date": "2026-12-09",
+          "activeTriggers": [
+            "HOTEL_JABAQUARA_BERRINI"
+          ]
+        }
+      }
+    ]
+  }
+]

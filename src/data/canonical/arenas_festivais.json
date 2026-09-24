@@ -1,0 +1,601 @@
+[
+  {
+    "eventId": "f1-gp-sao-paulo",
+    "name": "Fórmula 1 - Grande Prêmio de São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Automobilismo / Entretenimento VIP & Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "NOVEMBRO",
+      "primaryVenue": "Autódromo José Carlos Pace (Interlagos)",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "f1-gp-sp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-11-06",
+          "end": "2026-11-08"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos",
+          "address": "Av. Senador Teotônio Vilela, 261 - Interlagos",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 290000,
+          "historical": 280000,
+          "estimatedCorporateDelegations": 650,
+          "confidence": "ALTA",
+          "note": "290.000 espectadores ao longo dos 3 dias de GP."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Formula 1 Oficial",
+              "url": "https://f1saopaulo.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "GP de São Paulo de F1 confirmado para novembro de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 100,
+          "organizer": {
+            "company": "Brasil Motorsport & Formula One Management"
+          },
+          "sponsorsMaster": [
+            "Heineken",
+            "Petrobras",
+            "Rolex",
+            "Pirelli",
+            "Lenovo",
+            "Santander",
+            "MSC Cruzeiros"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 210,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP (Pista Expressa)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 5500,
+            "executiveVans": 180,
+            "buses46p": 60,
+            "taxisPerDay": 2200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-05-10",
+          "d120Date": "2026-07-09",
+          "d90Date": "2026-08-08",
+          "activeTriggers": [
+            "FAIXA_EXPRESSA_INTERLAGOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "the-town",
+    "name": "The Town - Festival de Música, Cultura & Arte de São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Mega Festivais / Camarotes Corporativos Master",
+    "permanence": {
+      "frequency": "BIENAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Autódromo de Interlagos (Cidade da Música)",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "the-town-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-09-04",
+          "end": "2027-09-12"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos (Cidade da Música)",
+          "address": "Av. Senador Teotônio Vilela, 261",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 500000,
+          "historical": 500000,
+          "estimatedCorporateDelegations": 450,
+          "confidence": "ALTA",
+          "note": "100.000 pessoas por dia ao longo de 5 dias de festival."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "The Town Oficial",
+              "url": "https://thetown.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "The Town 2ª edição confirmada para setembro de 2027 na Cidade da Música."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Rock World S.A. (Live Nation Entertainment)"
+          },
+          "sponsorsMaster": [
+            "Itaú",
+            "Heineken",
+            "Vivo",
+            "Porto Seguro",
+            "Riachuelo",
+            "Coca-Cola",
+            "Volkswagen"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 210,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi (Bolsão VIP Portão G)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4800,
+            "executiveVans": 160,
+            "buses46p": 50,
+            "taxisPerDay": 1800
+          }
+        },
+        "alerts": {
+          "d180Date": "2027-03-08",
+          "d120Date": "2027-05-07",
+          "d90Date": "2027-06-06",
+          "activeTriggers": [
+            "PROSPECCAO_CAMAROTES_D180"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "lollapalooza-brasil",
+    "name": "Lollapalooza Brasil",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Festivais Internacionais / Camarotes de Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "Autódromo de Interlagos",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "lolla-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-26",
+          "end": "2027-03-28"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos",
+          "address": "Av. Senador Teotônio Vilela, 261",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 240000,
+          "historical": 240000,
+          "estimatedCorporateDelegations": 280,
+          "confidence": "ALTA",
+          "note": "80.000 pessoas por dia em 3 dias de festival internacional."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Lollapalooza Brasil / Live Nation",
+              "url": "https://lollapaloozabr.com",
+              "retrievedAt": "2026-08-20",
+              "quote": "Lollapalooza Brasil no Autódromo de Interlagos."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Live Nation Entertainment & C3 Presents"
+          },
+          "sponsorsMaster": [
+            "Bradesco",
+            "Budweiser",
+            "Chevrolet",
+            "Samsung",
+            "Vivo"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4200,
+            "executiveVans": 130,
+            "buses46p": 45,
+            "taxisPerDay": 1500
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-27",
+          "d120Date": "2026-11-26",
+          "d90Date": "2026-12-26",
+          "activeTriggers": [
+            "HOTEL_SHIELD_BERRINI_LOLLA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "peao-barretos",
+    "name": "Festa do Peão de Boiadeiro de Barretos",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Agronegócio / Entretenimento & Grandes Camarotes",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "AGOSTO",
+      "primaryVenue": "Parque do Peão de Barretos",
+      "city": "Barretos",
+      "state": "SP",
+      "region": "INTERIOR_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "peao-barretos-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-08-20",
+          "end": "2026-08-30"
+        },
+        "location": {
+          "venue": "Parque do Peão Os Independentes",
+          "address": "Rodovia Brigadeiro Faria Lima, Km 428",
+          "city": "Barretos",
+          "state": "SP",
+          "region": "INTERIOR_NORTE"
+        },
+        "attendance": {
+          "official": 900000,
+          "historical": 880000,
+          "estimatedCorporateDelegations": 240,
+          "confidence": "ALTA",
+          "note": "Maior evento da cultura sertaneja da América Latina."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Os Independentes / Festa do Peão",
+              "url": "https://www.independentes.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "71ª Festa do Peão de Barretos confirmada para 20 a 30 de agosto de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Associação Os Independentes de Barretos"
+          },
+          "sponsorsMaster": [
+            "Ambev / Brahma",
+            "Bradesco",
+            "RAM do Brasil",
+            "Ballantines",
+            "Supermercados Savegnago"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 65,
+          "airports": [
+            {
+              "code": "BAT",
+              "name": "Aeroporto de Barretos",
+              "distanceKm": 8
+            },
+            {
+              "code": "SJP",
+              "name": "Aeroporto de São José do Rio Preto",
+              "distanceKm": 95
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Cooperativa Táxi Barretos & Vans VIP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2800,
+            "executiveVans": 65,
+            "buses46p": 30,
+            "taxisPerDay": 400
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-02-21",
+          "d120Date": "2026-04-22",
+          "d90Date": "2026-05-22",
+          "activeTriggers": [
+            "HOTEL_CASAS_TEMPORADA_BARRETOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "joao-rock",
+    "name": "João Rock - Festival de Rock Nacional em Ribeirão Preto",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Música & Entretenimento Corporativo Regional",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Parque Permanente de Exposições",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "joao-rock-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-06",
+          "end": "2026-06-06"
+        },
+        "location": {
+          "venue": "Parque Permanente de Exposições",
+          "address": "Av. Orestes Lopes de Camargo, 350",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": 70000,
+          "historical": 65000,
+          "estimatedCorporateDelegations": 120,
+          "confidence": "ALTA",
+          "note": "Maior festival de rock nacional do país em dia único."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "João Rock Oficial",
+              "url": "https://joaorock.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Festival João Rock 2026 no Parque Permanente de Exposições de Ribeirão Preto."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "L2 Produções & EPTV / Grupo EP"
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Heineken / Eisenbahn",
+            "Jack Daniels",
+            "Coca-Cola"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 8
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1800,
+            "executiveVans": 35,
+            "buses46p": 15,
+            "taxisPerDay": 400
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-08",
+          "d120Date": "2026-02-06",
+          "d90Date": "2026-03-08",
+          "activeTriggers": [
+            "HOTEL_RIBEIRAO_JOAO_ROCK"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "ccxp-comic-con",
+    "name": "CCXP - Comic Con Experience São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Cultura Pop, Cinema & Entretenimento de Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "DEZEMBRO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "ccxp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-12-03",
+          "end": "2026-12-06"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 300000,
+          "historical": 285000,
+          "estimatedCorporateDelegations": 380,
+          "confidence": "ALTA",
+          "note": "Maior festival de cultura pop do planeta."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "CCXP Oficial",
+              "url": "https://ccxp.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "CCXP26 confirmada para o São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Omelete Company & GL events"
+          },
+          "sponsorsMaster": [
+            "Warner Bros. Discovery",
+            "Disney",
+            "Universal Pictures",
+            "Paramount",
+            "Sony Pictures",
+            "Prime Video",
+            "Netflix",
+            "Banco do Brasil"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 15,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP (Bolsão Metro Jabaquara)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4500,
+            "executiveVans": 120,
+            "buses46p": 40,
+            "taxisPerDay": 1600
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-06-06",
+          "d120Date": "2026-08-05",
+          "d90Date": "2026-09-04",
+          "activeTriggers": [
+            "HOTEL_JABAQUARA_CONGONHAS"
+          ]
+        }
+      }
+    ]
+  }
+]

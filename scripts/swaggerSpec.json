@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Agência MICE Intelligence API",
+    "version": "1.0.0",
+    "description": "Endpoints for MICE event management and analytics"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:{port}",
+      "variables": {
+        "port": {
+          "default": "3000"
+        }
+      }
+    }
+  ],
+  "paths": {},
+  "components": {},
+  "tags": []
+}

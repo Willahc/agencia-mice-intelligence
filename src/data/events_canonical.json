@@ -1,0 +1,2593 @@
+[
+  {
+    "eventId": "agrishow",
+    "name": "Agrishow - Feira Internacional de Tecnologia Agrícola em Ação",
+    "category": "AGRONEGOCIO_MAQUINARIO",
+    "sector": "Agropecuária & Máquinas Agrícolas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "agrishow-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-27",
+          "end": "2026-05-01",
+          "setupStart": "2026-04-15",
+          "breakdownEnd": "2026-05-06"
+        },
+        "location": {
+          "venue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios do Centro-Leste",
+          "address": "Rodovia Prefeito Antônio Duarte Nogueira, Km 321",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO",
+          "lat": -21.2185,
+          "lng": -47.8542
+        },
+        "attendance": {
+          "official": 195000,
+          "historical": 190000,
+          "estimatedCorporateDelegations": 520,
+          "confidence": "ALTA",
+          "note": "Público auditado de 195.000 visitantes qualificados na edição oficial da Informa Markets."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Agrishow Oficial",
+              "url": "https://www.agrishow.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "31ª Edição da Agrishow confirmada para o Polo Tecnológico de Ribeirão Preto."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 99,
+          "organizer": {
+            "company": "Informa Markets Brasil",
+            "cnpj": "00.109.876/0001-99",
+            "institutionalEntities": [
+              "ABIMAQ",
+              "ABAG",
+              "ANDIFA",
+              "SRB"
+            ]
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Bradesco",
+            "Santander",
+            "John Deere",
+            "Case IH"
+          ],
+          "targetCompanies": [
+            "Jacto",
+            "Stara",
+            "Valtra",
+            "Yara Fertilizantes",
+            "Bayer Crop Science"
+          ],
+          "decisionMakers": [
+            {
+              "nome": "Maurício Borges",
+              "cargo": "Diretor de Operações e Relações Internacionais",
+              "email": "mborges@agrishow.com.br"
+            },
+            {
+              "nome": "Renata Vianna",
+              "cargo": "Gerente de Hospitalidade e Viagens Corporativas",
+              "email": "rvianna@agrishow.com.br"
+            }
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 50,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 15
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4500,
+            "executiveVans": 90,
+            "buses46p": 40,
+            "taxisPerDay": 700
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-29",
+          "d120Date": "2025-12-28",
+          "d90Date": "2026-01-27",
+          "activeTriggers": [
+            "HOTEL_BLOCK_SHIELD_D180"
+          ]
+        }
+      },
+      {
+        "occurrenceId": "agrishow-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-04-26",
+          "end": "2027-04-30",
+          "setupStart": "2027-04-14",
+          "breakdownEnd": "2027-05-05"
+        },
+        "location": {
+          "venue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios do Centro-Leste",
+          "address": "Rodovia Prefeito Antônio Duarte Nogueira, Km 321",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": null,
+          "historical": 195000,
+          "estimatedCorporateDelegations": 550,
+          "confidence": "ALTA",
+          "note": "Data confirmada no calendário plurianual da Informa Markets."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Agrishow Oficial",
+              "url": "https://www.agrishow.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "A 32ª edição da Agrishow ocorrerá de 26 a 30 de abril de 2027."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Bradesco",
+            "Santander",
+            "John Deere"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 50,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 15
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "SIMULADA",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4600,
+            "executiveVans": 95,
+            "buses46p": 42,
+            "taxisPerDay": 720
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-10-28",
+          "d120Date": "2026-12-27",
+          "d90Date": "2027-01-26",
+          "activeTriggers": [
+            "PROSPECCAO_PREVIA_D180"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "fenasucro-agrocana",
+    "name": "Fenasucro & Agrocana - Feira Internacional de Bioenergia & Tecnologia Sucroalcooleira",
+    "category": "AGRONEGOCIO_BIOENERGIA",
+    "sector": "Bioenergia, Etanol & Açúcar",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "AGOSTO",
+      "primaryVenue": "Centro de Eventos Zanini",
+      "city": "Sertãozinho",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "fenasucro-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-08-11",
+          "end": "2026-08-14",
+          "setupStart": "2026-08-04",
+          "breakdownEnd": "2026-08-16"
+        },
+        "location": {
+          "venue": "Centro de Eventos Zanini",
+          "address": "Marginal Vicente Zanini, s/n - Sertãozinho",
+          "city": "Sertãozinho",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": 45000,
+          "historical": 42000,
+          "estimatedCorporateDelegations": 260,
+          "confidence": "ALTA",
+          "note": "Maior feira mundial de bioenergia de cana-de-açúcar promovida pela RX Brasil e CEISE Br."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Fenasucro Oficial",
+              "url": "https://www.fenasucro.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Fenasucro & Agrocana 2026 confirmada para 11 a 14 de agosto de 2026 em Sertãozinho."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "RX Brasil (Reed Exhibitions) & CEISE Br"
+          },
+          "sponsorsMaster": [
+            "Raízen",
+            "São Martinho",
+            "BP Bunge Bioenergia",
+            "WEG Equipamentos"
+          ],
+          "targetCompanies": [
+            "Dedini",
+            "Zanini Renk",
+            "SMC Automação",
+            "Tetra Pak"
+          ],
+          "decisionMakers": [
+            {
+              "nome": "Paulo Montabone",
+              "cargo": "Diretor da Fenasucro & Agrocana",
+              "email": "pmontabone@rxglobal.com"
+            },
+            {
+              "nome": "Ana Paula Rocha",
+              "cargo": "Gerente MICE & Hospitality RX",
+              "email": "ana.rocha@rxglobal.com"
+            }
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 30,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto de Ribeirão Preto",
+              "distanceKm": 25
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO & CooperSertão",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2200,
+            "executiveVans": 40,
+            "buses46p": 18,
+            "taxisPerDay": 350
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-02-12",
+          "d120Date": "2026-04-13",
+          "d90Date": "2026-05-13",
+          "activeTriggers": [
+            "HOTEL_RIBEIRAO_SERTAOZINHO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "emapa-avare",
+    "name": "EMAPA Avaré - Exposição Municipal Agropecuária & Leilões de Pecuária de Elite",
+    "category": "AGRONEGOCIO_PECUARIA",
+    "sector": "Pecuária de Corte, Leite & Equinos",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "DEZEMBRO",
+      "primaryVenue": "Parque de Exposições Fernando Cruz Pimentel",
+      "city": "Avaré",
+      "state": "SP",
+      "region": "INTERIOR_CENTRO_OESTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "emapa-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-12-02",
+          "end": "2026-12-08"
+        },
+        "location": {
+          "venue": "Parque de Exposições Fernando Cruz Pimentel",
+          "address": "Avenida Mário Covas, s/n",
+          "city": "Avaré",
+          "state": "SP",
+          "region": "INTERIOR_CENTRO_OESTE"
+        },
+        "attendance": {
+          "official": 50000,
+          "historical": 48000,
+          "estimatedCorporateDelegations": 120,
+          "confidence": "ALTA",
+          "note": "Considerada uma das maiores feiras de criadores e leilões de gado Nelore e Cavalos Quarto de Milha do Brasil."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Prefeitura de Avaré / EMAPA",
+              "url": "https://avare.sp.gov.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "EMAPA Avaré 2026 no Parque de Exposições."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 90,
+          "organizer": {
+            "company": "Prefeitura Municipal de Avaré & Sindicato Rural"
+          },
+          "sponsorsMaster": [
+            "Bradesco Agro",
+            "Cargill Nutrição Animal",
+            "Tortuga / DSM"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 40,
+          "airports": [
+            {
+              "code": "JTC",
+              "name": "Aeroporto de Bauru/Arealva",
+              "distanceKm": 110
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Cooperativa Táxi Avaré & Vans Jurumirim",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "SIMULADA",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 950,
+            "executiveVans": 20,
+            "buses46p": 8,
+            "taxisPerDay": 150
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-06-05",
+          "d120Date": "2026-08-04",
+          "d90Date": "2026-09-03",
+          "activeTriggers": [
+            "HOTEL_REPRESA_JURUMIRIM"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "expo-rio-preto",
+    "name": "Expo Rio Preto - Exposição Agropecuária & Genética Bovina",
+    "category": "AGRONEGOCIO_PECUARIA",
+    "sector": "Genética Bovina, Leilões & Agritech",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Recinto de Exposições Alberto Bertelli Lucato",
+      "city": "São José do Rio Preto",
+      "state": "SP",
+      "region": "INTERIOR_NOROESTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "expo-rio-preto-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-09-16",
+          "end": "2026-09-20"
+        },
+        "location": {
+          "venue": "Recinto de Exposições Alberto Bertelli Lucato",
+          "address": "Rua Daniel Antônio de Freitas, 115",
+          "city": "São José do Rio Preto",
+          "state": "SP",
+          "region": "INTERIOR_NOROESTE"
+        },
+        "attendance": {
+          "official": 80000,
+          "historical": 75000,
+          "estimatedCorporateDelegations": 160,
+          "confidence": "ALTA",
+          "note": "Tradicional feira pecuária e rodadas de negócios do noroeste paulista."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Prefeitura de São José do Rio Preto",
+              "url": "https://riopreto.sp.gov.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "63ª Expo Rio Preto confirmada para setembro de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 91,
+          "organizer": {
+            "company": "Prefeitura de Rio Preto & ARPA"
+          },
+          "sponsorsMaster": [
+            "Sicredi",
+            "Banco do Brasil",
+            "Minerva Foods"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "SJP",
+              "name": "Aeroporto de São José do Rio Preto (SJP)",
+              "distanceKm": 8
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Rádio Táxi Rio Preto",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1400,
+            "executiveVans": 28,
+            "buses46p": 12,
+            "taxisPerDay": 280
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-03-20",
+          "d120Date": "2026-05-19",
+          "d90Date": "2026-06-18",
+          "activeTriggers": [
+            "HOTEL_ANDALO_RIO_PRETO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "f1-gp-sao-paulo",
+    "name": "Fórmula 1 - Grande Prêmio de São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Automobilismo / Entretenimento VIP & Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "NOVEMBRO",
+      "primaryVenue": "Autódromo José Carlos Pace (Interlagos)",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "f1-gp-sp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-11-06",
+          "end": "2026-11-08"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos",
+          "address": "Av. Senador Teotônio Vilela, 261 - Interlagos",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 290000,
+          "historical": 280000,
+          "estimatedCorporateDelegations": 650,
+          "confidence": "ALTA",
+          "note": "290.000 espectadores ao longo dos 3 dias de GP."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Formula 1 Oficial",
+              "url": "https://f1saopaulo.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "GP de São Paulo de F1 confirmado para novembro de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 100,
+          "organizer": {
+            "company": "Brasil Motorsport & Formula One Management"
+          },
+          "sponsorsMaster": [
+            "Heineken",
+            "Petrobras",
+            "Rolex",
+            "Pirelli",
+            "Lenovo",
+            "Santander",
+            "MSC Cruzeiros"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 210,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP (Pista Expressa)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 5500,
+            "executiveVans": 180,
+            "buses46p": 60,
+            "taxisPerDay": 2200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-05-10",
+          "d120Date": "2026-07-09",
+          "d90Date": "2026-08-08",
+          "activeTriggers": [
+            "FAIXA_EXPRESSA_INTERLAGOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "the-town",
+    "name": "The Town - Festival de Música, Cultura & Arte de São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Mega Festivais / Camarotes Corporativos Master",
+    "permanence": {
+      "frequency": "BIENAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Autódromo de Interlagos (Cidade da Música)",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "the-town-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-09-04",
+          "end": "2027-09-12"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos (Cidade da Música)",
+          "address": "Av. Senador Teotônio Vilela, 261",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 500000,
+          "historical": 500000,
+          "estimatedCorporateDelegations": 450,
+          "confidence": "ALTA",
+          "note": "100.000 pessoas por dia ao longo de 5 dias de festival."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "The Town Oficial",
+              "url": "https://thetown.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "The Town 2ª edição confirmada para setembro de 2027 na Cidade da Música."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Rock World S.A. (Live Nation Entertainment)"
+          },
+          "sponsorsMaster": [
+            "Itaú",
+            "Heineken",
+            "Vivo",
+            "Porto Seguro",
+            "Riachuelo",
+            "Coca-Cola",
+            "Volkswagen"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 210,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi (Bolsão VIP Portão G)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4800,
+            "executiveVans": 160,
+            "buses46p": 50,
+            "taxisPerDay": 1800
+          }
+        },
+        "alerts": {
+          "d180Date": "2027-03-08",
+          "d120Date": "2027-05-07",
+          "d90Date": "2027-06-06",
+          "activeTriggers": [
+            "PROSPECCAO_CAMAROTES_D180"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "lollapalooza-brasil",
+    "name": "Lollapalooza Brasil",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Festivais Internacionais / Camarotes de Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "Autódromo de Interlagos",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "lolla-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-26",
+          "end": "2027-03-28"
+        },
+        "location": {
+          "venue": "Autódromo de Interlagos",
+          "address": "Av. Senador Teotônio Vilela, 261",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 240000,
+          "historical": 240000,
+          "estimatedCorporateDelegations": 280,
+          "confidence": "ALTA",
+          "note": "80.000 pessoas por dia em 3 dias de festival internacional."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Lollapalooza Brasil / Live Nation",
+              "url": "https://lollapaloozabr.com",
+              "retrievedAt": "2026-08-20",
+              "quote": "Lollapalooza Brasil no Autódromo de Interlagos."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Live Nation Entertainment & C3 Presents"
+          },
+          "sponsorsMaster": [
+            "Bradesco",
+            "Budweiser",
+            "Chevrolet",
+            "Samsung",
+            "Vivo"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4200,
+            "executiveVans": 130,
+            "buses46p": 45,
+            "taxisPerDay": 1500
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-27",
+          "d120Date": "2026-11-26",
+          "d90Date": "2026-12-26",
+          "activeTriggers": [
+            "HOTEL_SHIELD_BERRINI_LOLLA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "peao-barretos",
+    "name": "Festa do Peão de Boiadeiro de Barretos",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Agronegócio / Entretenimento & Grandes Camarotes",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "AGOSTO",
+      "primaryVenue": "Parque do Peão de Barretos",
+      "city": "Barretos",
+      "state": "SP",
+      "region": "INTERIOR_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "peao-barretos-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-08-20",
+          "end": "2026-08-30"
+        },
+        "location": {
+          "venue": "Parque do Peão Os Independentes",
+          "address": "Rodovia Brigadeiro Faria Lima, Km 428",
+          "city": "Barretos",
+          "state": "SP",
+          "region": "INTERIOR_NORTE"
+        },
+        "attendance": {
+          "official": 900000,
+          "historical": 880000,
+          "estimatedCorporateDelegations": 240,
+          "confidence": "ALTA",
+          "note": "Maior evento da cultura sertaneja da América Latina."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Os Independentes / Festa do Peão",
+              "url": "https://www.independentes.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "71ª Festa do Peão de Barretos confirmada para 20 a 30 de agosto de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Associação Os Independentes de Barretos"
+          },
+          "sponsorsMaster": [
+            "Ambev / Brahma",
+            "Bradesco",
+            "RAM do Brasil",
+            "Ballantines",
+            "Supermercados Savegnago"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 65,
+          "airports": [
+            {
+              "code": "BAT",
+              "name": "Aeroporto de Barretos",
+              "distanceKm": 8
+            },
+            {
+              "code": "SJP",
+              "name": "Aeroporto de São José do Rio Preto",
+              "distanceKm": 95
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Cooperativa Táxi Barretos & Vans VIP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2800,
+            "executiveVans": 65,
+            "buses46p": 30,
+            "taxisPerDay": 400
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-02-21",
+          "d120Date": "2026-04-22",
+          "d90Date": "2026-05-22",
+          "activeTriggers": [
+            "HOTEL_CASAS_TEMPORADA_BARRETOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "joao-rock",
+    "name": "João Rock - Festival de Rock Nacional em Ribeirão Preto",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Música & Entretenimento Corporativo Regional",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Parque Permanente de Exposições",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "joao-rock-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-06",
+          "end": "2026-06-06"
+        },
+        "location": {
+          "venue": "Parque Permanente de Exposições",
+          "address": "Av. Orestes Lopes de Camargo, 350",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": 70000,
+          "historical": 65000,
+          "estimatedCorporateDelegations": 120,
+          "confidence": "ALTA",
+          "note": "Maior festival de rock nacional do país em dia único."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "João Rock Oficial",
+              "url": "https://joaorock.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Festival João Rock 2026 no Parque Permanente de Exposições de Ribeirão Preto."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "L2 Produções & EPTV / Grupo EP"
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Heineken / Eisenbahn",
+            "Jack Daniels",
+            "Coca-Cola"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 8
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1800,
+            "executiveVans": 35,
+            "buses46p": 15,
+            "taxisPerDay": 400
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-08",
+          "d120Date": "2026-02-06",
+          "d90Date": "2026-03-08",
+          "activeTriggers": [
+            "HOTEL_RIBEIRAO_JOAO_ROCK"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "ccxp-comic-con",
+    "name": "CCXP - Comic Con Experience São Paulo",
+    "category": "ARENAS_FESTIVAIS",
+    "sector": "Cultura Pop, Cinema & Entretenimento de Marcas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "DEZEMBRO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "ccxp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-12-03",
+          "end": "2026-12-06"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 300000,
+          "historical": 285000,
+          "estimatedCorporateDelegations": 380,
+          "confidence": "ALTA",
+          "note": "Maior festival de cultura pop do planeta."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "CCXP Oficial",
+              "url": "https://ccxp.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "CCXP26 confirmada para o São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Omelete Company & GL events"
+          },
+          "sponsorsMaster": [
+            "Warner Bros. Discovery",
+            "Disney",
+            "Universal Pictures",
+            "Paramount",
+            "Sony Pictures",
+            "Prime Video",
+            "Netflix",
+            "Banco do Brasil"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 15,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP (Bolsão Metro Jabaquara)",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4500,
+            "executiveVans": 120,
+            "buses46p": 40,
+            "taxisPerDay": 1600
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-06-06",
+          "d120Date": "2026-08-05",
+          "d90Date": "2026-09-04",
+          "activeTriggers": [
+            "HOTEL_JABAQUARA_CONGONHAS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "convencao-royal-palm",
+    "name": "Kick-offs & Convenções Nacionais no Complexo Royal Palm Hall",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Convenções Corporativas de Vendas & Franquias",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "Royal Palm Hall",
+      "city": "Campinas",
+      "state": "SP",
+      "region": "INTERIOR_CAMPINAS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "kickoff-pharma-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-15",
+          "end": "2027-03-18"
+        },
+        "location": {
+          "venue": "Royal Palm Hall - Salão Monumental",
+          "address": "Av. Royal Palm Plaza, 275",
+          "city": "Campinas",
+          "state": "SP",
+          "region": "INTERIOR_CAMPINAS"
+        },
+        "attendance": {
+          "official": 1800,
+          "historical": 1600,
+          "estimatedCorporateDelegations": 45,
+          "confidence": "ALTA",
+          "note": "Convenção Nacional de Força de Vendas com 100% de hospedagem no complexo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Royal Palm Hall MICE Desk",
+              "url": "https://royalpalm.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Bloqueio de Salão Monumental e 450 UHs para convenção farmacêutica em março/2027."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 94,
+          "organizer": {
+            "company": "Multinacional Farmacêutica & Grupo Royal Palm"
+          },
+          "sponsorsMaster": [
+            "EMS",
+            "Eurofarma",
+            "Aché Laboratórios"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 15,
+          "airports": [
+            {
+              "code": "VCP",
+              "name": "Aeroporto Internacional de Viracopos",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "CooperCamp Táxi Campinas",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 550,
+            "executiveVans": 18,
+            "buses46p": 12,
+            "taxisPerDay": 120
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-16",
+          "d120Date": "2026-11-15",
+          "d90Date": "2026-12-15",
+          "activeTriggers": [
+            "FRETAMENTO_VIRACOPOS_CONVENCAO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "bourbon-atibaia-conventions",
+    "name": "Grandes Convenções Corporativas no Bourbon Atibaia Resort",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Convenções de Liderança, Telecom & Bens de Consumo",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "ABRIL",
+      "primaryVenue": "Bourbon Atibaia Resort Convention Center",
+      "city": "Atibaia",
+      "state": "SP",
+      "region": "INTERIOR_RESORTS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "bourbon-telecom-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-14",
+          "end": "2026-04-17"
+        },
+        "location": {
+          "venue": "Bourbon Atibaia Resort",
+          "address": "Rodovia Fernão Dias, Km 37,5",
+          "city": "Atibaia",
+          "state": "SP",
+          "region": "INTERIOR_RESORTS"
+        },
+        "attendance": {
+          "official": 1200,
+          "historical": 1100,
+          "estimatedCorporateDelegations": 30,
+          "confidence": "ALTA",
+          "note": "Convenção de Liderança e Canais de Telecomunicações com 570 apartamentos bloqueados."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Bourbon Hotels MICE",
+              "url": "https://bourbon.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Convenção corporativa exclusiva em Atibaia/SP."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 93,
+          "organizer": {
+            "company": "Multinacional de Telecomunicações"
+          },
+          "sponsorsMaster": [
+            "Vivo Empresas",
+            "Claro Brasil",
+            "Ericsson"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "MEDIA",
+          "hotelRadiusKm": 5,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 65
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Fretamento de Ônibus Executivos GRU <-> Bourbon",
+              "type": "FRETAMENTO_HOMOLOGADO"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 570,
+            "executiveVans": 12,
+            "buses46p": 16,
+            "taxisPerDay": 40
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-16",
+          "d120Date": "2025-12-15",
+          "d90Date": "2026-01-14",
+          "activeTriggers": [
+            "FRETAMENTO_CONEXAO_GUARULHOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "club-med-lake-paradise",
+    "name": "Imersões Corporativas & Incentivo no Club Med Lake Paradise",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Turismo de Incentivo & Imersões Tech/Fintechs",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Club Med Lake Paradise",
+      "city": "Mogi das Cruzes",
+      "state": "SP",
+      "region": "ALTO_TIETE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "med-fintech-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-07",
+          "end": "2026-10-09"
+        },
+        "location": {
+          "venue": "Club Med Lake Paradise",
+          "address": "Rodovia Engenheiro Cândido do Rego Chaves, 4500",
+          "city": "Mogi das Cruzes",
+          "state": "SP",
+          "region": "ALTO_TIETE"
+        },
+        "attendance": {
+          "official": 650,
+          "historical": 600,
+          "estimatedCorporateDelegations": 20,
+          "confidence": "ALTA",
+          "note": "Imersão de liderança e premiação de vendas com formato All-Inclusive corporativo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Club Med Meetings & Events",
+              "url": "https://clubmed.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Fechamento de village corporativo para imersão empresarial."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 91,
+          "organizer": {
+            "company": "Fintech & Banco Digital"
+          },
+          "sponsorsMaster": [
+            "Mastercard",
+            "Elo",
+            "Dock"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 90,
+          "hotelPressure": "MEDIA",
+          "hotelRadiusKm": 5,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 48
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Fretamento Executivo Mogi <-> GRU/CGH",
+              "type": "FRETAMENTO_HOMOLOGADO"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 300,
+            "executiveVans": 10,
+            "buses46p": 8,
+            "taxisPerDay": 25
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-10",
+          "d120Date": "2026-06-09",
+          "d90Date": "2026-07-09",
+          "activeTriggers": [
+            "VOUCHER_DIGITAL_AEROPORTO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "santos-export-bluemed",
+    "name": "Santos Export & Fórum Nacional de Logística e Comércio Exterior",
+    "category": "LOGISTICA_COMEX",
+    "sector": "Portos, Navegação, Agronegócio de Exportação & Infraestrutura",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Blue Med Convention Center",
+      "city": "Santos",
+      "state": "SP",
+      "region": "LITORAL_SANTOS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "santos-export-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-19",
+          "end": "2026-10-21"
+        },
+        "location": {
+          "venue": "Blue Med Convention Center",
+          "address": "Praça Almirante Gago Coutinho, 29 - Ponta da Praia",
+          "city": "Santos",
+          "state": "SP",
+          "region": "LITORAL_SANTOS"
+        },
+        "attendance": {
+          "official": 2500,
+          "historical": 2200,
+          "estimatedCorporateDelegations": 80,
+          "confidence": "ALTA",
+          "note": "Principal fórum de infraestrutura portuária e comércio exterior do Porto de Santos."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Brasil Export / Santos Export",
+              "url": "https://forumbrasilexport.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Santos Export no Blue Med Convention Center em Santos/SP."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "Brasil Export & Una Marketing de Eventos"
+          },
+          "sponsorsMaster": [
+            "Santos Port Authority (APS)",
+            "BTP - Brasil Terminal Portuário",
+            "DP World Santos",
+            "Eldorado Brasil",
+            "Rumo Logística"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 10,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas (via Imigrantes)",
+              "distanceKm": 75
+            },
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 98
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Rádio Táxi Vermelho e Branco Santos & Vans Imigrantes",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 650,
+            "executiveVans": 22,
+            "buses46p": 8,
+            "taxisPerDay": 180
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-22",
+          "d120Date": "2026-06-21",
+          "d90Date": "2026-07-21",
+          "activeTriggers": [
+            "TRANSFERS_CONGONHAS_IMIGRANTES"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "hospitalar",
+    "name": "Hospitalar - Feira Internacional de Tecnologia em Saúde e Hospitais",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Equipamentos Hospitalares & Farmacêutico",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "hospitalar-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-05-19",
+          "end": "2026-05-22",
+          "setupStart": "2026-05-13",
+          "breakdownEnd": "2026-05-24"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km - Vila Água Funda",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 50000,
+          "historical": 48000,
+          "estimatedCorporateDelegations": 320,
+          "confidence": "ALTA",
+          "note": "Mais de 1.000 marcas expositoras e 50.000 profissionais de saúde de 70 países."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Hospitalar Oficial",
+              "url": "https://www.hospitalar.com",
+              "retrievedAt": "2026-08-20",
+              "quote": "Hospitalar 2026: 19 a 22 de maio de 2026 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Siemens Healthineers",
+            "GE Healthcare",
+            "Philips Medical",
+            "Mindray",
+            "Johnson & Johnson MedTech"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 3200,
+            "executiveVans": 60,
+            "buses46p": 25,
+            "taxisPerDay": 750
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-20",
+          "d120Date": "2026-01-19",
+          "d90Date": "2026-02-18",
+          "activeTriggers": [
+            "HOTEL_SHIELD_JABAQUARA_BERRINI"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "ciosp",
+    "name": "CIOSP - Congresso Internacional de Odontologia de São Paulo",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Odontologia & Cirurgia Bucomaxilofacial",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JANEIRO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "ciosp-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-01-27",
+          "end": "2027-01-30"
+        },
+        "location": {
+          "venue": "Expo Center Norte",
+          "address": "Rua José Bernardo Pinto, 333 - Vila Guilherme",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 85000,
+          "historical": 80000,
+          "estimatedCorporateDelegations": 410,
+          "confidence": "ALTA",
+          "note": "Maior congresso odontológico do mundo promovido pela APCD."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "APCD / CIOSP",
+              "url": "https://www.ciosp.com.br",
+              "retrievedAt": "2026-08-18",
+              "quote": "44º CIOSP confirmado para 27 a 30 de janeiro de 2027 no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Associação Paulista de Cirurgiões-Dentistas (APCD)"
+          },
+          "sponsorsMaster": [
+            "Colgate",
+            "Oral-B / P&G",
+            "Dentsply Sirona",
+            "Straumann"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4100,
+            "executiveVans": 80,
+            "buses46p": 35,
+            "taxisPerDay": 850
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-07-31",
+          "d120Date": "2026-09-29",
+          "d90Date": "2026-10-29",
+          "activeTriggers": [
+            "BLOQUEIO_SANTANA_CENTER_NORTE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "socesp-cardiologia",
+    "name": "SOCESP - Congresso da Sociedade de Cardiologia do Estado de São Paulo",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Cardiologia & Medicina Cardiovascular",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "socesp-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-04",
+          "end": "2026-06-06"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 8500,
+          "historical": 8200,
+          "estimatedCorporateDelegations": 110,
+          "confidence": "ALTA",
+          "note": "Maior congresso regional de cardiologia do mundo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SOCESP Oficial",
+              "url": "https://socesp.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "XLVI Congresso SOCESP confirmado para 4 a 6 de junho de 2026 no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 93,
+          "organizer": {
+            "company": "Sociedade de Cardiologia do Estado de São Paulo (SOCESP)"
+          },
+          "sponsorsMaster": [
+            "Novartis",
+            "AstraZeneca",
+            "Sanofi",
+            "Bayer Farmacêutica",
+            "Pfizer"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1200,
+            "executiveVans": 30,
+            "buses46p": 12,
+            "taxisPerDay": 350
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-06",
+          "d120Date": "2026-02-04",
+          "d90Date": "2026-03-06",
+          "activeTriggers": [
+            "HOTEL_BERRINI_CARDIO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "jpr-radiologia",
+    "name": "JPR - Jornada Paulista de Radiologia & Diagnóstico por Imagem",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Radiologia, Ressonância Magnética & Medicina Nuclear",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "jpr-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-30",
+          "end": "2026-05-03"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 20000,
+          "historical": 19000,
+          "estimatedCorporateDelegations": 180,
+          "confidence": "ALTA",
+          "note": "Maior evento de diagnóstico por imagem da América Latina organizado pela SPR."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Sociedade Paulista de Radiologia (SPR)",
+              "url": "https://jpr.org.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "56ª Jornada Paulista de Radiologia de 30 de abril a 3 de maio de 2026 no Transamerica."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Sociedade Paulista de Radiologia (SPR)"
+          },
+          "sponsorsMaster": [
+            "GE HealthCare",
+            "Siemens Healthineers",
+            "Canon Medical",
+            "Fujifilm Medical",
+            "Bayer"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1800,
+            "executiveVans": 35,
+            "buses46p": 15,
+            "taxisPerDay": 450
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-01",
+          "d120Date": "2025-12-31",
+          "d90Date": "2026-01-30",
+          "activeTriggers": [
+            "HOTEL_BERRINI_RADIOLOGIA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "cbot-ortopedia",
+    "name": "CBOT - Congresso Brasileiro de Ortopedia e Traumatologia",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Ortopedia, Artroscopia & Próteses",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "NOVEMBRO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "cbot-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-11-12",
+          "end": "2026-11-14"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 6500,
+          "historical": 6000,
+          "estimatedCorporateDelegations": 95,
+          "confidence": "ALTA",
+          "note": "Congresso oficial da Sociedade Brasileira de Ortopedia e Traumatologia (SBOT)."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SBOT Oficial",
+              "url": "https://sbot.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "58º Congresso Brasileiro de Ortopedia e Traumatologia no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 94,
+          "organizer": {
+            "company": "Sociedade Brasileira de Ortopedia e Traumatologia (SBOT)"
+          },
+          "sponsorsMaster": [
+            "Stryker",
+            "DePuy Synthes / J&J",
+            "Zimmer Biomet",
+            "Smith & Nephew"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1100,
+            "executiveVans": 25,
+            "buses46p": 10,
+            "taxisPerDay": 300
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-05-16",
+          "d120Date": "2026-07-15",
+          "d90Date": "2026-08-14",
+          "activeTriggers": [
+            "HOTEL_MOEMA_JABAQUARA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "sbcbm-bariatrica",
+    "name": "Congresso Brasileiro de Cirurgia Bariátrica e Metabólica (SBCBM)",
+    "category": "SAUDE_MEDICINA",
+    "sector": "Cirurgia Digestiva & Metabólica",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "sbcbm-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-21",
+          "end": "2026-10-24"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 3800,
+          "historical": 3500,
+          "estimatedCorporateDelegations": 70,
+          "confidence": "ALTA",
+          "note": "Encontro anual de cirurgiões bariátricos e equipes multidisciplinares."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "SBCBM Oficial",
+              "url": "https://sbcbm.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Congresso Brasileiro SBCBM no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)"
+          },
+          "sponsorsMaster": [
+            "Medtronic",
+            "Johnson & Johnson MedTech",
+            "Novo Nordisk",
+            "Eli Lilly"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 750,
+            "executiveVans": 18,
+            "buses46p": 8,
+            "taxisPerDay": 200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-24",
+          "d120Date": "2026-06-23",
+          "d90Date": "2026-07-23",
+          "activeTriggers": [
+            "HOTEL_BERRINI_BARIATRICA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "apas-show",
+    "name": "APAS SHOW - Maior Feira Supermercadista e de Alimentos das Américas",
+    "category": "VAREJO_ALIMENTOS",
+    "sector": "Supermercados & Bens de Consumo (FMCG)",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "apas-show-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-05-18",
+          "end": "2026-05-21"
+        },
+        "location": {
+          "venue": "Expo Center Norte (Pavilhões Azul, Branco, Verde e Vermelho)",
+          "address": "Rua José Bernardo Pinto, 333 - Vila Guilherme",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 75000,
+          "historical": 73000,
+          "estimatedCorporateDelegations": 380,
+          "confidence": "ALTA",
+          "note": "Dados oficiais APAS: mais de 850 expositores e 75.000 profissionais qualificados."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "APAS SHOW Oficial",
+              "url": "https://apasshow.com",
+              "retrievedAt": "2026-08-21",
+              "quote": "APAS SHOW 2026: 18 a 21 de Maio no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Associação Paulista de Supermercados (APAS)"
+          },
+          "sponsorsMaster": [
+            "Ambev",
+            "Nestle",
+            "JBS / Friboi",
+            "BRF",
+            "Unilever",
+            "Heineken"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 10,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 3800,
+            "executiveVans": 75,
+            "buses46p": 30,
+            "taxisPerDay": 900
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-11-19",
+          "d120Date": "2026-01-18",
+          "d90Date": "2026-02-17",
+          "activeTriggers": [
+            "BLOQUEIO_HOTEL_SANTANA_PAULISTA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "feicon",
+    "name": "FEICON - Salão Internacional da Construção Civil e Arquitetura",
+    "category": "INDUSTRIA_CONSTRUCAO",
+    "sector": "Construção Civil, Engenharia & Arquitetura",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "ABRIL",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "feicon-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-07",
+          "end": "2026-04-10"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 80000,
+          "historical": 78000,
+          "estimatedCorporateDelegations": 420,
+          "confidence": "ALTA",
+          "note": "Principal evento de construção civil da América Latina organizado pela RX Brasil."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "FEICON Oficial",
+              "url": "https://feicon.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "FEICON 2026 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "RX Brasil (Reed Exhibitions)"
+          },
+          "sponsorsMaster": [
+            "Tigre",
+            "Votorantim Cimentos",
+            "Amanco Wavin",
+            "Deca",
+            "Gerdau"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4000,
+            "executiveVans": 85,
+            "buses46p": 35,
+            "taxisPerDay": 950
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-09",
+          "d120Date": "2025-12-08",
+          "d90Date": "2026-01-07",
+          "activeTriggers": [
+            "HOTEL_SHIELD_MOEMA_BERRINI"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "febraban-tech",
+    "name": "FEBRABAN TECH - Congresso de Tecnologia do Setor Financeiro",
+    "category": "TECNOLOGIA_FINANCAS",
+    "sector": "Banking, Fintechs & Inteligência Artificial",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "JUNHO",
+      "primaryVenue": "Transamerica Expo Center",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "febraban-tech-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-06-23",
+          "end": "2026-06-25"
+        },
+        "location": {
+          "venue": "Transamerica Expo Center",
+          "address": "Av. Dr. Mário Vilas Boas Rodrigues, 387",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 35000,
+          "historical": 32000,
+          "estimatedCorporateDelegations": 280,
+          "confidence": "ALTA",
+          "note": "Maior congresso de tecnologia bancária e IA financeira."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Febraban Tech",
+              "url": "https://febrabantech.febraban.org.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "FEBRABAN TECH no Transamerica Expo Center."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 96,
+          "organizer": {
+            "company": "Federação Brasileira de Bancos (FEBRABAN)"
+          },
+          "sponsorsMaster": [
+            "AWS",
+            "Microsoft",
+            "Google Cloud",
+            "IBM",
+            "Oracle",
+            "Mastercard",
+            "Visa"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 8,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 9
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2400,
+            "executiveVans": 45,
+            "buses46p": 18,
+            "taxisPerDay": 600
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-12-25",
+          "d120Date": "2026-02-23",
+          "d90Date": "2026-03-25",
+          "activeTriggers": [
+            "HOTEL_BERRINI_TRANSAMERICA"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "beauty-fair",
+    "name": "Beauty Fair - Feira Internacional de Beleza Profissional",
+    "category": "VAREJO_COSMETICOS",
+    "sector": "Beleza, Cosméticos & Cuidados Pessoais",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Expo Center Norte",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_NORTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "beauty-fair-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-09-05",
+          "end": "2026-09-08"
+        },
+        "location": {
+          "venue": "Expo Center Norte",
+          "address": "Rua José Bernardo Pinto, 333",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_NORTE"
+        },
+        "attendance": {
+          "official": 200000,
+          "historical": 195000,
+          "estimatedCorporateDelegations": 450,
+          "confidence": "ALTA",
+          "note": "Segunda maior feira de beleza do mundo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Beauty Fair Oficial",
+              "url": "https://beautyfair.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Beauty Fair 2026 no Expo Center Norte."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 97,
+          "organizer": {
+            "company": "Beauty Fair Eventos"
+          },
+          "sponsorsMaster": [
+            "L'Oréal Paris",
+            "Wella Professionals",
+            "Taiff",
+            "Salon Line",
+            "Alfaparf"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 21
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4800,
+            "executiveVans": 90,
+            "buses46p": 45,
+            "taxisPerDay": 1200
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-03-09",
+          "d120Date": "2026-05-08",
+          "d90Date": "2026-06-07",
+          "activeTriggers": [
+            "HOTEL_SANTANA_CENTER_NORTE"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "intermodal-south-america",
+    "name": "Intermodal South America - Logística, Intralogística e Comércio Exterior",
+    "category": "LOGISTICA_COMEX",
+    "sector": "Logística Rodoviária, Ferroviária, Marítima & Comex",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "São Paulo Expo",
+      "city": "São Paulo",
+      "state": "SP",
+      "region": "CAPITAL_SUL"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "intermodal-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-09",
+          "end": "2027-03-11"
+        },
+        "location": {
+          "venue": "São Paulo Expo",
+          "address": "Rodovia dos Imigrantes, 1,5 km",
+          "city": "São Paulo",
+          "state": "SP",
+          "region": "CAPITAL_SUL"
+        },
+        "attendance": {
+          "official": 45000,
+          "historical": 43000,
+          "estimatedCorporateDelegations": 310,
+          "confidence": "ALTA",
+          "note": "Maior feira de logística e comércio exterior das Américas."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Intermodal Oficial",
+              "url": "https://intermodal.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Intermodal South America 2027 no São Paulo Expo."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Maersk",
+            "MSC",
+            "Hapag-Lloyd",
+            "Porto de Santos",
+            "DP World",
+            "Rumo"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 12,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas",
+              "distanceKm": 8.5
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Chame Táxi SP",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2800,
+            "executiveVans": 55,
+            "buses46p": 22,
+            "taxisPerDay": 680
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-10",
+          "d120Date": "2026-11-09",
+          "d90Date": "2026-12-09",
+          "activeTriggers": [
+            "HOTEL_JABAQUARA_BERRINI"
+          ]
+        }
+      }
+    ]
+  }
+]

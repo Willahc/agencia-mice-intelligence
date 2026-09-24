@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MICE Demand Intelligence | Gestão & Orquestração Corporativa SP</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-slate-100 font-sans min-h-screen flex flex-col antialiased selection:bg-indigo-600 selection:text-white">
+
+  <!-- Sidebar Backdrop (Mobile) -->
+  <div id="sidebar-backdrop" onclick="fecharSidebarMobile()" class="fixed inset-0 bg-slate-950/70 backdrop-blur-xs z-40 hidden md:hidden transition-opacity"></div>
+
+  <!-- Sidebar Retrátil Executiva (216px) -->
+  <aside id="main-sidebar" class="sidebar-expanded fixed inset-y-0 left-0 z-50 bg-[#080d17] border-r border-slate-800/80 flex flex-col justify-between transition-all duration-300 shadow-2xl">
+    
+    <!-- Topo da Sidebar: Brand & Toggle -->
+    <div>
+      <div class="h-16 flex items-center justify-between px-3.5 border-b border-slate-800/80">
+        <div class="flex items-center space-x-2.5 cursor-pointer overflow-hidden min-w-0" onclick="navegarParaView('radar')">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-cyan-500 p-0.5 shadow-md flex-shrink-0">
+            <div class="w-full h-full bg-[#080d17] rounded-[6px] flex items-center justify-center">
+              <i data-lucide="compass" class="w-4 h-4 text-cyan-300"></i>
+            </div>
+          </div>
+          <div class="min-w-0 sidebar-text">
+            <div class="font-extrabold text-white text-xs tracking-tight truncate">MICE Intelligence</div>
+            <div class="text-indigo-400 text-[10px] font-semibold">SP &middot; 2026/27</div>
+          </div>
+        </div>
+
+        <button onclick="toggleSidebar()" id="btn-sidebar-collapse" class="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/80 transition flex-shrink-0" title="Recolher / Expandir Menu">
+          <i data-lucide="panel-left-close" class="w-4 h-4" id="icon-sidebar-toggle"></i>
+        </button>
+      </div>
+
+      <!-- Links de Navegação Agrupados -->
+      <div class="p-2 space-y-3">
+        
+        <!-- Grupo 1: INTELLIGENCE -->
+        <div class="space-y-0.5">
+          <div class="px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-wider text-slate-500 sidebar-text">Intelligence</div>
+
+          <button onclick="navegarParaView('radar')" id="nav-radar" class="w-full flex items-center space-x-2.5 px-2.5 py-2 rounded-lg sidebar-item-active transition text-xs font-semibold" title="Radar de Eventos">
+            <i data-lucide="list-filter" class="w-4 h-4 text-indigo-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Radar de Eventos</span>
+          </button>
+
+          <button onclick="navegarParaView('heatmap')" id="nav-heatmap" class="w-full flex items-center space-x-2.5 px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Mapa de Calor SP">
+            <i data-lucide="map-pin" class="w-4 h-4 text-cyan-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Mapa de Calor SP</span>
+          </button>
+
+          <button onclick="navegarParaView('preditivo')" id="nav-preditivo" class="w-full flex items-center space-x-2.5 px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Inteligência Preditiva">
+            <i data-lucide="sparkles" class="w-4 h-4 text-purple-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Inteligência Preditiva</span>
+          </button>
+
+          <button onclick="navegarParaView('scraper')" id="nav-scraper" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Scanner MICE">
+            <div class="flex items-center space-x-2.5 min-w-0">
+              <i data-lucide="radar" class="w-4 h-4 text-rose-400 flex-shrink-0"></i>
+              <span class="sidebar-text truncate">Scanner MICE</span>
+            </div>
+            <span id="badge-nav-scraper" class="px-1.5 py-0.2 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[9px] font-bold sidebar-text">Online</span>
+          </button>
+        </div>
+
+        <!-- Grupo 2: COMMERCIAL -->
+        <div class="space-y-0.5">
+          <div class="px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-wider text-slate-500 sidebar-text">Commercial</div>
+
+          <button onclick="navegarParaView('crm')" id="nav-crm" class="w-full flex items-center space-x-2.5 px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Pipeline CRM">
+            <i data-lucide="kanban" class="w-4 h-4 text-emerald-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Pipeline CRM</span>
+          </button>
+
+          <button onclick="navegarParaView('fornecedores')" id="nav-fornecedores" class="w-full flex items-center space-x-2.5 px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Rede de Fornecedores">
+            <i data-lucide="building-2" class="w-4 h-4 text-amber-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Rede Fornecedores</span>
+          </button>
+        </div>
+
+        <!-- Grupo 3: AUTOMATION -->
+        <div class="space-y-0.5">
+          <div class="px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-wider text-slate-500 sidebar-text">Automation</div>
+
+          <button onclick="navegarParaView('agents')" id="nav-agents" class="w-full flex items-center justify-between px-2.5 py-2 rounded-lg sidebar-item-inactive transition text-xs font-semibold" title="Squad de Agentes IA">
+            <div class="flex items-center space-x-2.5 min-w-0">
+              <i data-lucide="bot" class="w-4 h-4 text-indigo-400 flex-shrink-0"></i>
+              <span class="sidebar-text truncate font-bold text-indigo-300">Squad de Agentes</span>
+            </div>
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-dot sidebar-text"></span>
+          </button>
+        </div>
+
+        <!-- Grupo 4: DOCUMENTOS -->
+        <div class="space-y-0.5">
+          <div class="px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-wider text-slate-500 sidebar-text">Documentos</div>
+
+          <a href="/dossie-geral" target="_blank" class="w-full flex items-center space-x-2.5 px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 transition text-xs font-medium" title="Dossiê Geral PDF">
+            <i data-lucide="file-text" class="w-3.5 h-3.5 text-indigo-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Dossiê Geral (PDF)</span>
+          </a>
+
+          <a href="/relatorio-progresso" target="_blank" class="w-full flex items-center space-x-2.5 px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 transition text-xs font-medium" title="Relatório de Evolução Hoje">
+            <i data-lucide="clipboard-check" class="w-3.5 h-3.5 text-emerald-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Relatório Evolução</span>
+          </a>
+        </div>
+
+        <!-- Grupo 5: AÇÕES -->
+        <div class="space-y-0.5">
+          <div class="px-2.5 py-1 text-[9.5px] font-bold uppercase tracking-wider text-slate-500 sidebar-text">Ações</div>
+
+          <button onclick="navegarParaView('cadastrar-evento')" id="nav-cadastrar-evento" class="w-full flex items-center space-x-2.5 px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 transition text-xs font-medium" title="Cadastrar Evento">
+            <i data-lucide="plus-circle" class="w-3.5 h-3.5 text-emerald-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Cadastrar Evento</span>
+          </button>
+
+          <button onclick="navegarParaView('busca-rapida')" id="nav-busca-rapida" class="w-full flex items-center space-x-2.5 px-2.5 py-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800/60 transition text-xs font-medium" title="Busca Global (Ctrl+K)">
+            <i data-lucide="search" class="w-3.5 h-3.5 text-cyan-400 flex-shrink-0"></i>
+            <span class="sidebar-text truncate">Busca Global (Ctrl+K)</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Rodapé da Sidebar: Status & Versão -->
+    <div class="p-3 border-t border-slate-800/80 sidebar-text">
+      <div class="flex items-center space-x-2 text-xs">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block pulse-dot flex-shrink-0"></span>
+        <div class="min-w-0">
+          <div class="font-bold text-slate-200 text-[10.5px] truncate">Motor Preditivo Ativo</div>
+          <div class="text-[9.5px] text-slate-500 truncate font-mono">78 Oportunidades &middot; SP 26/27</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Top Bar Global Executiva (64px) -->
+  <header id="main-header" class="content-expanded app-header sticky top-0 z-30 transition-all duration-300">
+    <div class="px-5 sm:px-7 lg:px-8 h-16 flex items-center justify-between gap-4">
+      
+      <!-- Lado Esquerdo: Botão Hambúrguer Mobile + Título da Página & Breadcrumb -->
+      <div class="flex items-center space-x-3.5 min-w-0">
+        <button onclick="toggleSidebarMobile()" class="p-1.5 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition lg:hidden flex-shrink-0" title="Abrir Menu">
+          <i data-lucide="menu" class="w-5 h-5"></i>
+        </button>
+        
+        <div class="min-w-0">
+          <h1 id="topbar-titulo-pagina" class="font-bold text-white text-sm sm:text-base tracking-tight truncate">
+            Radar de Oportunidades MICE
+          </h1>
+          <div class="text-slate-400 text-[11px] font-medium hidden sm:block truncate">
+            Estado de São Paulo &middot; Feiras B2B, Congressos Médicos, Agronegócio & Grandes Arenas
+          </div>
+        </div>
+      </div>
+
+      <!-- Lado Direito: Universal Search Trigger + Ações Rápidas -->
+      <div class="flex items-center space-x-2.5 flex-shrink-0">
+        <!-- Spotlight Trigger Button (Ctrl + K) -->
+        <button onclick="navegarParaView('busca-rapida')" class="flex items-center space-x-2 px-3 py-1.5 rounded-lg bg-[#090e1a] hover:bg-slate-800 text-slate-300 text-xs transition border border-slate-700/80 shadow-xs cursor-pointer">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-indigo-400 flex-shrink-0"></i>
+          <span class="text-[11.5px] font-medium text-slate-300 hidden sm:inline">Buscar no ecossistema...</span>
+          <kbd class="px-1.5 py-0.2 rounded bg-slate-800 text-slate-400 text-[9px] font-mono font-bold border border-slate-700 shadow-2xs">Ctrl K</kbd>
+        </button>
+
+        <a href="/dossie-geral" target="_blank" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold transition shadow-xs whitespace-nowrap">
+          <i data-lucide="file-text" class="w-3.5 h-3.5 text-indigo-200"></i>
+          <span class="hidden md:inline">Dossiê Geral</span>
+        </a>
+
+        <button onclick="navegarParaView('cadastrar-evento')" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/90 hover:bg-slate-800 text-slate-200 text-xs font-semibold transition whitespace-nowrap">
+          <i data-lucide="plus" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span class="hidden sm:inline">+ Novo Evento</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content Wrapper -->
+  <div id="main-wrapper" class="content-expanded flex-1 flex flex-col transition-all duration-300 min-h-screen">
+
+    <!-- Universal Segment Subnav Filter Bar (Compact 44px) -->
+    <div class="subnav-filter-bar sticky top-16 z-20">
+      <div class="w-full px-5 sm:px-7 lg:px-8 py-1.5 flex items-center justify-between gap-3 overflow-x-auto no-scrollbar text-xs">
+        <div class="flex items-center space-x-1 flex-nowrap" id="segmento-pills-bar">
+          <button onclick="filtrarPorSegmentoPill('todos')" id="pill-seg-todos" class="pill-seg px-3 py-1 rounded-full text-xs font-bold bg-indigo-600 text-white shadow-xs transition">Todos (78)</button>
+          <button onclick="filtrarPorSegmentoPill('shows')" id="pill-seg-shows" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Shows & Festivais (19)</button>
+          <button onclick="filtrarPorSegmentoPill('agro')" id="pill-seg-agro" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Agronegócio (12)</button>
+          <button onclick="filtrarPorSegmentoPill('saude')" id="pill-seg-saude" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Saúde & Medicina (14)</button>
+          <button onclick="filtrarPorSegmentoPill('tech')" id="pill-seg-tech" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Tecnologia & B2B (11)</button>
+          <button onclick="filtrarPorSegmentoPill('logistica')" id="pill-seg-logistica" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Logística & Porto (10)</button>
+          <button onclick="filtrarPorSegmentoPill('varejo')" id="pill-seg-varejo" class="pill-seg px-3 py-1 rounded-full text-xs font-medium text-slate-300 bg-slate-900 hover:bg-slate-800 hover:text-white border border-slate-800 transition">Varejo & Franquias (12)</button>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-2 text-[11px] text-slate-400 flex-shrink-0">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block pulse-dot"></span>
+          <span class="font-bold text-white font-mono">78 Oportunidades</span>
+          <span class="text-slate-600">&middot;</span>
+          <span class="text-emerald-400 font-semibold">100% Estado de SP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container com Padding Enterprise Full-Width -->
+    <main class="main-content-body flex-1 w-full space-y-5">
+
+      <!-- ================= VIEW 1: RADAR DE EVENTOS ================= -->
+      <div id="view-radar" class="space-y-4 w-full">
+      
+      <!-- Metrics Strip Executivo Dark -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
+        
+        <!-- Card 1: Eventos -->
+        <div class="bg-[#0f172a] border border-slate-800/90 rounded-xl p-4 flex flex-col justify-between min-w-0 shadow-sm hover:border-slate-700 transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold tracking-wider uppercase text-slate-400 truncate">Eventos Mapeados</span>
+            <span class="w-7 h-7 rounded-lg bg-slate-800 flex items-center justify-center text-slate-300 flex-shrink-0 border border-slate-700">
+              <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+          <div class="my-2 min-w-0">
+            <div class="text-2xl lg:text-3xl font-black tracking-tight font-mono text-white truncate" id="kpi-total-eventos">76</div>
+            <div class="text-[11px] text-slate-400 font-medium truncate mt-0.5">Capital & Interior de SP</div>
+          </div>
+          <div class="text-[10px] text-slate-300 font-semibold bg-slate-800 px-2 py-0.5 rounded border border-slate-700 inline-block self-start truncate">
+            100% Estado de SP
+          </div>
+        </div>
+
+        <!-- Card 2: Público -->
+        <div class="bg-[#0f172a] border border-slate-800/90 rounded-xl p-4 flex flex-col justify-between min-w-0 shadow-sm hover:border-slate-700 transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold tracking-wider uppercase text-slate-400 truncate">Público Total</span>
+            <span class="w-7 h-7 rounded-lg bg-slate-800 flex items-center justify-center text-slate-300 flex-shrink-0 border border-slate-700">
+              <i data-lucide="users" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+          <div class="my-2 min-w-0">
+            <div class="text-2xl lg:text-3xl font-black tracking-tight font-mono text-white truncate" id="kpi-publico-total">3.450.000</div>
+            <div class="text-[11px] text-slate-400 font-medium truncate mt-0.5">Participantes MICE Estimados</div>
+          </div>
+          <div class="text-[10px] text-slate-300 font-semibold bg-slate-800 px-2 py-0.5 rounded border border-slate-700 inline-block self-start truncate">
+            62% Fora da Capital
+          </div>
+        </div>
+
+        <!-- Card 3: Room Nights -->
+        <div class="bg-[#0f172a] border border-slate-800/90 rounded-xl p-4 flex flex-col justify-between min-w-0 shadow-sm hover:border-slate-700 transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold tracking-wider uppercase text-slate-400 truncate">Room Nights</span>
+            <span class="w-7 h-7 rounded-lg bg-slate-800 flex items-center justify-center text-slate-300 flex-shrink-0 border border-slate-700">
+              <i data-lucide="bed" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+          <div class="my-2 min-w-0">
+            <div class="text-2xl lg:text-3xl font-black tracking-tight font-mono text-white truncate" id="kpi-room-nights">10.634.000</div>
+            <div class="text-[11px] text-slate-400 font-medium truncate mt-0.5">Diárias Homologadas</div>
+          </div>
+          <div class="text-[10px] text-indigo-300 font-semibold bg-indigo-950/80 px-2 py-0.5 rounded border border-indigo-800 inline-block self-start truncate">
+            Room Block Shield
+          </div>
+        </div>
+
+        <!-- Card 4: Rede & Saving -->
+        <div class="bg-[#0f172a] border border-slate-800/90 rounded-xl p-4 flex flex-col justify-between min-w-0 shadow-sm hover:border-slate-700 transition">
+          <div class="flex items-center justify-between">
+            <span class="text-[11px] font-bold tracking-wider uppercase text-slate-400 truncate">Fornecedores & Saving</span>
+            <span class="w-7 h-7 rounded-lg bg-slate-800 flex items-center justify-center text-slate-300 flex-shrink-0 border border-slate-700">
+              <i data-lucide="handshake" class="w-3.5 h-3.5"></i>
+            </span>
+          </div>
+          <div class="my-2 min-w-0">
+            <div class="text-2xl lg:text-3xl font-black tracking-tight font-mono text-white truncate" id="kpi-fornecedores">35 Parceiros</div>
+            <div class="text-[11px] text-slate-400 font-medium truncate mt-0.5">Hotéis, Táxis & TMC</div>
+          </div>
+          <div class="text-[10px] text-emerald-300 font-semibold bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-800 inline-block self-start truncate">
+            Saving Médio: 24.5%
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Barra de Filtros e Busca Rápida Dark -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-3 text-xs">
+        <div class="relative flex-1 w-full">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5"></i>
+          <input type="text" id="filtro-busca" oninput="aplicarFiltrosEventos()" placeholder="Buscar por evento, organizador, cidade ou segmento..." class="w-full pl-8 pr-3 py-1.5 rounded-lg bg-[#080c14] border border-slate-700 text-xs text-slate-100 placeholder:text-slate-500 focus:bg-[#0b0f19] focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2 w-full lg:w-auto">
+          <!-- Filtro Governança -->
+          <select id="filtro-governanca" onchange="aplicarFiltrosEventos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-emerald-400 font-semibold focus:outline-none">
+            <option value="todos">🛡️ Todos os Status</option>
+            <option value="CONFIRMADO">🟢 CONFIRMADO (Oficial)</option>
+            <option value="PROVAVEL">🟡 PROVÁVEL (Histórico)</option>
+            <option value="EM_VALIDACAO">🟣 EM VALIDAÇÃO</option>
+          </select>
+
+          <!-- Filtro Categoria / Frentes -->
+          <select id="filtro-categoria-frente" onchange="aplicarFiltrosEventos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none font-medium">
+            <option value="todos">🌐 Todas as Frentes MICE</option>
+            <option value="AGRONEGOCIO">🌾 Agro & Indústria Interior</option>
+            <option value="SAUDE">🩺 Saúde, Medicina & Odonto</option>
+            <option value="ARENAS">🎸 Arenas, Megashows & Festivais</option>
+            <option value="VAREJO_TECH">💻 Varejo, Tech & Finanças</option>
+            <option value="RESORTS">🏖️ Convenções em Resorts (100+ pax)</option>
+          </select>
+
+          <!-- Filtro Polo -->
+          <select id="filtro-polo" onchange="aplicarFiltrosEventos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none font-medium">
+            <option value="todos">📍 Todos os Polos de SP</option>
+            <optgroup label="🏙️ São Paulo Capital">
+              <option value="sp_expo">São Paulo Expo (Zona Sul)</option>
+              <option value="transamerica_expo">Transamerica Expo (Santo Amaro)</option>
+              <option value="expo_center_norte">Expo Center Norte (Zona Norte)</option>
+              <option value="anhembi">Distrito Anhembi (Santana)</option>
+              <option value="interlagos">Autódromo Interlagos (F1 & The Town)</option>
+              <option value="allianz_parque">Allianz Parque & Espaço Unimed</option>
+              <option value="wds_wtc">WTC Events Berrini</option>
+              <option value="frei_caneca">Frei Caneca (Paulista)</option>
+            </optgroup>
+            <optgroup label="🚜 Interior & Agronegócio">
+              <option value="ribeirao_preto">Polo Ribeirão Preto & Sertãozinho (Agrishow)</option>
+              <option value="campinas_resorts">Polo Campinas & Resorts (Royal Palm / Atibaia)</option>
+              <option value="barretos">Polo Barretos (Festa do Peão)</option>
+              <option value="sao_jose_rio_preto_aracatuba">Polo Noroeste (Expo Rio Preto)</option>
+              <option value="piracicaba_agtech">Polo Piracicaba & Paranapanema (Avaré)</option>
+            </optgroup>
+            <optgroup label="⚓ Litoral & Serra">
+              <option value="santos_litoral">Baixada Santista (Blue Med Santos)</option>
+              <option value="campos_jordao">Serra da Mantiqueira (Campos do Jordão)</option>
+            </optgroup>
+          </select>
+
+          <!-- Filtro Janela Crítica -->
+          <select id="filtro-janela-critica" onchange="aplicarFiltrosEventos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-amber-300 font-semibold focus:outline-none">
+            <option value="todos">⏱️ Todas as Janelas</option>
+            <option value="D90">🚨 D-90 (Esgotamento Iminente)</option>
+            <option value="D120">⚡ D-120 (Trava MICE Recomendada)</option>
+            <option value="D180">📅 D-180 (Prospecção Antecipada)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Tabela Compacta de Eventos Dark -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-[#131b2e] text-slate-400 uppercase font-medium border-b border-slate-800 text-[10px] tracking-wider">
+              <tr>
+                <th class="px-3.5 py-2.5 w-24">Prioridade</th>
+                <th class="px-3.5 py-2.5">Evento &middot; Objeto da Demanda</th>
+                <th class="px-3.5 py-2.5">Local em SP</th>
+                <th class="px-3.5 py-2.5">Data / Período</th>
+                <th class="px-3.5 py-2.5 text-right">Público</th>
+                <th class="px-3.5 py-2.5 text-right">Room Nights</th>
+                <th class="px-3.5 py-2.5">Segmento</th>
+                <th class="px-3.5 py-2.5 text-right">Ação</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/80 text-slate-200" id="tabela-eventos-compacta-corpo">
+              <!-- Inserido dinamicamente via JS -->
+            </tbody>
+          </table>
+        </div>
+        <div class="p-2.5 bg-[#131b2e] border-t border-slate-800 flex justify-between items-center text-[11px] text-slate-400" id="tabela-eventos-rodape">
+          <span>Exibindo 17 eventos cadastrados em São Paulo</span>
+          <span>Clique em qualquer linha para abrir a página própria do evento</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 1.5: PÁGINA PRÓPRIA DO EVENTO (DETALHAMENTO & PROPOSTAS) ================= -->
+    <div id="view-detalhe-evento" class="space-y-5 hidden">
+      
+      <!-- Top Navigation: Voltar + Ações Rápidas -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <button onclick="voltarParaListaRadar()" class="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-300 hover:text-white transition">
+          <i data-lucide="arrow-left" class="w-4 h-4 text-slate-400"></i>
+          <span>&larr; Voltar à Lista de Eventos do Radar</span>
+        </button>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <button onclick="abrirModalOutreachCopilot()" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold transition border border-slate-700 shadow-2xs">
+            <i data-lucide="bot" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>🤖 MICE Outreach Copilot</span>
+          </button>
+          <button onclick="abrirModalESGDossie()" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-emerald-800 bg-emerald-950/60 hover:bg-emerald-900/60 text-emerald-300 text-xs font-medium transition shadow-2xs">
+            <i data-lucide="leaf" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>🌱 Métricas ESG & CO₂</span>
+          </button>
+          <button onclick="abrirModalRoomBlockShield()" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium transition shadow-2xs">
+            <i data-lucide="shield-check" class="w-3.5 h-3.5 text-indigo-400"></i>
+            <span>🛡️ Room Block Shield</span>
+          </button>
+          <button onclick="abrirPropostaExecutivaNovaAba()" class="inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-xs">
+            <i data-lucide="printer" class="w-3.5 h-3.5 text-indigo-200"></i>
+            <span>Imprimir Proposta (PDF)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Dossiê do Evento: Cabeçalho com Metadados Completos -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4" id="dossie-cabecalho-evento">
+        <!-- Inserido dinamicamente via JS -->
+      </div>
+
+      <!-- Grade de Informações: Decisores + Volumetria de Demanda -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Bloco 1: Decisores & Estratégia de Compras -->
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3" id="dossie-decisores-evento">
+          <!-- Inserido via JS -->
+        </div>
+
+        <!-- Bloco 2: Dimensionamento Volumétrico de Consumo -->
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3" id="dossie-volumetria-evento">
+          <!-- Inserido via JS -->
+        </div>
+
+      </div>
+
+      <!-- Bloco 3: Grade Técnica de Fornecedores com Melhor Fit -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-sm font-semibold text-white">Fornecedores Homologados de Alta Aderência (Fit)</h3>
+            <p class="text-xs text-slate-400">Seleção técnica de parceiros da Gisele para este evento específico.</p>
+          </div>
+          <span class="text-xs font-mono text-slate-300 bg-[#080c14] px-2 py-0.5 rounded border border-slate-700">São Paulo</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3" id="dossie-fornecedores-top-cards">
+          <!-- Inserido via JS -->
+        </div>
+      </div>
+
+      <!-- Bloco 4: Cenários de Pacotes CPQ Prontos para Proposta -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-sm font-semibold text-white">Cenários Orçamentários Parametrizados (CPQ)</h3>
+            <p class="text-xs text-slate-400">Simulação dos 3 pacotes recomendados (Econômico, Executivo e Premium).</p>
+          </div>
+
+          <!-- Selector de Delegação com Slider e Presets Rápidos -->
+          <div class="flex flex-wrap items-center gap-2">
+            <div class="flex items-center space-x-1 bg-[#080c14] p-1 rounded-lg text-xs border border-slate-800" id="botoes-presets-delegacao">
+              <button onclick="definirParticipantesDossie(50)" class="px-2 py-1 rounded text-[11px] font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition">50 pax</button>
+              <button onclick="definirParticipantesDossie(100)" class="px-2 py-1 rounded text-[11px] font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition">100 pax</button>
+              <button onclick="definirParticipantesDossie(250)" class="px-2 py-1 rounded text-[11px] font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition">250 pax</button>
+              <button onclick="definirParticipantesDossie(500)" class="px-2 py-1 rounded text-[11px] font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition">500 pax</button>
+              <button onclick="definirParticipantesDossie(1000)" class="px-2 py-1 rounded text-[11px] font-semibold text-slate-300 hover:bg-slate-800 hover:text-white transition">1.000 pax</button>
+            </div>
+            
+            <div class="flex items-center space-x-2 bg-[#080c14] px-2.5 py-1 rounded-lg border border-slate-700">
+              <span class="text-slate-400 text-[10px] uppercase font-medium">Volume:</span>
+              <input type="number" id="input-participantes-dossie" min="10" max="5000" step="10" value="100" class="w-16 bg-[#0f172a] border border-slate-700 rounded px-1.5 py-0.5 text-xs font-bold text-white text-center focus:outline-none" onchange="atualizarSliderParticipantesDossie(this.value)">
+              <span class="text-xs text-slate-400 font-medium">pax</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5" id="dossie-pacotes-cpq-cards">
+          <!-- Inserido via JS -->
+        </div>
+      </div>
+
+      <!-- Bloco 5: DIMENSIONAMENTO 360° DO CICLO OPERACIONAL DA DELEGAÇÃO -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4" id="dossie-ciclo-operacional-container">
+        <!-- Inserido dinamicamente via JS com o mapa de execução da delegação -->
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 2: MAPA DE CALOR SP ================= -->
+    <div id="view-heatmap" class="space-y-5 hidden">
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-4 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div>
+          <h2 class="text-sm font-semibold text-white flex items-center space-x-2">
+            <i data-lucide="flame" class="w-4 h-4 text-indigo-400"></i>
+            <span>Mapa de Calor de Demanda &middot; Polos de São Paulo</span>
+          </h2>
+          <p class="text-xs text-slate-400">Mapeamento de densidade de participantes, pressão sobre a rede hoteleira e sazonalidade temporal.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5" id="container-polos-geograficos"></div>
+
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-sm font-semibold text-white">Linha do Tempo de Sazonalidade (Ano Completo 2026)</h3>
+            <p class="text-xs text-slate-400">Distribuição mensal de diárias demandadas e alertas de risco tarifário.</p>
+          </div>
+          <span class="text-xs text-slate-400 font-medium">Ciclo 2026</span>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-3" id="container-timeline-sazonalidade"></div>
+      </div>
+    </div>
+
+    <!-- ================= VIEW 3: PIPELINE COMERCIAL (CRM) ================= -->
+    <div id="view-crm" class="space-y-5 hidden">
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <span class="text-xs font-medium text-slate-400 block">Volume Total em Pipeline</span>
+          <span class="text-lg font-bold font-mono text-white block mt-0.5" id="crm-volume-total">R$ 0,00</span>
+        </div>
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <span class="text-xs font-medium text-slate-400 block">Receita Estimada (Comissão)</span>
+          <span class="text-lg font-bold font-mono text-emerald-400 block mt-0.5" id="crm-receita-prevista">R$ 0,00</span>
+        </div>
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <span class="text-xs font-medium text-slate-400 block">Pipeline Ponderado</span>
+          <span class="text-lg font-bold font-mono text-indigo-400 block mt-0.5" id="crm-pipeline-ponderado">R$ 0,00</span>
+        </div>
+      </div>
+
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-4 shadow-sm space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+          <div class="flex items-center space-x-2">
+            <i data-lucide="kanban" class="w-4 h-4 text-indigo-400"></i>
+            <h3 class="text-xs font-bold text-white uppercase tracking-wider">Pipeline de Oportunidades &middot; Fases de Negociação</h3>
+          </div>
+          <span class="text-xs font-bold text-slate-300 bg-slate-800 px-2 py-0.5 rounded-md border border-slate-700" id="crm-total-deals-badge">0 ativas</span>
+        </div>
+
+        <div class="flex overflow-x-auto gap-3 pb-3 min-w-full no-scrollbar" id="container-kanban-fases">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= VIEW 4: REDE DE FORNECEDORES (TABELA COMPACTA COM FILTROS) ================= -->
+    <div id="view-fornecedores" class="space-y-4 hidden">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <div>
+          <h2 class="text-sm font-semibold text-white">Gestão da Rede de Parceiros da Gisele</h2>
+          <p class="text-xs text-slate-400">Hotéis, táxis (incluindo Chame Táxi), fretamento e TMCs (incluindo Copastur).</p>
+        </div>
+        <button onclick="abrirModalNovoFornecedor()" class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-sm inline-flex items-center space-x-1.5">
+          <i data-lucide="plus" class="w-3.5 h-3.5"></i>
+          <span>Cadastrar Novo Parceiro</span>
+        </button>
+      </div>
+
+      <!-- Barra de Filtros de Fornecedores -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+        <div class="relative flex-1 w-full">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5"></i>
+          <input type="text" id="filtro-busca-forn" oninput="aplicarFiltrosFornecedores()" placeholder="Buscar fornecedor por nome, modalidade ou bairro..." class="w-full pl-8 pr-3 py-1.5 rounded-lg bg-[#080c14] border border-slate-700 text-xs text-slate-100 placeholder:text-slate-500 focus:bg-[#0b0f19] focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <div class="flex items-center space-x-2 w-full sm:w-auto">
+          <!-- Filtro Modalidade -->
+          <select id="filtro-tipo-forn" onchange="aplicarFiltrosFornecedores()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none">
+            <option value="todos">Todas as Modalidades</option>
+            <option value="hotel">Hotelaria</option>
+            <option value="taxi">Táxis & Cooperativas</option>
+            <option value="transfer_van">Vans & Fretamento</option>
+            <option value="tmc_parceira">TMC Emissão Aérea</option>
+            <option value="restaurante_espaco">Espaços & Restaurantes</option>
+          </select>
+
+          <!-- Filtro Avaliação -->
+          <select id="filtro-qualidade-forn" onchange="aplicarFiltrosFornecedores()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none">
+            <option value="todos">Todas Avaliações</option>
+            <option value="alta">Nota &ge; 9.2 (Top Tier)</option>
+            <option value="padrao">Nota &lt; 9.2</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Tabela Compacta de Fornecedores -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-[#131b2e] text-slate-400 uppercase font-medium border-b border-slate-800 text-[10px] tracking-wider">
+              <tr>
+                <th class="px-3.5 py-2.5">Código</th>
+                <th class="px-3.5 py-2.5">Fornecedor / Parceiro Homologado</th>
+                <th class="px-3.5 py-2.5">Modalidade</th>
+                <th class="px-3.5 py-2.5">Capacidade / Frota</th>
+                <th class="px-3.5 py-2.5">Tarifa Acordada MICE</th>
+                <th class="px-3.5 py-2.5 text-right">Comissão / Repasse</th>
+                <th class="px-3.5 py-2.5 text-right">Qualidade</th>
+                <th class="px-3.5 py-2.5 text-right">Ação</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/80 text-slate-200" id="tabela-fornecedores-corpo"></tbody>
+          </table>
+        </div>
+        <div class="p-2.5 bg-[#131b2e] border-t border-slate-800 flex justify-between items-center text-[11px] text-slate-400" id="tabela-fornecedores-rodape">
+          <span>Exibindo parceiros cadastrados</span>
+          <span>Clique em qualquer fornecedor para ver a ficha técnica completa</span>
+        </div>
+      </div>
+
+      <!-- Seção: Matriz de Posicionamento Estratégico de Táxis & Hotéis de Raio Próximo -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div>
+            <h3 class="text-sm font-semibold text-white flex items-center space-x-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-indigo-400"></i>
+              <span>Estratégia de Posicionamento de Táxis (Chame Táxi) & Raio Hoteleiro por Polo</span>
+            </h3>
+            <p class="text-xs text-slate-400 mt-0.5">Mapeamento dos bolsões prioritários de despacho, janelas de pico e rotas em corredores expressos de ônibus.</p>
+          </div>
+          <span class="text-[11px] bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md border border-slate-700 font-medium">4 Polos Mapeados</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="container-polos-logistica">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 4.5: PÁGINA PRÓPRIA DO FORNECEDOR (DETALHAMENTO TÉCNICO) ================= -->
+    <div id="view-detalhe-fornecedor" class="space-y-5 hidden">
+      
+      <!-- Top Navigation: Voltar -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <button onclick="voltarParaListaFornecedores()" class="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-300 hover:text-white transition">
+          <i data-lucide="arrow-left" class="w-4 h-4 text-slate-400"></i>
+          <span>&larr; Voltar à Rede de Fornecedores</span>
+        </button>
+
+        <div class="flex items-center space-x-2">
+          <button onclick="copiarMinutaFornecedor()" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-medium transition shadow-2xs">
+            <i data-lucide="copy" class="w-3.5 h-3.5 text-slate-400"></i>
+            <span>Copiar Minuta de Homologação</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cabeçalho do Fornecedor -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4" id="fornecedor-cabecalho">
+        <!-- Inserido via JS -->
+      </div>
+
+      <!-- Grade de Informações Técnicas (4 Cards) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Card 1: Capacidade & Estrutura -->
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3" id="fornecedor-capacidade-card">
+          <!-- Inserido via JS -->
+        </div>
+
+        <!-- Card 2: Condições Comerciais & Tarifário MICE -->
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3" id="fornecedor-comercial-card">
+          <!-- Inserido via JS -->
+        </div>
+
+      </div>
+
+      <!-- Card 3: Matriz de Proximidade aos Polos de SP -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+          <h3 class="text-xs font-semibold text-white uppercase tracking-wider">Matriz de Distâncias aos Centros de Convenções de SP</h3>
+          <span class="text-xs text-slate-400">Quilometragem & Tempo Estimado</span>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5" id="fornecedor-distancias-grid">
+          <!-- Inserido via JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 5: ANÁLISE PREDITIVA & RECORRÊNCIA ANUAL ================= -->
+    <div id="view-preditivo" class="space-y-4 hidden">
+      
+      <!-- Top Banner / Headline -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <div>
+          <h2 class="text-sm font-semibold text-white flex items-center space-x-2">
+            <i data-lucide="sparkles" class="w-4 h-4 text-indigo-400"></i>
+            <span>Inteligência Preditiva de Recorrência &middot; Antecipação Pré-RFP</span>
+          </h2>
+          <p class="text-xs text-slate-400">Algoritmo de previsão de ciclos futuros, mapeamento antecipado de decisores e bloqueio prévio de diárias com D-180.</p>
+        </div>
+        <div class="flex items-center space-x-2">
+          <span class="text-xs text-slate-400 font-medium">Ciclo Alvo:</span>
+          <select id="select-ano-preditivo" onchange="alterarAnoPreditivo(this.value)" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1 text-xs text-white font-bold focus:outline-none">
+            <option value="2027" selected>Ciclo 2027 (Próximo Ano)</option>
+            <option value="2028">Ciclo 2028 (Longo Prazo)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Strip de KPIs Preditivos -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Taxa Média de Recorrência</div>
+          <div class="text-xl font-bold font-mono text-white tracking-tight mt-0.5" id="kpi-pred-taxa">98.2%</div>
+          <div class="text-[10px] text-slate-500">Confiabilidade matemática histórica</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Janela de Antecipação Ganha</div>
+          <div class="text-xl font-bold font-mono text-white tracking-tight mt-0.5" id="kpi-pred-antecipacao">150 Dias</div>
+          <div class="text-[10px] text-slate-500">Contato antes do lançamento da RFP</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Demanda Room Nights Projetada</div>
+          <div class="text-xl font-bold font-mono text-indigo-300 tracking-tight mt-0.5" id="kpi-pred-room-nights">845.000</div>
+          <div class="text-[10px] text-slate-500">Diárias futuras calculadas</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Saving Médio p/ Antecipação</div>
+          <div class="text-xl font-bold font-mono text-emerald-400 tracking-tight mt-0.5" id="kpi-pred-saving">22.5%</div>
+          <div class="text-[10px] text-slate-500">Economia vs. compras de pico</div>
+        </div>
+      </div>
+
+      <!-- Barra de Filtros Preditivos -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+        <div class="relative flex-1 w-full">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-slate-400 absolute left-3 top-2.5"></i>
+          <input type="text" id="filtro-busca-pred" oninput="aplicarFiltrosPreditivos()" placeholder="Buscar evento preditivo, organizador ou decisor previsto..." class="w-full pl-8 pr-3 py-1.5 rounded-lg bg-[#080c14] border border-slate-700 text-xs text-slate-100 placeholder:text-slate-500 focus:bg-[#0b0f19] focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <div class="flex items-center space-x-2 w-full sm:w-auto">
+          <!-- Filtro Polo Preditivo -->
+          <select id="filtro-polo-pred" onchange="aplicarFiltrosPreditivos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none font-medium">
+            <option value="todos">Todos os Polos de SP</option>
+            <optgroup label="🎸 Shows, Estádios & Arenas">
+              <option value="allianz_parque">Allianz Parque & Espaço Unimed</option>
+              <option value="interlagos_arena">Autódromo de Interlagos (Lolla / The Town)</option>
+              <option value="morumbi_estadio">Estádio do MorumBIS</option>
+              <option value="barretos_parque_peao">Parque do Peão de Barretos</option>
+              <option value="ibirapuera_arenas">Parque Ibirapuera (C6 Fest / Turá)</option>
+            </optgroup>
+            <optgroup label="🏙️ São Paulo Capital (Pavilhões)">
+              <option value="sp_expo">São Paulo Expo</option>
+              <option value="transamerica_expo">Transamerica Expo</option>
+              <option value="anhembi">Distrito Anhembi</option>
+            </optgroup>
+            <optgroup label="🚜 Interior & Agronegócio">
+              <option value="ribeirao_preto">Polo Ribeirão Preto (Agrishow / João Rock)</option>
+              <option value="campinas_resorts">Polo Campinas & Resorts (Jaguariúna / Americana)</option>
+              <option value="sao_jose_rio_preto_aracatuba">Polo Noroeste Paulista (Expo Rio Preto)</option>
+              <option value="piracicaba_agtech">Polo Piracicaba & Avaré (EMAPA)</option>
+              <option value="campos_jordao">Polo Campos do Jordão (Fest. Inverno)</option>
+            </optgroup>
+            <optgroup label="⚓ Litoral & Porto">
+              <option value="santos_litoral">Polo Baixada Santista (Santos Export)</option>
+            </optgroup>
+          </select>
+
+          <!-- Filtro Certeza -->
+          <select id="filtro-certeza-pred" onchange="aplicarFiltrosPreditivos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none">
+            <option value="todos">Todas as Probabilidades</option>
+            <option value="tier1">Altíssima Certeza (&ge; 98%)</option>
+            <option value="tier2">Alta Certeza (&ge; 95%)</option>
+          </select>
+
+          <!-- Filtro Janela -->
+          <select id="filtro-janela-pred" onchange="aplicarFiltrosPreditivos()" class="bg-[#080c14] border border-slate-700 rounded-lg px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none">
+            <option value="todos">Todos os Status de Janela</option>
+            <option value="JANELA_ABERTA_MOMENTO_IDEAL">🚨 Janela Aberta Agora</option>
+            <option value="PRE_AQUECIMENTO">Planejamento / Pré-Aquecimento</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Tabela Matriz Preditiva de Recorrência -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden shadow-sm">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-[#131b2e] text-slate-400 uppercase font-medium border-b border-slate-800 text-[10px] tracking-wider">
+              <tr>
+                <th class="px-3.5 py-2.5">Probabilidade</th>
+                <th class="px-3.5 py-2.5">Edição Futura Prevista &middot; Segmento</th>
+                <th class="px-3.5 py-2.5">Período / Pavilhão Provável</th>
+                <th class="px-3.5 py-2.5 text-right">Público / Room Nights</th>
+                <th class="px-3.5 py-2.5">Janela de Abordagem</th>
+                <th class="px-3.5 py-2.5">Decisores Previstos</th>
+                <th class="px-3.5 py-2.5 text-right">Ação</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/80 text-slate-200" id="tabela-preditiva-corpo"></tbody>
+          </table>
+        </div>
+        <div class="p-2.5 bg-[#131b2e] border-t border-slate-800 flex justify-between items-center text-[11px] text-slate-400" id="tabela-preditiva-rodape">
+          <span>Exibindo 8 megaeventos de alta recorrência histórica em São Paulo</span>
+          <span>Clique em qualquer linha para abrir a tese preditiva e cronograma reverso</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 6: RADAR AUTÔNOMO DE VARREDURA & WEB SCRAPER ================= -->
+    <div id="view-scraper" class="space-y-5 hidden">
+      
+      <!-- Top Banner / Headline -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-4 shadow-sm">
+        <div class="space-y-1">
+          <div class="flex items-center space-x-2">
+            <span class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-950/80 text-emerald-300 border border-emerald-800">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+              Robô de Varredura Ativo
+            </span>
+            <span class="text-xs text-slate-400">&middot; 9 Fontes Oficiais Monitoradas em SP</span>
+          </div>
+          <h2 class="text-sm font-bold text-white flex items-center space-x-2">
+            <i data-lucide="radar" class="w-4 h-4 text-indigo-400"></i>
+            <span>Radar Autônomo de Varredura & Web Scraper (Estado de SP)</span>
+          </h2>
+          <p class="text-xs text-slate-400">Monitora os calendários de grandes pavilhões, centros de convenções e sociedades científicas. Detecta novos eventos de 100+ pax e calcula o EOS automaticamente.</p>
+        </div>
+
+        <div class="flex items-center space-x-2">
+          <button onclick="executarVarreduraManual()" id="btn-executar-varredura" class="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition shadow-xs">
+            <i data-lucide="refresh-cw" class="w-3.5 h-3.5" id="icone-spinner-varredura"></i>
+            <span>Executar Varredura Agora</span>
+          </button>
+          <button onclick="aprovarTodosScraper(70)" class="inline-flex items-center space-x-1.5 px-3.5 py-2 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition shadow-2xs">
+            <i data-lucide="check-check" class="w-3.5 h-3.5 text-emerald-400"></i>
+            <span>Ingerir Todos (EOS &ge; 70)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Métricas / KPIs do Scraper -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Fontes Monitoradas</div>
+          <div class="text-xl font-bold font-mono text-white tracking-tight mt-0.5" id="scraper-kpi-fontes">9 Portais</div>
+          <div class="text-[10px] text-slate-500">Capital, Interior Agro & Litoral</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Descobertas em Staging</div>
+          <div class="text-xl font-bold font-mono text-indigo-400 tracking-tight mt-0.5" id="scraper-kpi-staging">5 Eventos</div>
+          <div class="text-[10px] text-slate-500">Aguardando aprovação para o Radar</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Eventos Ativos no Radar</div>
+          <div class="text-xl font-bold font-mono text-white tracking-tight mt-0.5" id="scraper-kpi-pipeline">57 Eventos</div>
+          <div class="text-[10px] text-slate-500">Base homologada em produção</div>
+        </div>
+
+        <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+          <div class="text-[11px] text-slate-400 font-medium">Última Varredura</div>
+          <div class="text-xs font-semibold text-slate-200 tracking-tight mt-1.5" id="scraper-kpi-ultima-data">Hoje &middot; Recente</div>
+          <div class="text-[10px] text-emerald-400 font-medium">Status: 100% Operacional</div>
+        </div>
+      </div>
+
+      <!-- Console / Terminal de Varredura ao Vivo -->
+      <div class="bg-[#0b0f19] text-slate-100 rounded-xl border border-slate-800 p-4 font-mono text-xs space-y-2 shadow-sm">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2 text-[11px] text-slate-400">
+          <div class="flex items-center space-x-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            <span class="text-slate-200 font-bold uppercase tracking-wider text-[10px]">Console de Rastreamento em Tempo Real</span>
+          </div>
+          <span id="scraper-log-timestamp" class="text-slate-400 text-[10px]">Modo: Monitoramento Ativo</span>
+        </div>
+        <div id="scraper-terminal-logs" class="space-y-1 text-[11px] text-slate-300 max-h-36 overflow-y-auto pr-2">
+          <div><span class="text-emerald-400">[INFO]</span> Robô de varredura pronto. 9 fontes de dados no Estado de SP mapeadas.</div>
+          <div><span class="text-blue-400">[CRON]</span> Varredura automática agendada para detecção de calendários de pavilhões.</div>
+          <div><span class="text-yellow-400">[STAGING]</span> 5 novos eventos corporativos e agropecuários identificados aguardando aprovação.</div>
+        </div>
+      </div>
+
+      <!-- Fila de Eventos Descobertos (Staging Cards) -->
+      <div class="space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <div>
+            <h3 class="text-xs font-bold text-white uppercase tracking-wider flex items-center space-x-2">
+              <i data-lucide="inbox" class="w-3.5 h-3.5 text-indigo-400"></i>
+              <span>Novas Oportunidades Detectadas no Radar (<span id="scraper-contador-pendentes">5</span>)</span>
+            </h3>
+            <p class="text-xs text-slate-400">Eventos de 100+ participantes identificados automaticamente. Aprove para ingerir na esteira de propostas.</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="container-descobertas-staging">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+
+      <!-- Tabela de Fontes Monitoradas -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl overflow-hidden shadow-sm">
+        <div class="p-3 bg-[#131b2e] border-b border-slate-800 flex items-center justify-between">
+          <h3 class="text-xs font-bold text-slate-200 uppercase tracking-wider">Fontes Oficiais Conectadas & Frequência de Rastreamento</h3>
+          <span class="text-[11px] text-slate-400">Web Crawlers & Feeds RSS</span>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs">
+            <thead class="bg-[#131b2e] text-slate-400 uppercase font-medium border-b border-slate-800 text-[10px] tracking-wider">
+              <tr>
+                <th class="px-3.5 py-2.5">Portal / Pavilhão</th>
+                <th class="px-3.5 py-2.5">Região</th>
+                <th class="px-3.5 py-2.5">URL Oficial</th>
+                <th class="px-3.5 py-2.5 text-center">Frequência</th>
+                <th class="px-3.5 py-2.5 text-center">Confiabilidade</th>
+                <th class="px-3.5 py-2.5 text-right">Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-800/80 text-slate-200" id="tabela-fontes-scraper-corpo"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 6: SQUAD DE AGENTES DE IA AUTÔNOMOS ================= -->
+    <div id="view-agents" class="space-y-5 hidden">
+      
+      <!-- Cockpit Banner Executivo Luxury -->
+      <div class="card-dark-luxury p-6 text-white rounded-2xl space-y-4 relative overflow-hidden shadow-2xl">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 relative z-10">
+          <div class="space-y-1.5 min-w-0">
+            <div class="flex items-center space-x-2">
+              <span class="px-2.5 py-0.5 rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-[10px] font-black uppercase tracking-wider shadow-xs">
+                Multi-Agent System (MAS)
+              </span>
+              <span class="text-xs font-mono text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded-md border border-emerald-800/80 flex items-center space-x-1.5">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 inline-block pulse-dot"></span>
+                <span>7 Agentes Operacionais Online</span>
+              </span>
+            </div>
+            <h2 class="text-xl sm:text-2xl font-black text-white tracking-tight">Torre de Controle do Squad de Agentes de IA</h2>
+            <p class="text-xs text-slate-300 max-w-3xl leading-relaxed">
+              Agentes autônomos cooperativos que rastreiam demandas corporativas, projetam saturação hoteleira, prospectam decisores B2B, resolvem orquestração combinatorial e blindam contratos contra multas de attrition.
+            </p>
+          </div>
+
+          <div class="flex items-center space-x-2 flex-shrink-0 self-start md:self-center">
+            <button onclick="executarTodosOsAgentes()" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-bold transition shadow-lg shadow-indigo-600/30 flex items-center space-x-2 hover:scale-102 active:scale-98">
+              <i data-lucide="play" class="w-4 h-4 text-indigo-200"></i>
+              <span>Executar Squad Completo</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Metrics Strip do Squad -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3 border-t border-slate-800/80 text-xs">
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800">
+            <span class="text-[10px] text-slate-400 uppercase font-bold block">Agentes Especializados</span>
+            <span class="text-lg font-mono font-bold text-white">7 Autônomos</span>
+          </div>
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800">
+            <span class="text-[10px] text-indigo-400 uppercase font-bold block">Ações Executadas Hoje</span>
+            <span class="text-lg font-mono font-bold text-indigo-300" id="stat-agent-acoes">142 tarefas</span>
+          </div>
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800">
+            <span class="text-[10px] text-emerald-400 uppercase font-bold block">Savings Gerados (YTD)</span>
+            <span class="text-lg font-mono font-bold text-emerald-300" id="stat-agent-savings">R$ 4.820.000</span>
+          </div>
+          <div class="bg-slate-950/60 p-3 rounded-xl border border-slate-800">
+            <span class="text-[10px] text-cyan-400 uppercase font-bold block">CO₂ Poupado (ESG)</span>
+            <span class="text-lg font-mono font-bold text-cyan-300" id="stat-agent-co2">48.2 toneladas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terminal Interativo do Copilot Multi-Agente (Chat Console) -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-2xl p-5 shadow-sm space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div class="flex items-center space-x-2">
+            <div class="w-8 h-8 rounded-lg bg-indigo-950/80 border border-indigo-800 flex items-center justify-center text-indigo-400">
+              <i data-lucide="message-square-code" class="w-4 h-4"></i>
+            </div>
+            <div>
+              <h3 class="text-xs font-bold text-white uppercase tracking-wider">Console de Comando Multi-Agente</h3>
+              <p class="text-xs text-slate-400">Envie comandos em linguagem natural para que os agentes colaborem na orquestração.</p>
+            </div>
+          </div>
+          <span class="text-[11px] text-slate-400 font-mono">LLM Engine &middot; Active</span>
+        </div>
+
+        <!-- Atalhos Rápidos de Prompt -->
+        <div class="flex items-center space-x-2 overflow-x-auto no-scrollbar text-xs pb-1">
+          <span class="text-[10px] text-slate-400 uppercase font-bold flex-shrink-0">Exemplos:</span>
+          <button onclick="preencherPromptCopilot('Orquestre atendimento para 500 executivos no Allianz Parque com hotéis e frota de táxi')" class="px-2.5 py-1 rounded-lg bg-purple-950/70 hover:bg-purple-900 text-purple-300 font-medium border border-purple-800 transition flex-shrink-0">
+            🎸 Show no Allianz Parque
+          </button>
+          <button onclick="preencherPromptCopilot('Analise o risco de esgotamento hoteleiro e tarifas da Agrishow em Ribeirão Preto')" class="px-2.5 py-1 rounded-lg bg-emerald-950/70 hover:bg-emerald-900 text-emerald-300 font-medium border border-emerald-800 transition flex-shrink-0">
+            🚜 Agrishow & Expresso RAO
+          </button>
+          <button onclick="preencherPromptCopilot('Audite a régua de devolução de quartos da Hospitalar e neutralize multas de attrition')" class="px-2.5 py-1 rounded-lg bg-amber-950/70 hover:bg-amber-900 text-amber-300 font-medium border border-amber-800 transition flex-shrink-0">
+            🛡️ Auditar Multas Room Block
+          </button>
+          <button onclick="preencherPromptCopilot('Gere abordagem executiva para os Diretores de Compras e Marketing da feira Medical Fair')" class="px-2.5 py-1 rounded-lg bg-indigo-950/70 hover:bg-indigo-900 text-indigo-300 font-medium border border-indigo-800 transition flex-shrink-0">
+            🎯 Pitch para Compras B2B
+          </button>
+        </div>
+
+        <!-- Input Box -->
+        <div class="flex items-center space-x-2">
+          <input type="text" id="input-chat-copilot-agentes" placeholder="Ex: 'Calcule a distribuição de 300 quartos para o Lollapalooza e monte a frota de táxis com faixas de ônibus'..." class="flex-1 px-4 py-2.5 rounded-xl border border-slate-700 bg-[#080c14] text-xs text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500" onkeydown="if(event.key==='Enter') enviarComandoCopilotAgentes()">
+          <button onclick="enviarComandoCopilotAgentes()" class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition flex items-center space-x-1.5 shadow-sm">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Enviar ao Squad</span>
+          </button>
+        </div>
+
+        <!-- Output Console -->
+        <div id="output-copilot-multiagente" class="bg-slate-950 text-slate-100 p-4 rounded-xl font-mono text-xs space-y-2 max-h-56 overflow-y-auto border border-slate-800 hidden">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+
+      <!-- Grade dos 7 Agentes Especializados -->
+      <div class="space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-200 pb-2">
+          <h3 class="text-xs font-bold text-slate-900 uppercase tracking-wider flex items-center space-x-2">
+            <i data-lucide="cpu" class="w-4 h-4 text-indigo-600"></i>
+            <span>Squad de Agentes em Monitoramento Ativo (7 Especialidades)</span>
+          </h3>
+          <span class="text-xs text-slate-500">Clique em qualquer agente para disparar execução individual ou ver logs</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="grid-cards-7-agentes">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ================= VIEW 7: CADASTRAR EVENTO & SIMULADOR MICE 360° (PÁGINA DEDICADA) ================= -->
+    <div id="view-cadastrar-evento" class="space-y-5 hidden">
+      <!-- Top Navigation -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <button onclick="voltarParaListaRadar()" class="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-300 hover:text-white transition">
+          <i data-lucide="arrow-left" class="w-4 h-4 text-slate-400"></i>
+          <span>&larr; Voltar ao Radar de Eventos</span>
+        </button>
+        <div class="flex items-center space-x-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 pulse-dot"></span>
+          <span class="text-xs font-mono text-slate-300">Motor CPQ & Orquestrador MICE Ativo</span>
+        </div>
+      </div>
+
+      <!-- Headline -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-1.5">
+        <div class="flex items-center space-x-2">
+          <span class="px-2.5 py-0.5 rounded-md bg-indigo-950/80 text-indigo-300 text-[10px] font-bold uppercase tracking-wider border border-indigo-800">
+            MICE Demand CPQ Studio
+          </span>
+          <span class="text-xs text-slate-400">&middot; Estado de São Paulo</span>
+        </div>
+        <h2 class="text-lg sm:text-xl font-black text-white tracking-tight">Cadastrar Novo Evento & Simulador CPQ 360°</h2>
+        <p class="text-xs text-slate-400 max-w-3xl">Cadastre qualquer convenção corporativa, congresso setorial, simpósio médico, feira agropecuária ou grande show em SP. O motor calcula automaticamente as room nights, frota de transfers e os 3 pacotes comerciais.</p>
+      </div>
+
+      <!-- Grid: Formulário (Esq) + Live Preview CPQ (Dir) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-5">
+        
+        <!-- Formulário de Cadastro (7 cols) -->
+        <div class="lg:col-span-7 bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-4">
+          <div class="flex items-center space-x-2 border-b border-slate-800 pb-3">
+            <i data-lucide="file-plus" class="w-4 h-4 text-indigo-400"></i>
+            <h3 class="text-xs font-bold text-white uppercase tracking-wider">Parâmetros do Evento & Demanda</h3>
+          </div>
+
+          <form id="form-pagina-cadastrar-evento" onsubmit="submeterPaginaNovoEvento(event)" class="space-y-4 text-xs">
+            <div>
+              <label class="block font-medium text-slate-300 mb-1">Título do Evento / Objeto da Demanda *</label>
+              <input type="text" id="page-sim-nome" required oninput="atualizarSimuladorLive()" placeholder="Ex: Simpósio Brasileiro de Biotecnologia & Saúde 2026" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500 text-xs">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Empresa / Entidade Organizadora</label>
+                <input type="text" id="page-sim-organizador" oninput="atualizarSimuladorLive()" placeholder="Ex: Sociedade Brasileira de Biotecnologia" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Segmento de Mercado *</label>
+                <select id="page-sim-segmento" onchange="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:border-indigo-500 text-xs">
+                  <option value="Agronegócio / Pecuária / Maquinário">🌾 Agronegócio & Pecuária</option>
+                  <option value="Shows / Música / Festivais / Arenas">🎸 Shows, Arenas & Festivais</option>
+                  <option value="Saúde / Farmacêutico / Medicina">🏥 Saúde, Farma & Medicina</option>
+                  <option value="Tecnologia / Finanças / Software / Telecom">💻 Tecnologia, Finanças & Telecom</option>
+                  <option value="Logística / Porto / Infraestrutura / Comex">⚓ Logística, Porto & Comex</option>
+                  <option value="Varejo / Alimentos / Franquias / Consumo">🛍️ Varejo, Alimentos & Franquias</option>
+                  <option value="Construção Civil / Arquitetura / Design">🏗️ Construção & Arquitetura</option>
+                  <option value="Automotivo / Energia / Indústria Pesada">⚡ Energia, Automotivo & Indústria</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Centro de Convenções / Pavilhão / Local em SP *</label>
+                <select id="page-sim-local" onchange="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:border-indigo-500 text-xs">
+                  <optgroup label="🏙️ São Paulo Capital (Pavilhões & Centros)">
+                    <option value="sp_expo" selected>São Paulo Expo (Zona Sul / Imigrantes)</option>
+                    <option value="transamerica_expo">Transamerica Expo Center (Santo Amaro)</option>
+                    <option value="anhembi">Distrito Anhembi (Zona Norte / Marginal Tietê)</option>
+                    <option value="frei_caneca">Centro de Convenções Frei Caneca (Paulista)</option>
+                    <option value="wds_wtc">WTC Events Center (Berrini / Chucri Zaidan)</option>
+                    <option value="pro_magno">Pro Magno Centro de Eventos (Casa Verde)</option>
+                  </optgroup>
+                  <optgroup label="🎸 Grandes Arenas & Estádios (Shows & Festivais)">
+                    <option value="allianz_parque">Allianz Parque (Barra Funda)</option>
+                    <option value="morumbi_estadio">Estádio do MorumBIS (Zona Sul)</option>
+                    <option value="interlagos_arena">Autódromo de Interlagos (Lolla / The Town)</option>
+                    <option value="espaco_unimed">Espaço Unimed & Audio (Barra Funda)</option>
+                    <option value="vibra_sp">Vibra São Paulo (Santo Amaro)</option>
+                    <option value="tokio_marine">Tokio Marine Hall (Chácara Santo Antônio)</option>
+                  </optgroup>
+                  <optgroup label="🚜 Polos do Interior de SP & Agronegócio">
+                    <option value="ribeirao_preto">Polo Ribeirão Preto & Sertãozinho (Agrishow / Taiwan)</option>
+                    <option value="campinas_resorts">Polo Campinas & Resorts (Royal Palm / Expo D. Pedro)</option>
+                    <option value="sao_jose_rio_preto_aracatuba">Polo Noroeste Paulista (Expo Rio Preto / Recinto)</option>
+                    <option value="piracicaba_agtech">Polo Piracicaba & Avaré (AgTech / EMAPA)</option>
+                    <option value="barretos_parque_peao">Parque do Peão de Barretos (Festa do Peão)</option>
+                    <option value="campos_jordao">Polo Campos do Jordão (Centro de Convenções)</option>
+                  </optgroup>
+                  <optgroup label="⚓ Litoral Paulista">
+                    <option value="santos_litoral">Blue Med Convention Center Santos (Baixada Santista)</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Cidade do Evento</label>
+                <input type="text" id="page-sim-cidade" value="São Paulo" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Público Total (Pax) *</label>
+                <input type="number" id="page-sim-publico" required value="2500" min="50" max="500000" step="50" oninput="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white font-mono font-bold focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">% de Fora da Região *</label>
+                <input type="number" id="page-sim-pct-fora" required value="60" min="5" max="100" step="5" oninput="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white font-mono font-bold focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Duração (Dias) *</label>
+                <input type="number" id="page-sim-duracao" required value="3" min="1" max="15" oninput="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white font-mono font-bold focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Data de Início Prevista</label>
+                <input type="date" id="page-sim-data" value="2026-09-15" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:border-indigo-500 text-xs">
+              </div>
+              <div>
+                <label class="block font-medium text-slate-300 mb-1">Padrão Hoteleiro Principal</label>
+                <select id="page-sim-padrao-hotel" onchange="atualizarSimuladorLive()" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-2 text-white focus:outline-none focus:border-indigo-500 text-xs">
+                  <option value="executivo_4estrelas">Executivo 4 Estrelas (Ex: Radisson / Blue Tree / Mercure)</option>
+                  <option value="luxo_5estrelas">Luxo & Alto Padrão 5 Estrelas (Ex: Renaissance / Grand Hyatt)</option>
+                  <option value="economico_3estrelas">Econômico Estruturado 3 Estrelas (Ex: Ibis Styles / Go Inn)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="pt-3 border-t border-slate-800 flex items-center justify-between">
+              <button type="button" onclick="resetarFormularioCadastro()" class="px-4 py-2 rounded-xl border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-semibold transition">
+                🔄 Limpar Campos
+              </button>
+              <button type="submit" id="btn-cadastrar-submeter" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 hover:from-indigo-500 hover:to-violet-500 text-white text-xs font-bold transition shadow-lg shadow-indigo-600/30 flex items-center space-x-2">
+                <i data-lucide="check" class="w-4 h-4 text-indigo-200"></i>
+                <span>Salvar no Radar & Orquestrar 360°</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Live Preview / Dimensionamento Automático CPQ (5 cols) -->
+        <div class="lg:col-span-5 space-y-4">
+          <div class="bg-[#0f172a] border border-slate-800 rounded-xl p-5 shadow-sm space-y-3.5" id="card-preview-dimensionamento">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+              <div class="flex items-center space-x-2">
+                <i data-lucide="calculator" class="w-4 h-4 text-indigo-400"></i>
+                <h3 class="text-xs font-bold text-white uppercase tracking-wider">Dimensionamento em Tempo Real</h3>
+              </div>
+              <span class="text-[10px] font-mono bg-indigo-950 text-indigo-300 px-2 py-0.5 rounded border border-indigo-800">Cálculo Live</span>
+            </div>
+
+            <!-- KPIs Dinâmicos -->
+            <div class="grid grid-cols-2 gap-2 text-xs">
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5">
+                <span class="text-[10px] text-slate-400 block uppercase font-medium">Room Nights (Diárias)</span>
+                <span class="text-lg font-bold font-mono text-indigo-300" id="live-kpi-roomnights">4.500</span>
+              </div>
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5">
+                <span class="text-[10px] text-slate-400 block uppercase font-medium">Delegação Externa</span>
+                <span class="text-lg font-bold font-mono text-white" id="live-kpi-delegacao">1.500 pax</span>
+              </div>
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5">
+                <span class="text-[10px] text-slate-400 block uppercase font-medium">Frota Recomendada</span>
+                <span class="text-sm font-bold text-emerald-400" id="live-kpi-frota">12 Vans + 4 Ônibus</span>
+              </div>
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5">
+                <span class="text-[10px] text-slate-400 block uppercase font-medium">Saving Médio Projetado</span>
+                <span class="text-sm font-bold text-cyan-300" id="live-kpi-saving">24.5% (D-180)</span>
+              </div>
+            </div>
+
+            <!-- Cenários CPQ Rápidos -->
+            <div class="space-y-2 pt-2 border-t border-slate-800">
+              <span class="text-[11px] font-bold text-white uppercase tracking-wider block">Pacotes CPQ Estimados (100 pax):</span>
+              
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5 flex items-center justify-between">
+                <div>
+                  <div class="font-bold text-slate-200 text-xs">Econômico Essencial</div>
+                  <div class="text-[10px] text-slate-400">Hotel 3★ + Transfer Compartilhado</div>
+                </div>
+                <div class="text-right">
+                  <div class="font-mono font-bold text-white text-xs" id="live-cpq-economico">R$ 1.150 / pax</div>
+                  <div class="text-[9px] text-emerald-400">Comissão: R$ 11.500</div>
+                </div>
+              </div>
+
+              <div class="bg-[#080c14] border border-indigo-900/60 rounded-lg p-2.5 flex items-center justify-between">
+                <div>
+                  <div class="font-bold text-indigo-300 text-xs">Executivo 360° (Recomendado)</div>
+                  <div class="text-[10px] text-slate-400">Hotel 4★ + Frota Mista + Aéreo Copastur</div>
+                </div>
+                <div class="text-right">
+                  <div class="font-mono font-bold text-indigo-300 text-xs" id="live-cpq-executivo">R$ 1.890 / pax</div>
+                  <div class="text-[9px] text-emerald-400">Comissão: R$ 18.900</div>
+                </div>
+              </div>
+
+              <div class="bg-[#080c14] border border-slate-800 rounded-lg p-2.5 flex items-center justify-between">
+                <div>
+                  <div class="font-bold text-slate-200 text-xs">Premium VIP Experience</div>
+                  <div class="text-[10px] text-slate-400">Hotel 5★ + Receptivo VIP Táxi + Gastronomia</div>
+                </div>
+                <div class="text-right">
+                  <div class="font-mono font-bold text-white text-xs" id="live-cpq-premium">R$ 2.950 / pax</div>
+                  <div class="text-[9px] text-emerald-400">Comissão: R$ 29.500</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Diretriz de Blindagem -->
+            <div class="bg-indigo-950/40 border border-indigo-900/60 rounded-lg p-3 text-xs space-y-1">
+              <div class="flex items-center space-x-1.5 text-indigo-300 font-bold text-[11px]">
+                <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+                <span>Garantia Room Block Shield Automática</span>
+              </div>
+              <p class="text-[10px] text-slate-300 leading-snug">
+                Ao cadastrar este evento, a esteira MICE aplica a régua escalonada de devolução: devolução sem multas até D-60 (100%), D-45 (80%) e D-30 (50%).
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ================= VIEW 8: BUSCA RÁPIDA & PESQUISA GLOBAL (PÁGINA DEDICADA) ================= -->
+    <div id="view-busca-rapida" class="space-y-5 hidden">
+      <!-- Top Navigation -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-[#0f172a] border border-slate-800 rounded-xl p-3.5 shadow-sm">
+        <button onclick="voltarParaListaRadar()" class="inline-flex items-center space-x-1.5 text-xs font-semibold text-slate-300 hover:text-white transition">
+          <i data-lucide="arrow-left" class="w-4 h-4 text-slate-400"></i>
+          <span>&larr; Voltar ao Radar de Eventos</span>
+        </button>
+        <div class="flex items-center space-x-2">
+          <span class="text-xs text-slate-400">Atalho rápido universal:</span>
+          <kbd class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 text-[10px] font-mono font-bold border border-slate-700">Ctrl + K</kbd>
+        </div>
+      </div>
+
+      <!-- Hero Search Section -->
+      <div class="bg-[#0f172a] border border-slate-800 rounded-2xl p-6 shadow-xl space-y-4">
+        <div class="space-y-1">
+          <div class="flex items-center space-x-2">
+            <span class="px-2.5 py-0.5 rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-[10px] font-bold uppercase tracking-wider shadow-xs">
+              Universal Search Engine
+            </span>
+            <span class="text-xs text-slate-400">&middot; MICE Estado de SP</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-white tracking-tight">Central de Busca Global & Inteligência MICE</h2>
+          <p class="text-xs text-slate-400 max-w-2xl">Pesquise instantaneamente em tempo real por qualquer feira, congresso, show, estádio, hotel homologado, cooperativa de táxi, decisor B2B ou dossiê histórico.</p>
+        </div>
+
+        <!-- Big Search Command Input -->
+        <div class="relative">
+          <i data-lucide="search" class="w-5 h-5 text-indigo-400 absolute left-4 top-3.5"></i>
+          <input type="text" id="input-busca-global-pagina" oninput="executarBuscaGlobalPagina(this.value)" placeholder="Digite o nome do evento, cidade, hotel, segmento ou decisor corporativo..." class="w-full pl-12 pr-4 py-3.5 rounded-xl bg-[#080c14] border border-slate-700 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 shadow-inner font-medium">
+          <button onclick="limparBuscaGlobalPagina()" id="btn-limpar-busca-global" class="absolute right-3.5 top-3.5 text-slate-400 hover:text-white text-xs hidden">Limpar ✕</button>
+        </div>
+
+        <!-- Category Filter Chips -->
+        <div class="flex items-center space-x-2 overflow-x-auto no-scrollbar text-xs pt-1">
+          <span class="text-[10px] text-slate-400 uppercase font-bold flex-shrink-0">Filtrar por:</span>
+          <button onclick="filtrarCategoriaBuscaPagina('todos')" id="chip-busca-todos" class="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-600 text-white transition flex-shrink-0">Todos (76+)</button>
+          <button onclick="filtrarCategoriaBuscaPagina('eventos')" id="chip-busca-eventos" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-[#080c14] hover:bg-slate-800 hover:text-white border border-slate-700 transition flex-shrink-0">🏢 Feiras & Congressos</button>
+          <button onclick="filtrarCategoriaBuscaPagina('shows')" id="chip-busca-shows" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-[#080c14] hover:bg-slate-800 hover:text-white border border-slate-700 transition flex-shrink-0">🎸 Shows & Arenas</button>
+          <button onclick="filtrarCategoriaBuscaPagina('hoteis')" id="chip-busca-hoteis" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-[#080c14] hover:bg-slate-800 hover:text-white border border-slate-700 transition flex-shrink-0">🏨 Hotéis Homologados</button>
+          <button onclick="filtrarCategoriaBuscaPagina('taxis')" id="chip-busca-taxis" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-[#080c14] hover:bg-slate-800 hover:text-white border border-slate-700 transition flex-shrink-0">🚕 Táxis & Fretamento</button>
+          <button onclick="filtrarCategoriaBuscaPagina('agro')" id="chip-busca-agro" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-300 bg-[#080c14] hover:bg-slate-800 hover:text-white border border-slate-700 transition flex-shrink-0">🌾 Agronegócio (Interior)</button>
+        </div>
+      </div>
+
+      <!-- Results Grid Container -->
+      <div class="space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <div class="text-xs font-bold text-slate-300" id="contador-resultados-busca-global">
+            Exibindo todos os resultados disponíveis
+          </div>
+          <span class="text-[11px] text-slate-500">Clique em qualquer item para abrir o Dossiê completo</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5" id="grid-resultados-busca-global">
+          <!-- Inserido dinamicamente via JS -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  </div> <!-- /#main-wrapper -->
+
+  <!-- Modal: Dossiê de Inteligência Preditiva & Cronograma Reverso -->
+  <div id="modal-preditivo-detalhe" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-2xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-sm font-semibold text-white flex items-center space-x-2">
+          <i data-lucide="sparkles" class="w-4 h-4 text-indigo-400"></i>
+          <span>Dossiê de Inteligência Preditiva & Prospecção Antecipada</span>
+        </h3>
+        <button onclick="fecharModalPreditivoDetalhe()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <div id="conteudo-preditivo-detalhe" class="space-y-4 text-xs text-slate-200">
+        <!-- Inserido via JS -->
+      </div>
+
+      <div class="pt-2 flex justify-between items-center border-t border-slate-800">
+        <button onclick="fecharModalPreditivoDetalhe()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+        <button onclick="copiarMinutaAbordagemAntecipada()" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-sm">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+          <span>Copiar Minuta de Abordagem Pré-RFP</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Relatório & Execução Individual do Agente de IA -->
+  <div id="modal-agent-detail" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-2xl max-w-3xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-9 h-9 rounded-xl bg-indigo-950/80 border border-indigo-800 flex items-center justify-center text-indigo-400" id="modal-agent-icon-container">
+            <i data-lucide="bot" class="w-5 h-5" id="modal-agent-icon"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white" id="modal-agent-title">Execução do Agente</h3>
+            <span class="text-[11px] text-emerald-400 font-bold bg-emerald-950/80 px-2 py-0.5 rounded-md border border-emerald-800" id="modal-agent-badge">Ativo &middot; Operacional</span>
+          </div>
+        </div>
+        <button onclick="fecharModalAgentDetail()" class="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 transition"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+
+      <div id="conteudo-agent-detail" class="space-y-4 text-xs text-slate-200">
+        <!-- Inserido dinamicamente via JS -->
+      </div>
+
+      <div class="pt-3 flex justify-between items-center border-t border-slate-800">
+        <button onclick="fecharModalAgentDetail()" class="px-4 py-2 rounded-xl border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-semibold">Fechar</button>
+        <button onclick="copiarOutputAgente()" id="btn-copiar-output-agente" class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-sm">
+          <i data-lucide="copy" class="w-4 h-4"></i>
+          <span>Copiar Resultado</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal: Cadastrar Novo Fornecedor -->
+  <div id="modal-novo-fornecedor" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-lg w-full p-6 space-y-4 shadow-2xl">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-sm font-semibold text-white flex items-center space-x-2">
+          <i data-lucide="building" class="w-4 h-4 text-indigo-400"></i>
+          <span>Cadastrar Parceiro na Rede</span>
+        </h3>
+        <button onclick="fecharModalNovoFornecedor()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <form id="form-novo-fornecedor" onsubmit="submeterNovoFornecedor(event)" class="space-y-3 text-xs">
+        <div>
+          <label class="block font-medium text-slate-300 mb-1">Nome da Empresa / Parceiro</label>
+          <input type="text" id="forn-nome" required placeholder="Ex: Hotel Blue Tree Premium Faria Lima" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 text-white placeholder:text-slate-500 focus:outline-none focus:border-indigo-500">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-medium text-slate-300 mb-1">Modalidade</label>
+            <select id="forn-tipo" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 text-white focus:outline-none focus:border-indigo-500">
+              <option value="hotel">Hotelaria</option>
+              <option value="taxi">Cooperativa de Táxi</option>
+              <option value="transfer_van">Empresa de Vans / Fretamento</option>
+              <option value="tmc_parceira">TMC de Emissão Aérea</option>
+            </select>
+          </div>
+          <div>
+            <label class="block font-medium text-slate-300 mb-1">Comissão / Repasse (%)</label>
+            <input type="number" id="forn-comissao" required step="0.5" value="10.0" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 text-white focus:outline-none focus:border-indigo-500">
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block font-medium text-slate-300 mb-1">Diária / Tarifa Base (R$)</label>
+            <input type="number" id="forn-tarifa" required value="420.00" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 text-white focus:outline-none focus:border-indigo-500">
+          </div>
+          <div>
+            <label class="block font-medium text-slate-300 mb-1">Capacidade / Frota</label>
+            <input type="number" id="forn-capacidade" required value="150" class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 text-white focus:outline-none focus:border-indigo-500">
+          </div>
+        </div>
+
+        <div class="pt-2 flex justify-end space-x-2">
+          <button type="button" onclick="fecharModalNovoFornecedor()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 font-medium">Cancelar</button>
+          <button type="submit" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold shadow-xs">Salvar Parceiro</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Relatório de Inteligência para Hotéis -->
+  <div id="modal-relatorio-hotel" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-xl w-full p-6 space-y-4 shadow-2xl">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-sm font-semibold text-white flex items-center space-x-2">
+          <i data-lucide="building-2" class="w-4 h-4 text-indigo-400"></i>
+          <span>Relatório de Demanda Hoteleira &middot; Prospecção B2B</span>
+        </h3>
+        <button onclick="fecharModalRelatorioHotel()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <p class="text-xs text-slate-400">Minuta comercial baseada no mapa de calor para enviar aos diretores comerciais de hotéis parceiros da região:</p>
+      
+      <div>
+        <textarea id="texto-relatorio-hotel" rows="10" readonly class="w-full bg-[#080c14] border border-slate-700 rounded-lg p-3.5 text-xs font-mono text-slate-200 focus:outline-none select-all"></textarea>
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <span class="text-xs text-emerald-400 font-medium flex items-center space-x-1" id="label-copiado-hotel" style="display:none;">
+          <i data-lucide="check" class="w-3.5 h-3.5"></i>
+          <span>Copiado para a área de transferência.</span>
+        </span>
+        <div class="flex space-x-2 ml-auto">
+          <button onclick="fecharModalRelatorioHotel()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+          <button onclick="copiarTextoAreaHotel()" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs">
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+            <span>Copiar Minuta</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Minuta Comercial Formal -->
+  <div id="modal-proposta" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-2xl w-full p-6 space-y-4 shadow-2xl">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <h3 class="text-sm font-semibold text-white flex items-center space-x-2">
+          <i data-lucide="file-check" class="w-4 h-4 text-indigo-400"></i>
+          <span>Minuta de Apresentação Comercial para Decisores</span>
+        </h3>
+        <button onclick="fecharModalProposta()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <p class="text-xs text-slate-400">Texto pronto para correspondência formal ou e-mail corporativo:</p>
+      <div>
+        <textarea id="texto-proposta-gerada" rows="12" readonly class="w-full bg-[#080c14] border border-slate-700 rounded-lg p-3.5 text-xs font-mono text-slate-200 focus:outline-none select-all"></textarea>
+      </div>
+
+      <div class="flex items-center justify-between pt-1">
+        <span class="text-xs text-emerald-400 font-medium flex items-center space-x-1" id="label-copiado" style="display:none;">
+          <i data-lucide="check" class="w-3.5 h-3.5"></i>
+          <span>Texto copiado para a área de transferência.</span>
+        </span>
+        <div class="flex space-x-2 ml-auto">
+          <button onclick="fecharModalProposta()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+          <button onclick="copiarTextoAreaProposta()" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs">
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+            <span>Copiar Texto</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: MICE Outreach Copilot (Pitches de IA por Setor) -->
+  <div id="modal-outreach-copilot" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-2xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2">
+          <div class="w-7 h-7 rounded-lg bg-indigo-950/80 border border-indigo-800 flex items-center justify-center text-indigo-400">
+            <i data-lucide="bot" class="w-4 h-4 text-emerald-400"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">MICE Outreach Copilot &middot; Prospecção Inteligente B2B</h3>
+            <p class="text-[11px] text-slate-400">Pitches hiperpersonalizados por setor gerados automaticamente</p>
+          </div>
+        </div>
+        <button onclick="fecharModalOutreachCopilot()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <!-- Abas de Canal: E-mail Corporativo | WhatsApp Direto | Argumentos Matadores -->
+      <div class="flex border-b border-slate-800 text-xs font-medium">
+        <button onclick="alternarAbaCopilot('email')" id="tab-copilot-email" class="px-4 py-2 border-b-2 border-indigo-500 text-white font-bold">E-mail Corporativo</button>
+        <button onclick="alternarAbaCopilot('whatsapp')" id="tab-copilot-whatsapp" class="px-4 py-2 border-b-2 border-transparent text-slate-400 hover:text-white">WhatsApp Direto</button>
+        <button onclick="alternarAbaCopilot('argumentos')" id="tab-copilot-argumentos" class="px-4 py-2 border-b-2 border-transparent text-slate-400 hover:text-white">Argumentos de Fechamento</button>
+      </div>
+
+      <!-- Conteúdo da Aba 1: E-mail -->
+      <div id="conteudo-copilot-email" class="space-y-2 text-xs">
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">Assunto do E-mail:</label>
+          <input type="text" id="copilot-email-assunto" readonly class="w-full bg-[#080c14] border border-slate-700 rounded-lg px-3 py-1.5 font-mono text-slate-200 text-xs">
+        </div>
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">Corpo da Mensagem:</label>
+          <textarea id="copilot-email-corpo" rows="11" readonly class="w-full bg-[#080c14] border border-slate-700 rounded-lg p-3 font-mono text-slate-200 text-xs select-all"></textarea>
+        </div>
+      </div>
+
+      <!-- Conteúdo da Aba 2: WhatsApp -->
+      <div id="conteudo-copilot-whatsapp" class="space-y-2 text-xs hidden">
+        <div>
+          <label class="block font-semibold text-slate-300 mb-1">Texto Pronto para Envio via WhatsApp:</label>
+          <textarea id="copilot-whatsapp-corpo" rows="10" readonly class="w-full bg-[#080c14] border border-slate-700 rounded-lg p-3 font-mono text-emerald-400 text-xs select-all"></textarea>
+        </div>
+      </div>
+
+      <!-- Conteúdo da Aba 3: Argumentos -->
+      <div id="conteudo-copilot-argumentos" class="space-y-2 text-xs hidden">
+        <label class="block font-semibold text-slate-300 mb-1">Gatilhos & Diferenciais para Reunião de Fechamento:</label>
+        <div id="copilot-argumentos-lista" class="space-y-2 text-slate-200"></div>
+      </div>
+
+      <div class="pt-2 flex justify-between items-center border-t border-slate-800">
+        <span class="text-xs text-emerald-400 font-medium flex items-center space-x-1" id="label-copiado-copilot" style="display:none;">
+          <i data-lucide="check" class="w-3.5 h-3.5"></i>
+          <span>Copiado com sucesso!</span>
+        </span>
+        <div class="flex space-x-2 ml-auto">
+          <button onclick="fecharModalOutreachCopilot()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+          <button onclick="copiarConteudoCopilotAtivo()" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs">
+            <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+            <span>Copiar Pitch Selecionado</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Dossiê ESG & Pegada de Carbono -->
+  <div id="modal-esg-dossie" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-2xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2">
+          <div class="w-7 h-7 rounded-lg bg-emerald-950/80 border border-emerald-800 flex items-center justify-center text-emerald-400">
+            <i data-lucide="leaf" class="w-4 h-4 text-emerald-400"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">Relatório ESG de Sustentabilidade & Emissões Evitadas</h3>
+            <p class="text-[11px] text-slate-400">Metodologia alinhada ao GHG Protocol Corporate Standard</p>
+          </div>
+        </div>
+        <button onclick="fecharModalESGDossie()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <div id="conteudo-esg-dossie" class="space-y-4 text-xs text-slate-200">
+        <!-- Inserido via JS -->
+      </div>
+
+      <div class="pt-2 flex justify-between items-center border-t border-slate-800">
+        <button onclick="fecharModalESGDossie()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+        <button onclick="copiarResumoESG()" class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+          <span>Copiar Resumo ESG</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Room Block Shield & Attrition Protection -->
+  <div id="modal-room-block-shield" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-2xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2">
+          <div class="w-7 h-7 rounded-lg bg-indigo-950/80 border border-indigo-800 flex items-center justify-center text-indigo-400">
+            <i data-lucide="shield-check" class="w-4 h-4 text-indigo-400"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-semibold text-white">Garantia Room Block Shield & Proteção de Attrition</h3>
+            <p class="text-[11px] text-slate-400">Mecanismo contratual de devolução escalonada sem multas</p>
+          </div>
+        </div>
+        <button onclick="fecharModalRoomBlockShield()" class="text-slate-400 hover:text-white"><i data-lucide="x" class="w-4 h-4"></i></button>
+      </div>
+
+      <div id="conteudo-room-block-shield" class="space-y-4 text-xs text-slate-200">
+        <!-- Inserido via JS -->
+      </div>
+
+      <div class="pt-2 flex justify-between items-center border-t border-slate-800">
+        <button onclick="fecharModalRoomBlockShield()" class="px-3 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 text-xs font-medium">Fechar</button>
+        <button onclick="copiarClausulaShield()" class="px-3.5 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold flex items-center space-x-1.5 shadow-xs">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+          <span>Copiar Cláusula Shield</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Dossiê Histórico & Debriefing Pós-Evento -->
+  <div id="modal-debriefing-historico" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-4xl w-full p-6 space-y-4 shadow-2xl max-h-[92vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-lg bg-indigo-950/80 border border-indigo-800 flex items-center justify-center text-indigo-400 shadow-2xs">
+            <i data-lucide="history" class="w-4 h-4 text-indigo-300"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white flex items-center space-x-2">
+              <span id="debriefing-titulo-evento">Dossiê Pós-Evento & Resultados Anteriores</span>
+            </h3>
+            <p class="text-[11px] text-slate-400" id="debriefing-subtitulo-evento">Telemetria operacional das edições anteriores para antecipação de compras e inteligência competitiva</p>
+          </div>
+        </div>
+        <button onclick="fecharModalDebriefingHistorico()" class="text-slate-400 hover:text-white p-1"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+
+      <!-- Abas de Navegação do Dossiê -->
+      <div class="flex border-b border-slate-800 text-xs font-semibold overflow-x-auto">
+        <button onclick="alternarAbaDebriefing('hotelaria')" id="tab-debriefing-hotelaria" class="px-4 py-2 border-b-2 border-indigo-500 text-white font-bold whitespace-nowrap">🏨 1. Onde se Hospedaram</button>
+        <button onclick="alternarAbaDebriefing('mobilidade')" id="tab-debriefing-mobilidade" class="px-4 py-2 border-b-2 border-transparent text-slate-400 hover:text-white whitespace-nowrap">🚕 2. Táxis vs Aplicativos (Uber/99)</button>
+        <button onclick="alternarAbaDebriefing('gargalos')" id="tab-debriefing-gargalos" class="px-4 py-2 border-b-2 border-transparent text-slate-400 hover:text-white whitespace-nowrap">⚠️ 3. Gargalos & Lições Aprendidas</button>
+        <button onclick="alternarAbaDebriefing('preparacao')" id="tab-debriefing-preparacao" class="px-4 py-2 border-b-2 border-transparent text-slate-400 hover:text-white whitespace-nowrap">🚀 4. Preparação & Playbook 2026/27</button>
+      </div>
+
+      <!-- Conteúdo das Abas -->
+      <div id="conteudo-debriefing-historico" class="space-y-4 text-xs text-slate-200">
+        <!-- Inserido dinamicamente via JS -->
+      </div>
+
+      <!-- Rodapé do Modal com Ações -->
+      <div class="pt-3 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-slate-800 text-xs">
+        <div class="text-slate-400 text-[11px] flex items-center space-x-1.5">
+          <i data-lucide="shield-check" class="w-4 h-4 text-emerald-400"></i>
+          <span>Dados auditados e consolidados pela esteira MICE Intelligence SP.</span>
+        </div>
+        <div class="flex space-x-2">
+          <button onclick="fecharModalDebriefingHistorico()" class="px-3.5 py-1.5 rounded-lg border border-slate-700 text-slate-300 hover:bg-slate-800 font-semibold transition">Fechar</button>
+          <button onclick="aplicarDebriefingAoOrquestrador()" id="btn-debriefing-orquestrar" class="px-4 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white font-bold flex items-center space-x-1.5 shadow-sm transition">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            <span>Orquestrar Próxima Edição no Studio 360°</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Evidências, Governança & Fontes Oficiais Auditadas -->
+  <div id="modal-evidencias-fontes" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-xs hidden items-center justify-center p-4">
+    <div class="bg-[#0f172a] border border-slate-800 rounded-xl max-w-3xl w-full p-6 space-y-4 shadow-2xl max-h-[90vh] overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div class="flex items-center space-x-2.5">
+          <div class="w-8 h-8 rounded-lg bg-emerald-950/80 border border-emerald-800 flex items-center justify-center text-emerald-400 shadow-2xs">
+            <i data-lucide="shield-check" class="w-4 h-4 text-emerald-300"></i>
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-white flex items-center space-x-2">
+              <span id="evidencia-titulo-evento">Dossiê de Evidências & Fontes Oficiais</span>
+            </h3>
+            <p class="text-[11px] text-slate-400" id="evidencia-subtitulo-evento">Auditoria de datas, locais, público e organizadores em fontes primárias</p>
+          </div>
+        </div>
+        <button onclick="fecharModalEvidencias()" class="text-slate-400 hover:text-white p-1"><i data-lucide="x" class="w-5 h-5"></i></button>
+      </div>
+
+      <div id="conteudo-evidencias-fontes" class="space-y-3 text-xs text-slate-200">
+        <!-- Inserido dinamicamente via JS -->
+      </div>
+
+      <div class="pt-3 flex items-center justify-between border-t border-slate-800 text-xs">
+        <div class="text-slate-400 text-[11px]">Rastreabilidade auditada &middot; Padrão MICE Intelligence SP</div>
+        <button onclick="fecharModalEvidencias()" class="px-4 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold transition">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Floating Action Dock para a Página do Evento -->
+  <div id="floating-action-dock" class="fixed bottom-4 left-1/2 -translate-x-1/2 z-30 max-w-4xl w-[94%] bg-slate-900/95 backdrop-blur-md text-white rounded-2xl shadow-2xl border border-slate-700/60 px-5 py-3.5 flex flex-col sm:flex-row items-center justify-between gap-3 hidden floating-action-dock">
+    <div class="flex items-center space-x-5 text-xs w-full sm:w-auto justify-between sm:justify-start">
+      <div>
+        <div class="text-[10px] text-slate-400 uppercase font-semibold">Investimento Total</div>
+        <div class="text-sm font-bold font-mono text-white" id="dock-investimento">R$ 0,00</div>
+      </div>
+      <div class="border-l border-slate-700/80 pl-4">
+        <div class="text-[10px] text-emerald-400 uppercase font-semibold">Saving Auditado</div>
+        <div class="text-sm font-bold font-mono text-emerald-400" id="dock-saving">R$ 0,00</div>
+      </div>
+      <div class="border-l border-slate-700/80 pl-4">
+        <div class="text-[10px] text-indigo-300 uppercase font-semibold">Comissão Agência</div>
+        <div class="text-sm font-bold font-mono text-indigo-300" id="dock-comissao">R$ 0,00</div>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-2 w-full sm:w-auto justify-end">
+      <button onclick="gerarPropostaExecutivaComParametros()" class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition flex items-center space-x-1.5 shadow-md hover:scale-102 active:scale-98">
+        <i data-lucide="file-check" class="w-4 h-4"></i>
+        <span>Exportar Proposta PDF</span>
+      </button>
+      <button onclick="abrirModalOutreachCopilot()" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold transition flex items-center space-x-1.5 border border-slate-600">
+        <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+        <span>Pitch Decisor</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

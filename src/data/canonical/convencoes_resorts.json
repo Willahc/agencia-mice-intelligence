@@ -1,0 +1,393 @@
+[
+  {
+    "eventId": "convencao-royal-palm",
+    "name": "Kick-offs & Convenções Nacionais no Complexo Royal Palm Hall",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Convenções Corporativas de Vendas & Franquias",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "MARCO",
+      "primaryVenue": "Royal Palm Hall",
+      "city": "Campinas",
+      "state": "SP",
+      "region": "INTERIOR_CAMPINAS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "kickoff-pharma-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-03-15",
+          "end": "2027-03-18"
+        },
+        "location": {
+          "venue": "Royal Palm Hall - Salão Monumental",
+          "address": "Av. Royal Palm Plaza, 275",
+          "city": "Campinas",
+          "state": "SP",
+          "region": "INTERIOR_CAMPINAS"
+        },
+        "attendance": {
+          "official": 1800,
+          "historical": 1600,
+          "estimatedCorporateDelegations": 45,
+          "confidence": "ALTA",
+          "note": "Convenção Nacional de Força de Vendas com 100% de hospedagem no complexo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Royal Palm Hall MICE Desk",
+              "url": "https://royalpalm.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Bloqueio de Salão Monumental e 450 UHs para convenção farmacêutica em março/2027."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 94,
+          "organizer": {
+            "company": "Multinacional Farmacêutica & Grupo Royal Palm"
+          },
+          "sponsorsMaster": [
+            "EMS",
+            "Eurofarma",
+            "Aché Laboratórios"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 15,
+          "airports": [
+            {
+              "code": "VCP",
+              "name": "Aeroporto Internacional de Viracopos",
+              "distanceKm": 14
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "CooperCamp Táxi Campinas",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 550,
+            "executiveVans": 18,
+            "buses46p": 12,
+            "taxisPerDay": 120
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-09-16",
+          "d120Date": "2026-11-15",
+          "d90Date": "2026-12-15",
+          "activeTriggers": [
+            "FRETAMENTO_VIRACOPOS_CONVENCAO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "bourbon-atibaia-conventions",
+    "name": "Grandes Convenções Corporativas no Bourbon Atibaia Resort",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Convenções de Liderança, Telecom & Bens de Consumo",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "ABRIL",
+      "primaryVenue": "Bourbon Atibaia Resort Convention Center",
+      "city": "Atibaia",
+      "state": "SP",
+      "region": "INTERIOR_RESORTS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "bourbon-telecom-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-14",
+          "end": "2026-04-17"
+        },
+        "location": {
+          "venue": "Bourbon Atibaia Resort",
+          "address": "Rodovia Fernão Dias, Km 37,5",
+          "city": "Atibaia",
+          "state": "SP",
+          "region": "INTERIOR_RESORTS"
+        },
+        "attendance": {
+          "official": 1200,
+          "historical": 1100,
+          "estimatedCorporateDelegations": 30,
+          "confidence": "ALTA",
+          "note": "Convenção de Liderança e Canais de Telecomunicações com 570 apartamentos bloqueados."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Bourbon Hotels MICE",
+              "url": "https://bourbon.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Convenção corporativa exclusiva em Atibaia/SP."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 93,
+          "organizer": {
+            "company": "Multinacional de Telecomunicações"
+          },
+          "sponsorsMaster": [
+            "Vivo Empresas",
+            "Claro Brasil",
+            "Ericsson"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "MEDIA",
+          "hotelRadiusKm": 5,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 65
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Fretamento de Ônibus Executivos GRU <-> Bourbon",
+              "type": "FRETAMENTO_HOMOLOGADO"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 570,
+            "executiveVans": 12,
+            "buses46p": 16,
+            "taxisPerDay": 40
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-16",
+          "d120Date": "2025-12-15",
+          "d90Date": "2026-01-14",
+          "activeTriggers": [
+            "FRETAMENTO_CONEXAO_GUARULHOS"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "club-med-lake-paradise",
+    "name": "Imersões Corporativas & Incentivo no Club Med Lake Paradise",
+    "category": "CONVENCOES_RESORTS",
+    "sector": "Turismo de Incentivo & Imersões Tech/Fintechs",
+    "permanence": {
+      "frequency": "RECORRENTE_MENSAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Club Med Lake Paradise",
+      "city": "Mogi das Cruzes",
+      "state": "SP",
+      "region": "ALTO_TIETE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "med-fintech-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-07",
+          "end": "2026-10-09"
+        },
+        "location": {
+          "venue": "Club Med Lake Paradise",
+          "address": "Rodovia Engenheiro Cândido do Rego Chaves, 4500",
+          "city": "Mogi das Cruzes",
+          "state": "SP",
+          "region": "ALTO_TIETE"
+        },
+        "attendance": {
+          "official": 650,
+          "historical": 600,
+          "estimatedCorporateDelegations": 20,
+          "confidence": "ALTA",
+          "note": "Imersão de liderança e premiação de vendas com formato All-Inclusive corporativo."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "VENUE_CALENDAR",
+              "name": "Club Med Meetings & Events",
+              "url": "https://clubmed.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Fechamento de village corporativo para imersão empresarial."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 91,
+          "organizer": {
+            "company": "Fintech & Banco Digital"
+          },
+          "sponsorsMaster": [
+            "Mastercard",
+            "Elo",
+            "Dock"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 90,
+          "hotelPressure": "MEDIA",
+          "hotelRadiusKm": 5,
+          "airports": [
+            {
+              "code": "GRU",
+              "name": "Aeroporto Internacional de Guarulhos",
+              "distanceKm": 48
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Fretamento Executivo Mogi <-> GRU/CGH",
+              "type": "FRETAMENTO_HOMOLOGADO"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 300,
+            "executiveVans": 10,
+            "buses46p": 8,
+            "taxisPerDay": 25
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-10",
+          "d120Date": "2026-06-09",
+          "d90Date": "2026-07-09",
+          "activeTriggers": [
+            "VOUCHER_DIGITAL_AEROPORTO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "santos-export-bluemed",
+    "name": "Santos Export & Fórum Nacional de Logística e Comércio Exterior",
+    "category": "LOGISTICA_COMEX",
+    "sector": "Portos, Navegação, Agronegócio de Exportação & Infraestrutura",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "OUTUBRO",
+      "primaryVenue": "Blue Med Convention Center",
+      "city": "Santos",
+      "state": "SP",
+      "region": "LITORAL_SANTOS"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "santos-export-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-10-19",
+          "end": "2026-10-21"
+        },
+        "location": {
+          "venue": "Blue Med Convention Center",
+          "address": "Praça Almirante Gago Coutinho, 29 - Ponta da Praia",
+          "city": "Santos",
+          "state": "SP",
+          "region": "LITORAL_SANTOS"
+        },
+        "attendance": {
+          "official": 2500,
+          "historical": 2200,
+          "estimatedCorporateDelegations": 80,
+          "confidence": "ALTA",
+          "note": "Principal fórum de infraestrutura portuária e comércio exterior do Porto de Santos."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Brasil Export / Santos Export",
+              "url": "https://forumbrasilexport.com.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "Santos Export no Blue Med Convention Center em Santos/SP."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 92,
+          "organizer": {
+            "company": "Brasil Export & Una Marketing de Eventos"
+          },
+          "sponsorsMaster": [
+            "Santos Port Authority (APS)",
+            "BTP - Brasil Terminal Portuário",
+            "DP World Santos",
+            "Eldorado Brasil",
+            "Rumo Logística"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 10,
+          "airports": [
+            {
+              "code": "CGH",
+              "name": "Aeroporto de Congonhas (via Imigrantes)",
+              "distanceKm": 75
+            },
+            {
+              "code": "GRU",
+              "name": "Aeroporto de Guarulhos",
+              "distanceKm": 98
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Rádio Táxi Vermelho e Branco Santos & Vans Imigrantes",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 650,
+            "executiveVans": 22,
+            "buses46p": 8,
+            "taxisPerDay": 180
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-04-22",
+          "d120Date": "2026-06-21",
+          "d90Date": "2026-07-21",
+          "activeTriggers": [
+            "TRANSFERS_CONGONHAS_IMIGRANTES"
+          ]
+        }
+      }
+    ]
+  }
+]

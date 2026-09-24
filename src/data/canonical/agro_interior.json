@@ -1,0 +1,522 @@
+[
+  {
+    "eventId": "agrishow",
+    "name": "Agrishow - Feira Internacional de Tecnologia Agrícola em Ação",
+    "category": "AGRONEGOCIO_MAQUINARIO",
+    "sector": "Agropecuária & Máquinas Agrícolas",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "MAIO",
+      "primaryVenue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios",
+      "city": "Ribeirão Preto",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "agrishow-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-04-27",
+          "end": "2026-05-01",
+          "setupStart": "2026-04-15",
+          "breakdownEnd": "2026-05-06"
+        },
+        "location": {
+          "venue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios do Centro-Leste",
+          "address": "Rodovia Prefeito Antônio Duarte Nogueira, Km 321",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO",
+          "lat": -21.2185,
+          "lng": -47.8542
+        },
+        "attendance": {
+          "official": 195000,
+          "historical": 190000,
+          "estimatedCorporateDelegations": 520,
+          "confidence": "ALTA",
+          "note": "Público auditado de 195.000 visitantes qualificados na edição oficial da Informa Markets."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Agrishow Oficial",
+              "url": "https://www.agrishow.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "31ª Edição da Agrishow confirmada para o Polo Tecnológico de Ribeirão Preto."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 99,
+          "organizer": {
+            "company": "Informa Markets Brasil",
+            "cnpj": "00.109.876/0001-99",
+            "institutionalEntities": [
+              "ABIMAQ",
+              "ABAG",
+              "ANDIFA",
+              "SRB"
+            ]
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Bradesco",
+            "Santander",
+            "John Deere",
+            "Case IH"
+          ],
+          "targetCompanies": [
+            "Jacto",
+            "Stara",
+            "Valtra",
+            "Yara Fertilizantes",
+            "Bayer Crop Science"
+          ],
+          "decisionMakers": [
+            {
+              "nome": "Maurício Borges",
+              "cargo": "Diretor de Operações e Relações Internacionais",
+              "email": "mborges@agrishow.com.br"
+            },
+            {
+              "nome": "Renata Vianna",
+              "cargo": "Gerente de Hospitalidade e Viagens Corporativas",
+              "email": "rvianna@agrishow.com.br"
+            }
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 50,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 15
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4500,
+            "executiveVans": 90,
+            "buses46p": 40,
+            "taxisPerDay": 700
+          }
+        },
+        "alerts": {
+          "d180Date": "2025-10-29",
+          "d120Date": "2025-12-28",
+          "d90Date": "2026-01-27",
+          "activeTriggers": [
+            "HOTEL_BLOCK_SHIELD_D180"
+          ]
+        }
+      },
+      {
+        "occurrenceId": "agrishow-2027",
+        "edition": 2027,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2027-04-26",
+          "end": "2027-04-30",
+          "setupStart": "2027-04-14",
+          "breakdownEnd": "2027-05-05"
+        },
+        "location": {
+          "venue": "Polo Regional de Desenvolvimento Tecnológico dos Agronegócios do Centro-Leste",
+          "address": "Rodovia Prefeito Antônio Duarte Nogueira, Km 321",
+          "city": "Ribeirão Preto",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": null,
+          "historical": 195000,
+          "estimatedCorporateDelegations": 550,
+          "confidence": "ALTA",
+          "note": "Data confirmada no calendário plurianual da Informa Markets."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Agrishow Oficial",
+              "url": "https://www.agrishow.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "A 32ª edição da Agrishow ocorrerá de 26 a 30 de abril de 2027."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 98,
+          "organizer": {
+            "company": "Informa Markets Brasil"
+          },
+          "sponsorsMaster": [
+            "Banco do Brasil",
+            "Bradesco",
+            "Santander",
+            "John Deere"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 180,
+          "hotelPressure": "CRITICA",
+          "hotelRadiusKm": 50,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto Leite Lopes",
+              "distanceKm": 15
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO Táxi",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "SIMULADA",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 4600,
+            "executiveVans": 95,
+            "buses46p": 42,
+            "taxisPerDay": 720
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-10-28",
+          "d120Date": "2026-12-27",
+          "d90Date": "2027-01-26",
+          "activeTriggers": [
+            "PROSPECCAO_PREVIA_D180"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "fenasucro-agrocana",
+    "name": "Fenasucro & Agrocana - Feira Internacional de Bioenergia & Tecnologia Sucroalcooleira",
+    "category": "AGRONEGOCIO_BIOENERGIA",
+    "sector": "Bioenergia, Etanol & Açúcar",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "AGOSTO",
+      "primaryVenue": "Centro de Eventos Zanini",
+      "city": "Sertãozinho",
+      "state": "SP",
+      "region": "INTERIOR_AGRO"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "fenasucro-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-08-11",
+          "end": "2026-08-14",
+          "setupStart": "2026-08-04",
+          "breakdownEnd": "2026-08-16"
+        },
+        "location": {
+          "venue": "Centro de Eventos Zanini",
+          "address": "Marginal Vicente Zanini, s/n - Sertãozinho",
+          "city": "Sertãozinho",
+          "state": "SP",
+          "region": "INTERIOR_AGRO"
+        },
+        "attendance": {
+          "official": 45000,
+          "historical": 42000,
+          "estimatedCorporateDelegations": 260,
+          "confidence": "ALTA",
+          "note": "Maior feira mundial de bioenergia de cana-de-açúcar promovida pela RX Brasil e CEISE Br."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Fenasucro Oficial",
+              "url": "https://www.fenasucro.com.br",
+              "retrievedAt": "2026-08-20",
+              "quote": "Fenasucro & Agrocana 2026 confirmada para 11 a 14 de agosto de 2026 em Sertãozinho."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 95,
+          "organizer": {
+            "company": "RX Brasil (Reed Exhibitions) & CEISE Br"
+          },
+          "sponsorsMaster": [
+            "Raízen",
+            "São Martinho",
+            "BP Bunge Bioenergia",
+            "WEG Equipamentos"
+          ],
+          "targetCompanies": [
+            "Dedini",
+            "Zanini Renk",
+            "SMC Automação",
+            "Tetra Pak"
+          ],
+          "decisionMakers": [
+            {
+              "nome": "Paulo Montabone",
+              "cargo": "Diretor da Fenasucro & Agrocana",
+              "email": "pmontabone@rxglobal.com"
+            },
+            {
+              "nome": "Ana Paula Rocha",
+              "cargo": "Gerente MICE & Hospitality RX",
+              "email": "ana.rocha@rxglobal.com"
+            }
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 150,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 30,
+          "airports": [
+            {
+              "code": "RAO",
+              "name": "Aeroporto de Ribeirão Preto",
+              "distanceKm": 25
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Expresso RAO & CooperSertão",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 2200,
+            "executiveVans": 40,
+            "buses46p": 18,
+            "taxisPerDay": 350
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-02-12",
+          "d120Date": "2026-04-13",
+          "d90Date": "2026-05-13",
+          "activeTriggers": [
+            "HOTEL_RIBEIRAO_SERTAOZINHO"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "emapa-avare",
+    "name": "EMAPA Avaré - Exposição Municipal Agropecuária & Leilões de Pecuária de Elite",
+    "category": "AGRONEGOCIO_PECUARIA",
+    "sector": "Pecuária de Corte, Leite & Equinos",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "DEZEMBRO",
+      "primaryVenue": "Parque de Exposições Fernando Cruz Pimentel",
+      "city": "Avaré",
+      "state": "SP",
+      "region": "INTERIOR_CENTRO_OESTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "emapa-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-12-02",
+          "end": "2026-12-08"
+        },
+        "location": {
+          "venue": "Parque de Exposições Fernando Cruz Pimentel",
+          "address": "Avenida Mário Covas, s/n",
+          "city": "Avaré",
+          "state": "SP",
+          "region": "INTERIOR_CENTRO_OESTE"
+        },
+        "attendance": {
+          "official": 50000,
+          "historical": 48000,
+          "estimatedCorporateDelegations": 120,
+          "confidence": "ALTA",
+          "note": "Considerada uma das maiores feiras de criadores e leilões de gado Nelore e Cavalos Quarto de Milha do Brasil."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Prefeitura de Avaré / EMAPA",
+              "url": "https://avare.sp.gov.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "EMAPA Avaré 2026 no Parque de Exposições."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 90,
+          "organizer": {
+            "company": "Prefeitura Municipal de Avaré & Sindicato Rural"
+          },
+          "sponsorsMaster": [
+            "Bradesco Agro",
+            "Cargill Nutrição Animal",
+            "Tortuga / DSM"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 40,
+          "airports": [
+            {
+              "code": "JTC",
+              "name": "Aeroporto de Bauru/Arealva",
+              "distanceKm": 110
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Cooperativa Táxi Avaré & Vans Jurumirim",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "SIMULADA",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 950,
+            "executiveVans": 20,
+            "buses46p": 8,
+            "taxisPerDay": 150
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-06-05",
+          "d120Date": "2026-08-04",
+          "d90Date": "2026-09-03",
+          "activeTriggers": [
+            "HOTEL_REPRESA_JURUMIRIM"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "eventId": "expo-rio-preto",
+    "name": "Expo Rio Preto - Exposição Agropecuária & Genética Bovina",
+    "category": "AGRONEGOCIO_PECUARIA",
+    "sector": "Genética Bovina, Leilões & Agritech",
+    "permanence": {
+      "frequency": "ANUAL",
+      "typicalMonth": "SETEMBRO",
+      "primaryVenue": "Recinto de Exposições Alberto Bertelli Lucato",
+      "city": "São José do Rio Preto",
+      "state": "SP",
+      "region": "INTERIOR_NOROESTE"
+    },
+    "occurrences": [
+      {
+        "occurrenceId": "expo-rio-preto-2026",
+        "edition": 2026,
+        "status": "CONFIRMADO",
+        "dates": {
+          "start": "2026-09-16",
+          "end": "2026-09-20"
+        },
+        "location": {
+          "venue": "Recinto de Exposições Alberto Bertelli Lucato",
+          "address": "Rua Daniel Antônio de Freitas, 115",
+          "city": "São José do Rio Preto",
+          "state": "SP",
+          "region": "INTERIOR_NOROESTE"
+        },
+        "attendance": {
+          "official": 80000,
+          "historical": 75000,
+          "estimatedCorporateDelegations": 160,
+          "confidence": "ALTA",
+          "note": "Tradicional feira pecuária e rodadas de negócios do noroeste paulista."
+        },
+        "verification": {
+          "confidenceLevel": "ALTA",
+          "lastVerifiedAt": "2026-08-22T08:00:00-03:00",
+          "sources": [
+            {
+              "type": "OFFICIAL_PORTAL",
+              "name": "Prefeitura de São José do Rio Preto",
+              "url": "https://riopreto.sp.gov.br",
+              "retrievedAt": "2026-08-19",
+              "quote": "63ª Expo Rio Preto confirmada para setembro de 2026."
+            }
+          ]
+        },
+        "commercial": {
+          "score": 91,
+          "organizer": {
+            "company": "Prefeitura de Rio Preto & ARPA"
+          },
+          "sponsorsMaster": [
+            "Sicredi",
+            "Banco do Brasil",
+            "Minerva Foods"
+          ]
+        },
+        "logistics": {
+          "criticalLeadTimeDays": 120,
+          "hotelPressure": "ALTA",
+          "hotelRadiusKm": 25,
+          "airports": [
+            {
+              "code": "SJP",
+              "name": "Aeroporto de São José do Rio Preto (SJP)",
+              "distanceKm": 8
+            }
+          ],
+          "mobilityProviders": [
+            {
+              "name": "Rádio Táxi Rio Preto",
+              "type": "COOPERATIVA_HOMOLOGADA"
+            }
+          ],
+          "recommendationStatus": "AUDITADA_HISTORICO",
+          "estimatedNeeds": {
+            "hotelRoomsDailyPeak": 1400,
+            "executiveVans": 28,
+            "buses46p": 12,
+            "taxisPerDay": 280
+          }
+        },
+        "alerts": {
+          "d180Date": "2026-03-20",
+          "d120Date": "2026-05-19",
+          "d90Date": "2026-06-18",
+          "activeTriggers": [
+            "HOTEL_ANDALO_RIO_PRETO"
+          ]
+        }
+      }
+    ]
+  }
+]

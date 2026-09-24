@@ -1,0 +1,80 @@
+[
+  {
+    "id": "DEAL-001",
+    "eventoId": "EVT-2026-001",
+    "eventoNome": "Futurecom 2026 (Telecom, IA & Infra)",
+    "cliente": "Informa Markets Brasil",
+    "fase": "PROPOSTA_ENVIADA",
+    "valorEstimado": 230000.00,
+    "receitaPrevista": 25400.00,
+    "probabilidade": 0.60,
+    "decisor": "Rodrigo Albuquerque (Diretor de Infra MICE)",
+    "dataCriacao": "2026-08-15",
+    "proximaAcao": "Follow-up da minuta com compras indiretas para fechamento do shuttle de vans e hotelaria."
+  },
+  {
+    "id": "DEAL-002",
+    "eventoId": "EVT-2026-002",
+    "eventoNome": "Fenalaw 2026 (Gestão Jurídica)",
+    "cliente": "Informa Markets & Fenalaw Gestão",
+    "fase": "NEGOCIACAO",
+    "valorEstimado": 165000.00,
+    "receitaPrevista": 18200.00,
+    "probabilidade": 0.75,
+    "decisor": "Dra. Patrícia Magalhães (Diretora de Conteúdo)",
+    "dataCriacao": "2026-08-10",
+    "proximaAcao": "Alinhamento final do contrato de room block com o Hotel Transamerica Berrini."
+  },
+  {
+    "id": "DEAL-003",
+    "eventoId": "EVT-2026-003",
+    "eventoNome": "HSM+ 2026 (Liderança & C-Level)",
+    "cliente": "HSM Educação Executiva",
+    "fase": "QUALIFICADO",
+    "valorEstimado": 140000.00,
+    "receitaPrevista": 15500.00,
+    "probabilidade": 0.40,
+    "decisor": "Alexandre Vasconcelos (Head de Experiência)",
+    "dataCriacao": "2026-08-18",
+    "proximaAcao": "Apresentar os 3 cenários de pacotes para a diretoria executiva."
+  },
+  {
+    "id": "DEAL-004",
+    "eventoId": "EVT-2026-004",
+    "eventoNome": "Fenatran 2026 (Feira de Transporte)",
+    "cliente": "RX Brasil (Reed Exhibitions)",
+    "fase": "RADAR",
+    "valorEstimado": 450000.00,
+    "receitaPrevista": 48000.00,
+    "probabilidade": 0.25,
+    "decisor": "Carlos Eduardo Siqueira (Diretor de Operações)",
+    "dataCriacao": "2026-08-20",
+    "proximaAcao": "Mapear decisores de grandes montadoras expositoras (Volvo, Scania, Mercedes)."
+  },
+  {
+    "id": "DEAL-005",
+    "eventoId": "EVT-2026-005",
+    "eventoNome": "Congresso Brasileiro de Oncologia",
+    "cliente": "Sociedade Brasileira de Oncologia",
+    "fase": "CONTRATO_FECHADO",
+    "valorEstimado": 159650.00,
+    "receitaPrevista": 17015.00,
+    "probabilidade": 0.95,
+    "decisor": "Dr. Fernando Andrade (Diretor de Relações Médicas)",
+    "dataCriacao": "2026-08-05",
+    "proximaAcao": "Emitir vouchers de táxi e confirmar lista de passageiros com a VIP Transfers."
+  },
+  {
+    "id": "DEAL-006",
+    "eventoId": "EVT-2026-006",
+    "eventoNome": "CCXP26 (Delegações Corporativas & VIP)",
+    "cliente": "Omelete Company & CCXP B2B",
+    "fase": "RADAR",
+    "valorEstimado": 280000.00,
+    "receitaPrevista": 31000.00,
+    "probabilidade": 0.20,
+    "decisor": "Marcos Vinicius Paiva (Head de Parcerias)",
+    "dataCriacao": "2026-08-20",
+    "proximaAcao": "Qualificar demanda de acomodação para equipes de estúdios internacionais."
+  }
+]

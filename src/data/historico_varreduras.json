@@ -1,0 +1,896 @@
+[
+  {
+    "timestamp": "2026-08-21T18:39:02.974Z",
+    "totalFontesMonitoradas": 9,
+    "totalEventosNoRadar": 76,
+    "novosEventosDetectados": 2,
+    "totalDescobertasPendentes": 2,
+    "logFontes": [
+      {
+        "fonteId": "sp_expo_crawler",
+        "fonteNome": "São Paulo Expo (GL Events Calendar)",
+        "url": "https://saopauloexpo.com.br/agenda-eventos",
+        "polo": "sp_expo",
+        "status": "OK",
+        "itensEscaneados": 22,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "distrito_anhembi_crawler",
+        "fonteNome": "Distrito Anhembi (GL Events Agenda)",
+        "url": "https://anhembi.com.br/eventos-programados",
+        "polo": "anhembi",
+        "status": "OK",
+        "itensEscaneados": 21,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "transamerica_crawler",
+        "fonteNome": "Transamerica Expo Center (Feiras & Congressos)",
+        "url": "https://transamericaexpo.com.br/calendario-oficial",
+        "polo": "transamerica_expo",
+        "status": "OK",
+        "itensEscaneados": 16,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "wtc_events_crawler",
+        "fonteNome": "WTC Events Center (Berrini & C-Level Summits)",
+        "url": "https://wtceventscenter.com.br/agenda-corporativa",
+        "polo": "wds_wtc",
+        "status": "OK",
+        "itensEscaneados": 13,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "frei_caneca_crawler",
+        "fonteNome": "Centro de Convenções Frei Caneca (Eventos Médicos)",
+        "url": "https://convencoesfreicaneca.com.br/programacao",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 13,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "royal_palm_hall_crawler",
+        "fonteNome": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "url": "https://royalpalm.com.br/hall/agenda",
+        "polo": "campinas_resorts",
+        "status": "OK",
+        "itensEscaneados": 24,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "agrishow_informa_crawler",
+        "fonteNome": "Agrishow & Informa Markets Agro Calendar",
+        "url": "https://agrishow.com.br/agenda-setor-agro",
+        "polo": "ribeirao_preto",
+        "status": "OK",
+        "itensEscaneados": 16,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "blue_med_santos_crawler",
+        "fonteNome": "Blue Med Convention Center Santos (Porto & Export)",
+        "url": "https://bluemedconventioncenter.com.br/agenda",
+        "polo": "santos_litoral",
+        "status": "OK",
+        "itensEscaneados": 11,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      },
+      {
+        "fonteId": "sociedades_medicas_crawler",
+        "fonteNome": "Feed AMB / CFM / SBC / SBOT (Congressos Médicos Brasil)",
+        "url": "https://amb.org.br/calendario-nacional-congressos",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 14,
+        "timestamp": "2026-08-21T18:39:02.974Z"
+      }
+    ],
+    "eventosDescobertos": [
+      {
+        "id": "DISC-2026-004",
+        "nome": "Simpósio Internacional de Bioinsumos & Regeneração de Solos 2026",
+        "segmento": "Agronegócio / Bioinsumos & Sustentabilidade",
+        "local_evento": "piracicaba_agtech",
+        "cidade": "Piracicaba",
+        "data_inicio": "2026-10-14",
+        "data_fim": "2026-10-16",
+        "dias_duracao": 3,
+        "dias_antecedencia": 85,
+        "publico_total_estimado": 950,
+        "percentual_fora_da_cidade": 0.75,
+        "empresa_organizadora": "Embrapa Meio Ambiente & ESALQ USP",
+        "cnpj_organizador": "00.348.003/0001-10",
+        "decisores_identificados": [
+          {
+            "nome": "Dr. Marcelo Morandi",
+            "cargo": "Chefe-Geral da Embrapa Meio Ambiente",
+            "email": "marcelo.morandi@embrapa.br"
+          },
+          {
+            "nome": "Juliana Basso",
+            "cargo": "Coordenadora de Eventos Científicos",
+            "email": "juliana.basso@embrapa.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 712,
+          "room_nights_estimados": 2136,
+          "transfers_aeroporto_necessarios": 600,
+          "deslocamentos_hotel_evento_dia": 712,
+          "aereos_estimados": 540,
+          "jantares_executivos_grupos": 4
+        },
+        "budget_alvo_estimado": 780000,
+        "fonteCaptada": "Feed ESALQ / Parque Tecnológico Piracicaba",
+        "dataDescoberta": "2026-08-21T18:13:17.937Z",
+        "scoreOportunidade": {
+          "scoreTotal": 83,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 5,
+            "demandaAerea": 3
+          }
+        },
+        "statusStaging": "PENDENTE_APROVACAO"
+      },
+      {
+        "id": "DISC-2026-005",
+        "nome": "Convenção Anual de Vendas Boticário & Beleza na Web 2026",
+        "segmento": "Varejo / Cosméticos & Franquias",
+        "local_evento": "campinas_resorts",
+        "cidade": "Campinas",
+        "data_inicio": "2026-10-06",
+        "data_fim": "2026-10-09",
+        "dias_duracao": 4,
+        "dias_antecedencia": 75,
+        "publico_total_estimado": 1100,
+        "percentual_fora_da_cidade": 0.88,
+        "empresa_organizadora": "Grupo Boticário (Botica Comercial Farmacêutica Ltda)",
+        "cnpj_organizador": "77.388.007/0001-57",
+        "decisores_identificados": [
+          {
+            "nome": "Fernando Modé",
+            "cargo": "CEO Grupo Boticário",
+            "email": "fmode@grupoboticario.com.br"
+          },
+          {
+            "nome": "Camila Alcantara",
+            "cargo": "Diretora de MICE & Experiências Corporativas",
+            "email": "camila.alcantara@grupoboticario.com.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 968,
+          "room_nights_estimados": 3872,
+          "transfers_aeroporto_necessarios": 920,
+          "deslocamentos_hotel_evento_dia": 968,
+          "aereos_estimados": 850,
+          "jantares_executivos_grupos": 8
+        },
+        "budget_alvo_estimado": 2100000,
+        "fonteCaptada": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "dataDescoberta": "2026-08-21T18:13:17.937Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        },
+        "statusStaging": "PENDENTE_APROVACAO"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-21T17:16:34.771Z",
+    "totalFontesMonitoradas": 9,
+    "totalEventosNoRadar": 58,
+    "novosEventosDetectados": 0,
+    "totalDescobertasPendentes": 4,
+    "logFontes": [
+      {
+        "fonteId": "sp_expo_crawler",
+        "fonteNome": "São Paulo Expo (GL Events Calendar)",
+        "url": "https://saopauloexpo.com.br/agenda-eventos",
+        "polo": "sp_expo",
+        "status": "OK",
+        "itensEscaneados": 21,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "distrito_anhembi_crawler",
+        "fonteNome": "Distrito Anhembi (GL Events Agenda)",
+        "url": "https://anhembi.com.br/eventos-programados",
+        "polo": "anhembi",
+        "status": "OK",
+        "itensEscaneados": 19,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "transamerica_crawler",
+        "fonteNome": "Transamerica Expo Center (Feiras & Congressos)",
+        "url": "https://transamericaexpo.com.br/calendario-oficial",
+        "polo": "transamerica_expo",
+        "status": "OK",
+        "itensEscaneados": 14,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "wtc_events_crawler",
+        "fonteNome": "WTC Events Center (Berrini & C-Level Summits)",
+        "url": "https://wtceventscenter.com.br/agenda-corporativa",
+        "polo": "wds_wtc",
+        "status": "OK",
+        "itensEscaneados": 15,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "frei_caneca_crawler",
+        "fonteNome": "Centro de Convenções Frei Caneca (Eventos Médicos)",
+        "url": "https://convencoesfreicaneca.com.br/programacao",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 24,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "royal_palm_hall_crawler",
+        "fonteNome": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "url": "https://royalpalm.com.br/hall/agenda",
+        "polo": "campinas_resorts",
+        "status": "OK",
+        "itensEscaneados": 13,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "agrishow_informa_crawler",
+        "fonteNome": "Agrishow & Informa Markets Agro Calendar",
+        "url": "https://agrishow.com.br/agenda-setor-agro",
+        "polo": "ribeirao_preto",
+        "status": "OK",
+        "itensEscaneados": 21,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "blue_med_santos_crawler",
+        "fonteNome": "Blue Med Convention Center Santos (Porto & Export)",
+        "url": "https://bluemedconventioncenter.com.br/agenda",
+        "polo": "santos_litoral",
+        "status": "OK",
+        "itensEscaneados": 12,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      },
+      {
+        "fonteId": "sociedades_medicas_crawler",
+        "fonteNome": "Feed AMB / CFM / SBC / SBOT (Congressos Médicos Brasil)",
+        "url": "https://amb.org.br/calendario-nacional-congressos",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 10,
+        "timestamp": "2026-08-21T17:16:34.771Z"
+      }
+    ],
+    "eventosDescobertos": [
+      {
+        "id": "DISC-2026-002",
+        "nome": "Seminário Nacional de Logística Integrada & Frotas do Agro 2026 (AgroLog SP)",
+        "segmento": "Agronegócio / Logística & Frotas",
+        "local_evento": "ribeirao_preto",
+        "cidade": "Ribeirão Preto",
+        "data_inicio": "2026-09-22",
+        "data_fim": "2026-09-24",
+        "dias_duracao": 3,
+        "dias_antecedencia": 65,
+        "publico_total_estimado": 1400,
+        "percentual_fora_da_cidade": 0.8,
+        "empresa_organizadora": "Associação Brasileira de Logística Agroindustrial (ABLOG Agro)",
+        "cnpj_organizador": "18.987.654/0001-22",
+        "decisores_identificados": [
+          {
+            "nome": "Eduardo Campelo",
+            "cargo": "Diretor de Logística & Transportes Agro",
+            "email": "campelo@ablogagro.org.br"
+          },
+          {
+            "nome": "Mariana Siqueira",
+            "cargo": "Coordenadora de Viagens e Congressistas",
+            "email": "mariana@ablogagro.org.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 1120,
+          "room_nights_estimados": 3360,
+          "transfers_aeroporto_necessarios": 950,
+          "deslocamentos_hotel_evento_dia": 1120,
+          "aereos_estimados": 850,
+          "jantares_executivos_grupos": 5
+        },
+        "budget_alvo_estimado": 890000,
+        "fonteCaptada": "Agrishow & Informa Markets Agro Calendar",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-003",
+        "nome": "Convenção Nacional de Franqueados Smart Fit 2026 (Liderança & Expansão)",
+        "segmento": "Varejo / Franquias & Fitness",
+        "local_evento": "wds_wtc",
+        "cidade": "São Paulo",
+        "data_inicio": "2026-11-04",
+        "data_fim": "2026-11-06",
+        "dias_duracao": 3,
+        "dias_antecedencia": 110,
+        "publico_total_estimado": 750,
+        "percentual_fora_da_cidade": 0.85,
+        "empresa_organizadora": "Smartfit Escola de Ginástica e Dança S.A.",
+        "cnpj_organizador": "07.594.978/0001-78",
+        "decisores_identificados": [
+          {
+            "nome": "Edgard Corona",
+            "cargo": "CEO & Fundador Grupo Smart Fit",
+            "email": "presidencia@smartfit.com"
+          },
+          {
+            "nome": "Talita Pinheiro",
+            "cargo": "Head de Expansão e Eventos Globais",
+            "email": "talita.pinheiro@smartfit.com"
+          }
+        ],
+        "poder_economico_segmento": "ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 638,
+          "room_nights_estimados": 1914,
+          "transfers_aeroporto_necessarios": 580,
+          "deslocamentos_hotel_evento_dia": 638,
+          "aereos_estimados": 520,
+          "jantares_executivos_grupos": 6
+        },
+        "budget_alvo_estimado": 950000,
+        "fonteCaptada": "WTC Events Center (Berrini & C-Level Summits)",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 10,
+            "demandaHospedagem": 6,
+            "demandaMobilidade": 5,
+            "demandaAerea": 3
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-004",
+        "nome": "Simpósio Internacional de Bioinsumos & Regeneração de Solos 2026",
+        "segmento": "Agronegócio / Bioinsumos & Sustentabilidade",
+        "local_evento": "piracicaba_agtech",
+        "cidade": "Piracicaba",
+        "data_inicio": "2026-10-14",
+        "data_fim": "2026-10-16",
+        "dias_duracao": 3,
+        "dias_antecedencia": 85,
+        "publico_total_estimado": 950,
+        "percentual_fora_da_cidade": 0.75,
+        "empresa_organizadora": "Embrapa Meio Ambiente & ESALQ USP",
+        "cnpj_organizador": "00.348.003/0001-10",
+        "decisores_identificados": [
+          {
+            "nome": "Dr. Marcelo Morandi",
+            "cargo": "Chefe-Geral da Embrapa Meio Ambiente",
+            "email": "marcelo.morandi@embrapa.br"
+          },
+          {
+            "nome": "Juliana Basso",
+            "cargo": "Coordenadora de Eventos Científicos",
+            "email": "juliana.basso@embrapa.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 712,
+          "room_nights_estimados": 2136,
+          "transfers_aeroporto_necessarios": 600,
+          "deslocamentos_hotel_evento_dia": 712,
+          "aereos_estimados": 540,
+          "jantares_executivos_grupos": 4
+        },
+        "budget_alvo_estimado": 780000,
+        "fonteCaptada": "Feed ESALQ / Parque Tecnológico Piracicaba",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 83,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 5,
+            "demandaAerea": 3
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-005",
+        "nome": "Convenção Anual de Vendas Boticário & Beleza na Web 2026",
+        "segmento": "Varejo / Cosméticos & Franquias",
+        "local_evento": "campinas_resorts",
+        "cidade": "Campinas",
+        "data_inicio": "2026-10-06",
+        "data_fim": "2026-10-09",
+        "dias_duracao": 4,
+        "dias_antecedencia": 75,
+        "publico_total_estimado": 1100,
+        "percentual_fora_da_cidade": 0.88,
+        "empresa_organizadora": "Grupo Boticário (Botica Comercial Farmacêutica Ltda)",
+        "cnpj_organizador": "77.388.007/0001-57",
+        "decisores_identificados": [
+          {
+            "nome": "Fernando Modé",
+            "cargo": "CEO Grupo Boticário",
+            "email": "fmode@grupoboticario.com.br"
+          },
+          {
+            "nome": "Camila Alcantara",
+            "cargo": "Diretora de MICE & Experiências Corporativas",
+            "email": "camila.alcantara@grupoboticario.com.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 968,
+          "room_nights_estimados": 3872,
+          "transfers_aeroporto_necessarios": 920,
+          "deslocamentos_hotel_evento_dia": 968,
+          "aereos_estimados": 850,
+          "jantares_executivos_grupos": 8
+        },
+        "budget_alvo_estimado": 2100000,
+        "fonteCaptada": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-21T17:11:27.254Z",
+    "totalFontesMonitoradas": 9,
+    "totalEventosNoRadar": 57,
+    "novosEventosDetectados": 0,
+    "totalDescobertasPendentes": 5,
+    "logFontes": [
+      {
+        "fonteId": "sp_expo_crawler",
+        "fonteNome": "São Paulo Expo (GL Events Calendar)",
+        "url": "https://saopauloexpo.com.br/agenda-eventos",
+        "polo": "sp_expo",
+        "status": "OK",
+        "itensEscaneados": 16,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "distrito_anhembi_crawler",
+        "fonteNome": "Distrito Anhembi (GL Events Agenda)",
+        "url": "https://anhembi.com.br/eventos-programados",
+        "polo": "anhembi",
+        "status": "OK",
+        "itensEscaneados": 13,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "transamerica_crawler",
+        "fonteNome": "Transamerica Expo Center (Feiras & Congressos)",
+        "url": "https://transamericaexpo.com.br/calendario-oficial",
+        "polo": "transamerica_expo",
+        "status": "OK",
+        "itensEscaneados": 21,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "wtc_events_crawler",
+        "fonteNome": "WTC Events Center (Berrini & C-Level Summits)",
+        "url": "https://wtceventscenter.com.br/agenda-corporativa",
+        "polo": "wds_wtc",
+        "status": "OK",
+        "itensEscaneados": 20,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "frei_caneca_crawler",
+        "fonteNome": "Centro de Convenções Frei Caneca (Eventos Médicos)",
+        "url": "https://convencoesfreicaneca.com.br/programacao",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 21,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "royal_palm_hall_crawler",
+        "fonteNome": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "url": "https://royalpalm.com.br/hall/agenda",
+        "polo": "campinas_resorts",
+        "status": "OK",
+        "itensEscaneados": 14,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "agrishow_informa_crawler",
+        "fonteNome": "Agrishow & Informa Markets Agro Calendar",
+        "url": "https://agrishow.com.br/agenda-setor-agro",
+        "polo": "ribeirao_preto",
+        "status": "OK",
+        "itensEscaneados": 13,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "blue_med_santos_crawler",
+        "fonteNome": "Blue Med Convention Center Santos (Porto & Export)",
+        "url": "https://bluemedconventioncenter.com.br/agenda",
+        "polo": "santos_litoral",
+        "status": "OK",
+        "itensEscaneados": 18,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      },
+      {
+        "fonteId": "sociedades_medicas_crawler",
+        "fonteNome": "Feed AMB / CFM / SBC / SBOT (Congressos Médicos Brasil)",
+        "url": "https://amb.org.br/calendario-nacional-congressos",
+        "polo": "frei_caneca",
+        "status": "OK",
+        "itensEscaneados": 22,
+        "timestamp": "2026-08-21T17:11:27.254Z"
+      }
+    ],
+    "eventosDescobertos": [
+      {
+        "id": "DISC-2026-001",
+        "nome": "Congresso Brasileiro de Cirurgia Bariátrica e Metabólica 2026 (SBCBM)",
+        "segmento": "Farmacêutico / Saúde",
+        "local_evento": "transamerica_expo",
+        "cidade": "São Paulo",
+        "data_inicio": "2026-10-21",
+        "data_fim": "2026-10-24",
+        "dias_duracao": 4,
+        "dias_antecedencia": 95,
+        "publico_total_estimado": 3800,
+        "percentual_fora_da_cidade": 0.78,
+        "empresa_organizadora": "Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)",
+        "cnpj_organizador": "02.456.789/0001-44",
+        "decisores_identificados": [
+          {
+            "nome": "Dr. Antônio Carlos Valezi",
+            "cargo": "Presidente da Comissão Organizadora SBCBM",
+            "email": "eventos@sbcbm.org.br"
+          },
+          {
+            "nome": "Renata Lemos",
+            "cargo": "Gerente de Hospitalidade e Relações com a Indústria Farmacêutica",
+            "email": "renata.lemos@sbcbm.org.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 2964,
+          "room_nights_estimados": 11856,
+          "transfers_aeroporto_necessarios": 2300,
+          "deslocamentos_hotel_evento_dia": 2964,
+          "aereos_estimados": 2100,
+          "jantares_executivos_grupos": 12
+        },
+        "budget_alvo_estimado": 2450000,
+        "fonteCaptada": "Transamerica Expo Center (Feiras & Congressos)",
+        "dataDescoberta": "2026-08-21T17:11:21.579Z",
+        "scoreOportunidade": {
+          "scoreTotal": 94,
+          "tier": "OURO 🏆",
+          "acao": "Atacar imediatamente com equipe comercial e proposta pré-configurada.",
+          "breakdown": {
+            "publico": 15,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-002",
+        "nome": "Seminário Nacional de Logística Integrada & Frotas do Agro 2026 (AgroLog SP)",
+        "segmento": "Agronegócio / Logística & Frotas",
+        "local_evento": "ribeirao_preto",
+        "cidade": "Ribeirão Preto",
+        "data_inicio": "2026-09-22",
+        "data_fim": "2026-09-24",
+        "dias_duracao": 3,
+        "dias_antecedencia": 65,
+        "publico_total_estimado": 1400,
+        "percentual_fora_da_cidade": 0.8,
+        "empresa_organizadora": "Associação Brasileira de Logística Agroindustrial (ABLOG Agro)",
+        "cnpj_organizador": "18.987.654/0001-22",
+        "decisores_identificados": [
+          {
+            "nome": "Eduardo Campelo",
+            "cargo": "Diretor de Logística & Transportes Agro",
+            "email": "campelo@ablogagro.org.br"
+          },
+          {
+            "nome": "Mariana Siqueira",
+            "cargo": "Coordenadora de Viagens e Congressistas",
+            "email": "mariana@ablogagro.org.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 1120,
+          "room_nights_estimados": 3360,
+          "transfers_aeroporto_necessarios": 950,
+          "deslocamentos_hotel_evento_dia": 1120,
+          "aereos_estimados": 850,
+          "jantares_executivos_grupos": 5
+        },
+        "budget_alvo_estimado": 890000,
+        "fonteCaptada": "Agrishow & Informa Markets Agro Calendar",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-003",
+        "nome": "Convenção Nacional de Franqueados Smart Fit 2026 (Liderança & Expansão)",
+        "segmento": "Varejo / Franquias & Fitness",
+        "local_evento": "wds_wtc",
+        "cidade": "São Paulo",
+        "data_inicio": "2026-11-04",
+        "data_fim": "2026-11-06",
+        "dias_duracao": 3,
+        "dias_antecedencia": 110,
+        "publico_total_estimado": 750,
+        "percentual_fora_da_cidade": 0.85,
+        "empresa_organizadora": "Smartfit Escola de Ginástica e Dança S.A.",
+        "cnpj_organizador": "07.594.978/0001-78",
+        "decisores_identificados": [
+          {
+            "nome": "Edgard Corona",
+            "cargo": "CEO & Fundador Grupo Smart Fit",
+            "email": "presidencia@smartfit.com"
+          },
+          {
+            "nome": "Talita Pinheiro",
+            "cargo": "Head de Expansão e Eventos Globais",
+            "email": "talita.pinheiro@smartfit.com"
+          }
+        ],
+        "poder_economico_segmento": "ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 638,
+          "room_nights_estimados": 1914,
+          "transfers_aeroporto_necessarios": 580,
+          "deslocamentos_hotel_evento_dia": 638,
+          "aereos_estimados": 520,
+          "jantares_executivos_grupos": 6
+        },
+        "budget_alvo_estimado": 950000,
+        "fonteCaptada": "WTC Events Center (Berrini & C-Level Summits)",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 10,
+            "demandaHospedagem": 6,
+            "demandaMobilidade": 5,
+            "demandaAerea": 3
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-004",
+        "nome": "Simpósio Internacional de Bioinsumos & Regeneração de Solos 2026",
+        "segmento": "Agronegócio / Bioinsumos & Sustentabilidade",
+        "local_evento": "piracicaba_agtech",
+        "cidade": "Piracicaba",
+        "data_inicio": "2026-10-14",
+        "data_fim": "2026-10-16",
+        "dias_duracao": 3,
+        "dias_antecedencia": 85,
+        "publico_total_estimado": 950,
+        "percentual_fora_da_cidade": 0.75,
+        "empresa_organizadora": "Embrapa Meio Ambiente & ESALQ USP",
+        "cnpj_organizador": "00.348.003/0001-10",
+        "decisores_identificados": [
+          {
+            "nome": "Dr. Marcelo Morandi",
+            "cargo": "Chefe-Geral da Embrapa Meio Ambiente",
+            "email": "marcelo.morandi@embrapa.br"
+          },
+          {
+            "nome": "Juliana Basso",
+            "cargo": "Coordenadora de Eventos Científicos",
+            "email": "juliana.basso@embrapa.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 712,
+          "room_nights_estimados": 2136,
+          "transfers_aeroporto_necessarios": 600,
+          "deslocamentos_hotel_evento_dia": 712,
+          "aereos_estimados": 540,
+          "jantares_executivos_grupos": 4
+        },
+        "budget_alvo_estimado": 780000,
+        "fonteCaptada": "Feed ESALQ / Parque Tecnológico Piracicaba",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 83,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 5,
+            "demandaAerea": 3
+          }
+        }
+      },
+      {
+        "id": "DISC-2026-005",
+        "nome": "Convenção Anual de Vendas Boticário & Beleza na Web 2026",
+        "segmento": "Varejo / Cosméticos & Franquias",
+        "local_evento": "campinas_resorts",
+        "cidade": "Campinas",
+        "data_inicio": "2026-10-06",
+        "data_fim": "2026-10-09",
+        "dias_duracao": 4,
+        "dias_antecedencia": 75,
+        "publico_total_estimado": 1100,
+        "percentual_fora_da_cidade": 0.88,
+        "empresa_organizadora": "Grupo Boticário (Botica Comercial Farmacêutica Ltda)",
+        "cnpj_organizador": "77.388.007/0001-57",
+        "decisores_identificados": [
+          {
+            "nome": "Fernando Modé",
+            "cargo": "CEO Grupo Boticário",
+            "email": "fmode@grupoboticario.com.br"
+          },
+          {
+            "nome": "Camila Alcantara",
+            "cargo": "Diretora de MICE & Experiências Corporativas",
+            "email": "camila.alcantara@grupoboticario.com.br"
+          }
+        ],
+        "poder_economico_segmento": "MUITO_ALTO",
+        "demanda_estimada": {
+          "hospedes_estimados": 968,
+          "room_nights_estimados": 3872,
+          "transfers_aeroporto_necessarios": 920,
+          "deslocamentos_hotel_evento_dia": 968,
+          "aereos_estimados": 850,
+          "jantares_executivos_grupos": 8
+        },
+        "budget_alvo_estimado": 2100000,
+        "fonteCaptada": "Royal Palm Hall Campinas (Convenções Corporativas)",
+        "dataDescoberta": "2026-08-21T17:11:21.583Z",
+        "scoreOportunidade": {
+          "scoreTotal": 87,
+          "tier": "PRATA 🥈",
+          "acao": "Enriquecer contatos dos decisores de compras/MICE e iniciar abordagem.",
+          "breakdown": {
+            "publico": 8,
+            "foraCidade": 15,
+            "duracao": 10,
+            "antecedencia": 10,
+            "organizador": 10,
+            "decisores": 10,
+            "poderEconomico": 4,
+            "demandaHospedagem": 8,
+            "demandaMobilidade": 7,
+            "demandaAerea": 5
+          }
+        }
+      }
+    ]
+  }
+]

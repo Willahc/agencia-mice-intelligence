@@ -1,0 +1,2803 @@
+[
+  {
+    "id": "EVT-2026-001",
+    "nome": "Expo Revestir 2026 (Feira Internacional de Revestimentos e Arquitetura)",
+    "segmento": "Arquitetura / Design / Construção",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-03-09",
+    "data_fim": "2026-03-13",
+    "dias_duracao": 5,
+    "dias_antecedencia": 12,
+    "publico_total_estimado": 65000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "ANFACER & Expo Revestir Eventos",
+    "cnpj_organizador": "43.111.222/0001-55",
+    "decisores_identificados": [
+      {
+        "nome": "Maurício Borges",
+        "cargo": "Diretor de Operações e Relações Internacionais",
+        "email": "mborges@exporevestir.com.br"
+      },
+      {
+        "nome": "Renata Vianna",
+        "cargo": "Gerente de Hospitalidade e Viagens",
+        "email": "rvianna@exporevestir.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 35750,
+      "room_nights_estimados": 178750,
+      "transfers_aeroporto_necessarios": 25000,
+      "deslocamentos_hotel_evento_dia": 35750,
+      "aereos_estimados": 21000,
+      "jantares_executivos_grupos": 18
+    },
+    "budget_alvo_estimado": 4200000
+  },
+  {
+    "id": "EVT-2026-002",
+    "nome": "Feicon 2026 (Salão Internacional da Construção Civil e Arquitetura)",
+    "segmento": "Construção Civil / Engenharia",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-04-07",
+    "data_fim": "2026-04-10",
+    "dias_duracao": 4,
+    "dias_antecedencia": 25,
+    "publico_total_estimado": 80000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "RX Brasil (Reed Exhibitions)",
+    "cnpj_organizador": "55.888.777/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Luciana Ramos",
+        "cargo": "Gerente de Feiras e Operações MICE",
+        "email": "luciana.ramos@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 40000,
+      "room_nights_estimados": 160000,
+      "transfers_aeroporto_necessarios": 28000,
+      "deslocamentos_hotel_evento_dia": 40000,
+      "aereos_estimados": 24000,
+      "jantares_executivos_grupos": 20
+    },
+    "budget_alvo_estimado": 4800000
+  },
+  {
+    "id": "EVT-2026-003",
+    "nome": "Intermodal South America 2026 (Logística, Intralogística e Comex)",
+    "segmento": "Logística / Comércio Exterior",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-04-14",
+    "data_fim": "2026-04-16",
+    "dias_duracao": 3,
+    "dias_antecedencia": 32,
+    "publico_total_estimado": 40000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "03.239.123/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Hermano Pinto Jr.",
+        "cargo": "Diretor de Portfólio de Infraestrutura",
+        "email": "hermano.pinto@informamarkets.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 20000,
+      "room_nights_estimados": 60000,
+      "transfers_aeroporto_necessarios": 14000,
+      "deslocamentos_hotel_evento_dia": 20000,
+      "aereos_estimados": 12000,
+      "jantares_executivos_grupos": 15
+    },
+    "budget_alvo_estimado": 2600000
+  },
+  {
+    "id": "EVT-2026-004",
+    "nome": "APAS Show 2026 (Maior Feira Supermercadista do Mundo)",
+    "segmento": "Varejo / Alimentos / Supermercados",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-18",
+    "data_fim": "2026-05-21",
+    "dias_duracao": 4,
+    "dias_antecedencia": 45,
+    "publico_total_estimado": 75000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "Associação Paulista de Supermercados (APAS)",
+    "cnpj_organizador": "62.444.555/0001-77",
+    "decisores_identificados": [
+      {
+        "nome": "Carlos Correa",
+        "cargo": "Diretor Geral de Operações APAS Show",
+        "email": "carlos.correa@apas.com.br"
+      },
+      {
+        "nome": "Marcela Toledo",
+        "cargo": "Gerente de Compras e Logística de Delegações",
+        "email": "marcela.toledo@apas.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 45000,
+      "room_nights_estimados": 180000,
+      "transfers_aeroporto_necessarios": 32000,
+      "deslocamentos_hotel_evento_dia": 45000,
+      "aereos_estimados": 28000,
+      "jantares_executivos_grupos": 30
+    },
+    "budget_alvo_estimado": 5500000
+  },
+  {
+    "id": "EVT-2026-005",
+    "nome": "Hospitalar 2026 (32ª Feira Internacional da Saúde e Hospitais)",
+    "segmento": "Saúde / Hospitalar / Médicos",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-19",
+    "data_fim": "2026-05-22",
+    "dias_duracao": 4,
+    "dias_antecedencia": 46,
+    "publico_total_estimado": 90000,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Informa Markets & Hospitalar Saúde",
+    "cnpj_organizador": "03.239.123/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Dra. Waleska Santos",
+        "cargo": "Presidente Fundadora Hospitalar",
+        "email": "waleska.santos@hospitalar.com"
+      },
+      {
+        "nome": "Eduardo Barros",
+        "cargo": "Diretor de Eventos e Parcerias Hospitalares",
+        "email": "eduardo.barros@informamarkets.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 58500,
+      "room_nights_estimados": 234000,
+      "transfers_aeroporto_necessarios": 42000,
+      "deslocamentos_hotel_evento_dia": 58500,
+      "aereos_estimados": 35000,
+      "jantares_executivos_grupos": 40
+    },
+    "budget_alvo_estimado": 7200000
+  },
+  {
+    "id": "EVT-2026-006",
+    "nome": "FEBRABAN TECH 2026 (Maior Evento de Tecnologia e Finanças da AL)",
+    "segmento": "Tecnologia / Finanças / Bancário",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-23",
+    "data_fim": "2026-06-25",
+    "dias_duracao": 3,
+    "dias_antecedencia": 55,
+    "publico_total_estimado": 35000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Federação Brasileira de Bancos (FEBRABAN)",
+    "cnpj_organizador": "00.322.111/0001-00",
+    "decisores_identificados": [
+      {
+        "nome": "Gustavo Fosse",
+        "cargo": "Diretor Adjunto de Tecnologia e Inovação",
+        "email": "gustavo.fosse@febraban.org.br"
+      },
+      {
+        "nome": "Juliana Prado",
+        "cargo": "Gerente de Eventos e Relações Corporativas",
+        "email": "jprado@febraban.org.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 15750,
+      "room_nights_estimados": 47250,
+      "transfers_aeroporto_necessarios": 11500,
+      "deslocamentos_hotel_evento_dia": 15750,
+      "aereos_estimados": 9800,
+      "jantares_executivos_grupos": 22
+    },
+    "budget_alvo_estimado": 3200000
+  },
+  {
+    "id": "EVT-2026-007",
+    "nome": "Fispal Tecnologia & Food Service 2026",
+    "segmento": "Alimentos & Bebidas / Tecnologia",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-16",
+    "data_fim": "2026-06-19",
+    "dias_duracao": 4,
+    "dias_antecedencia": 50,
+    "publico_total_estimado": 45000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "03.239.123/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Marina Garcia",
+        "cargo": "Gerente de Eventos Fispal",
+        "email": "marina.garcia@informamarkets.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 22500,
+      "room_nights_estimados": 90000,
+      "transfers_aeroporto_necessarios": 16000,
+      "deslocamentos_hotel_evento_dia": 22500,
+      "aereos_estimados": 13500,
+      "jantares_executivos_grupos": 14
+    },
+    "budget_alvo_estimado": 2800000
+  },
+  {
+    "id": "EVT-2026-008",
+    "nome": "Fórum E-Commerce Brasil 2026 (17ª Edição Global)",
+    "segmento": "E-Commerce / Varejo Digital / Tech",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-07-28",
+    "data_fim": "2026-07-30",
+    "dias_duracao": 3,
+    "dias_antecedencia": 62,
+    "publico_total_estimado": 25000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "E-Commerce Brasil & Grupo iMasters",
+    "cnpj_organizador": "15.777.888/0001-99",
+    "decisores_identificados": [
+      {
+        "nome": "Tiago Baeta",
+        "cargo": "Fundador e Diretor de Conteúdo",
+        "email": "tiago.baeta@ecommercebrasil.com.br"
+      },
+      {
+        "nome": "Vivianne Vilela",
+        "cargo": "Diretora Executiva",
+        "email": "vivianne@ecommercebrasil.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 12500,
+      "room_nights_estimados": 37500,
+      "transfers_aeroporto_necessarios": 9000,
+      "deslocamentos_hotel_evento_dia": 12500,
+      "aereos_estimados": 7800,
+      "jantares_executivos_grupos": 12
+    },
+    "budget_alvo_estimado": 2100000
+  },
+  {
+    "id": "EVT-2026-009",
+    "nome": "SET Expo 2026 (Mídia, Tecnologia, Broadcast e Telecom)",
+    "segmento": "Mídia / Broadcast / Telecom",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-18",
+    "data_fim": "2026-08-20",
+    "dias_duracao": 3,
+    "dias_antecedencia": 70,
+    "publico_total_estimado": 15000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Sociedade Brasileira de Engenharia de Televisão (SET)",
+    "cnpj_organizador": "50.111.333/0001-12",
+    "decisores_identificados": [
+      {
+        "nome": "Carlos Fini",
+        "cargo": "Presidente SET Expo",
+        "email": "carlos.fini@set.org.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 6750,
+      "room_nights_estimados": 20250,
+      "transfers_aeroporto_necessarios": 4800,
+      "deslocamentos_hotel_evento_dia": 6750,
+      "aereos_estimados": 4200,
+      "jantares_executivos_grupos": 6
+    },
+    "budget_alvo_estimado": 1300000
+  },
+  {
+    "id": "EVT-2026-010",
+    "nome": "SOGESP 2026 (31º Congresso Paulista de Obstetrícia e Ginecologia)",
+    "segmento": "Saúde / Médico / Especialidades",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-20",
+    "data_fim": "2026-08-22",
+    "dias_duracao": 3,
+    "dias_antecedencia": 72,
+    "publico_total_estimado": 8000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "Associação de Obstetrícia e Ginecologia do Estado de SP",
+    "cnpj_organizador": "44.666.888/0001-22",
+    "decisores_identificados": [
+      {
+        "nome": "Dra. Rossana Pulcineli",
+        "cargo": "Presidente da Comissão Científica",
+        "email": "rossana@sogesp.org.br"
+      },
+      {
+        "nome": "Fernando Souza",
+        "cargo": "Gerente de Eventos e Congressos Médicos",
+        "email": "eventos@sogesp.org.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 4000,
+      "room_nights_estimados": 12000,
+      "transfers_aeroporto_necessarios": 2800,
+      "deslocamentos_hotel_evento_dia": 4000,
+      "aereos_estimados": 2400,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 980000
+  },
+  {
+    "id": "EVT-2026-011",
+    "nome": "Beauty Fair 2026 (Maior Feira de Beleza das Américas)",
+    "segmento": "Cosméticos / Beleza / Varejo",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-09-05",
+    "data_fim": "2026-09-08",
+    "dias_duracao": 4,
+    "dias_antecedencia": 16,
+    "publico_total_estimado": 180000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Beauty Fair Eventos e Exposições",
+    "cnpj_organizador": "07.888.999/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "César Tsukuda",
+        "cargo": "Diretor Geral Beauty Fair",
+        "email": "cesar@beautyfair.com.br"
+      },
+      {
+        "nome": "Débora Coutinho",
+        "cargo": "Gerente de Caravanas e Delegações Nacionais",
+        "email": "debora.coutinho@beautyfair.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 99000,
+      "room_nights_estimados": 396000,
+      "transfers_aeroporto_necessarios": 68000,
+      "deslocamentos_hotel_evento_dia": 99000,
+      "aereos_estimados": 55000,
+      "jantares_executivos_grupos": 50
+    },
+    "budget_alvo_estimado": 9500000
+  },
+  {
+    "id": "EVT-2026-012",
+    "nome": "Futurecom 2026 (Conectividade, IA & Infraestrutura Digital)",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-06",
+    "data_fim": "2026-10-08",
+    "dias_duracao": 3,
+    "dias_antecedencia": 47,
+    "publico_total_estimado": 30000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "03.239.123/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Rodrigo Albuquerque",
+        "cargo": "Diretor de Operações e Infraestrutura MICE",
+        "email": "rodrigo.albuquerque@informamarkets.com.br"
+      },
+      {
+        "nome": "Mariana Esteves",
+        "cargo": "Gerente de Procurement e Compras Indiretas",
+        "email": "mesteves@informamarkets.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 13500,
+      "room_nights_estimados": 40500,
+      "transfers_aeroporto_necessarios": 9800,
+      "deslocamentos_hotel_evento_dia": 13500,
+      "aereos_estimados": 8700,
+      "jantares_executivos_grupos": 12
+    },
+    "budget_alvo_estimado": 1850000
+  },
+  {
+    "id": "EVT-2026-013",
+    "nome": "Fenalaw 2026 (23ª Edição & Gestão Jurídica da América Latina)",
+    "segmento": "Jurídico / Compliance / Gestão",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-27",
+    "data_fim": "2026-10-29",
+    "dias_duracao": 3,
+    "dias_antecedencia": 68,
+    "publico_total_estimado": 10000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "Informa Markets & Fenalaw Gestão",
+    "cnpj_organizador": "03.239.123/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Dra. Patrícia Magalhães",
+        "cargo": "Diretora de Conteúdo & Relações Institucionais",
+        "email": "patricia.magalhaes@fenalaw.com.br"
+      },
+      {
+        "nome": "Gustavo Faria",
+        "cargo": "Gerente de Parcerias e Hospitalidade",
+        "email": "gustavo.faria@fenalaw.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 5000,
+      "room_nights_estimados": 15000,
+      "transfers_aeroporto_necessarios": 3600,
+      "deslocamentos_hotel_evento_dia": 5000,
+      "aereos_estimados": 3200,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 920000
+  },
+  {
+    "id": "EVT-2026-014",
+    "nome": "HSM+ 2026 (Heart, Soul & Mind &middot; Liderança & C-Level)",
+    "segmento": "Liderança / Gestão / C-Level",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-04",
+    "data_fim": "2026-11-05",
+    "dias_duracao": 2,
+    "dias_antecedencia": 76,
+    "publico_total_estimado": 8000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "HSM Educação Executiva & Anima",
+    "cnpj_organizador": "04.555.888/0001-99",
+    "decisores_identificados": [
+      {
+        "nome": "Alexandre Vasconcelos",
+        "cargo": "Head de Experiência e Eventos Executivos",
+        "email": "alexandre.v@hsm.com.br"
+      },
+      {
+        "nome": "Beatriz Nogueira",
+        "cargo": "Gerente de Facilities e Viagens",
+        "email": "bnogueira@hsm.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 4400,
+      "room_nights_estimados": 8800,
+      "transfers_aeroporto_necessarios": 3200,
+      "deslocamentos_hotel_evento_dia": 4400,
+      "aereos_estimados": 2900,
+      "jantares_executivos_grupos": 6
+    },
+    "budget_alvo_estimado": 850000
+  },
+  {
+    "id": "EVT-2026-015",
+    "nome": "Fenatran 2026 (24ª Feira Internacional de Transporte de Cargas)",
+    "segmento": "Logística / Frotas / Automotivo",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-09",
+    "data_fim": "2026-11-13",
+    "dias_duracao": 5,
+    "dias_antecedencia": 81,
+    "publico_total_estimado": 65000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "RX Brasil (Reed Exhibitions)",
+    "cnpj_organizador": "55.888.777/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Carlos Eduardo Siqueira",
+        "cargo": "Diretor de Operações e Logística de Pavilhão",
+        "email": "carlos.siqueira@rxglobal.com"
+      },
+      {
+        "nome": "Fernanda Lemos",
+        "cargo": "Gerente de Compras e Gestão de Fornecedores",
+        "email": "fernanda.lemos@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 39000,
+      "room_nights_estimados": 195000,
+      "transfers_aeroporto_necessarios": 28000,
+      "deslocamentos_hotel_evento_dia": 39000,
+      "aereos_estimados": 24000,
+      "jantares_executivos_grupos": 25
+    },
+    "budget_alvo_estimado": 4500000
+  },
+  {
+    "id": "EVT-2026-016",
+    "nome": "Congresso Brasileiro de Oncologia e Inovação em Saúde",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-10",
+    "data_fim": "2026-11-13",
+    "dias_duracao": 3,
+    "dias_antecedencia": 82,
+    "publico_total_estimado": 3200,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Sociedade Brasileira de Oncologia & Farma Corp",
+    "cnpj_organizador": "12.345.678/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Fernando Andrade",
+        "cargo": "Diretor de Relações Médicas & Eventos",
+        "email": "fernando.andrade@farmacorp.com.br"
+      },
+      {
+        "nome": "Carla Mendonça",
+        "cargo": "Gerente de Compras Indiretas / MICE",
+        "email": "cmendonca@farmacorp.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 1760,
+      "room_nights_estimados": 5280,
+      "transfers_aeroporto_necessarios": 1200,
+      "deslocamentos_hotel_evento_dia": 1760,
+      "aereos_estimados": 1400,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 650000
+  },
+  {
+    "id": "EVT-2026-017",
+    "nome": "CCXP26 (Delegações Corporativas, Marcas & Estúdios Globais)",
+    "segmento": "Entretenimento / Mídia / Marcas",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-12-03",
+    "data_fim": "2026-12-06",
+    "dias_duracao": 4,
+    "dias_antecedencia": 105,
+    "publico_total_estimado": 18000,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Omelete Company & CCXP B2B",
+    "cnpj_organizador": "11.222.333/0001-88",
+    "decisores_identificados": [
+      {
+        "nome": "Marcos Vinicius Paiva",
+        "cargo": "Head de Parcerias Corporativas & Hospitalidade VIP",
+        "email": "marcos.paiva@omeletecompany.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 11700,
+      "room_nights_estimados": 46800,
+      "transfers_aeroporto_necessarios": 8500,
+      "deslocamentos_hotel_evento_dia": 11700,
+      "aereos_estimados": 7800,
+      "jantares_executivos_grupos": 10
+    },
+    "budget_alvo_estimado": 1600000
+  },
+  {
+    "id": "EVT-2026-018",
+    "nome": "Congresso Brasileiro de Cardiologia 2026 (81º CBC / SBC)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-09-24",
+    "data_fim": "2026-09-27",
+    "dias_duracao": 4,
+    "dias_antecedencia": 95,
+    "publico_total_estimado": 14000,
+    "percentual_fora_da_cidade": 0.75,
+    "empresa_organizadora": "Sociedade Brasileira de Cardiologia (SBC)",
+    "cnpj_organizador": "33.518.239/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "Dra. Andrea Rocha",
+        "cargo": "Diretora de Eventos & Relações com a Indústria Farmacêutica",
+        "email": "eventos@cardiol.br"
+      },
+      {
+        "nome": "Carlos Eduardo Pinto",
+        "cargo": "Coordenador de Hospitalidade & Receptivo de Speakers",
+        "email": "carlos.pinto@cardiol.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 10500,
+      "room_nights_estimados": 42000,
+      "transfers_aeroporto_necessarios": 8000,
+      "deslocamentos_hotel_evento_dia": 10500,
+      "aereos_estimados": 7200,
+      "jantares_executivos_grupos": 22
+    },
+    "budget_alvo_estimado": 3800000
+  },
+  {
+    "id": "EVT-2026-019",
+    "nome": "Congresso Brasileiro de Ortopedia e Traumatologia 2026 (58º CBOT / SBOT)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-12",
+    "data_fim": "2026-11-15",
+    "dias_duracao": 4,
+    "dias_antecedencia": 110,
+    "publico_total_estimado": 12000,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "Sociedade Brasileira de Ortopedia e Traumatologia (SBOT)",
+    "cnpj_organizador": "62.860.590/0001-08",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Roberto Alencar",
+        "cargo": "Presidente da Comissão de Congressos SBOT",
+        "email": "congresso@sbot.org.br"
+      },
+      {
+        "nome": "Patricia Mendes",
+        "cargo": "Gerente de Compras e Viagens Médicas",
+        "email": "patricia.mendes@sbot.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 8400,
+      "room_nights_estimados": 33600,
+      "transfers_aeroporto_necessarios": 6500,
+      "deslocamentos_hotel_evento_dia": 8400,
+      "aereos_estimados": 5800,
+      "jantares_executivos_grupos": 18
+    },
+    "budget_alvo_estimado": 3200000
+  },
+  {
+    "id": "EVT-2026-020",
+    "nome": "VTEX DAY 2026 (Maior Evento de Digital Commerce da América Latina)",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-03",
+    "data_fim": "2026-06-04",
+    "dias_duracao": 2,
+    "dias_antecedencia": 45,
+    "publico_total_estimado": 22000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "VTEX Brasil Tecnologia para Comércio Ltda",
+    "cnpj_organizador": "05.314.972/0001-74",
+    "decisores_identificados": [
+      {
+        "nome": "Vanessa Lima",
+        "cargo": "Head de Brand Experience & Eventos Globais",
+        "email": "vanessa.lima@vtex.com"
+      },
+      {
+        "nome": "Felipe Mansur",
+        "cargo": "Global Travel & Facilities Manager",
+        "email": "felipe.mansur@vtex.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 11000,
+      "room_nights_estimados": 22000,
+      "transfers_aeroporto_necessarios": 8500,
+      "deslocamentos_hotel_evento_dia": 11000,
+      "aereos_estimados": 7500,
+      "jantares_executivos_grupos": 24
+    },
+    "budget_alvo_estimado": 2900000
+  },
+  {
+    "id": "EVT-2026-021",
+    "nome": "Futurecom 2026 (Transformação Digital, Telecomunicações & Conectividade)",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-06",
+    "data_fim": "2026-10-08",
+    "dias_duracao": 3,
+    "dias_antecedencia": 80,
+    "publico_total_estimado": 32000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "01.440.048/0001-14",
+    "decisores_identificados": [
+      {
+        "nome": "Hermano Pinto",
+        "cargo": "Diretor do Portfólio de Tecnologia & Telecom",
+        "email": "hermano.pinto@informa.com"
+      },
+      {
+        "nome": "Camila Sampaio",
+        "cargo": "Coordenadora de Hospitalidade MICE",
+        "email": "camila.sampaio@informa.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 17600,
+      "room_nights_estimados": 52800,
+      "transfers_aeroporto_necessarios": 12000,
+      "deslocamentos_hotel_evento_dia": 17600,
+      "aereos_estimados": 11000,
+      "jantares_executivos_grupos": 28
+    },
+    "budget_alvo_estimado": 3600000
+  },
+  {
+    "id": "EVT-2026-022",
+    "nome": "Fispal Tecnologia & Food Service 2026 (Indústria de Alimentos & Bebidas)",
+    "segmento": "Varejo / Alimentos",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-16",
+    "data_fim": "2026-06-19",
+    "dias_duracao": 4,
+    "dias_antecedencia": 50,
+    "publico_total_estimado": 48000,
+    "percentual_fora_da_cidade": 0.48,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "01.440.048/0001-14",
+    "decisores_identificados": [
+      {
+        "nome": "Marina Brandão",
+        "cargo": "Gerente de Eventos Industriais",
+        "email": "marina.brandao@informa.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 23040,
+      "room_nights_estimados": 92160,
+      "transfers_aeroporto_necessarios": 15000,
+      "deslocamentos_hotel_evento_dia": 23040,
+      "aereos_estimados": 12500,
+      "jantares_executivos_grupos": 19
+    },
+    "budget_alvo_estimado": 3100000
+  },
+  {
+    "id": "EVT-2026-023",
+    "nome": "Fenatran 2026 (24º Salão Internacional do Transporte Rodoviário de Cargas)",
+    "segmento": "Logística / Frotas",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-09",
+    "data_fim": "2026-11-13",
+    "dias_duracao": 5,
+    "dias_antecedencia": 120,
+    "publico_total_estimado": 66000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "RX Brasil (Reed Exhibitions) & NTC&Logística",
+    "cnpj_organizador": "55.888.777/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Thiago da Silva",
+        "cargo": "Diretor do Portfólio de Transportes e Frotas",
+        "email": "thiago.silva@rxglobal.com"
+      },
+      {
+        "nome": "Bruna Fogaça",
+        "cargo": "Supervisora de Operações e Receptivo MICE",
+        "email": "bruna.fogaca@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 39600,
+      "room_nights_estimados": 198000,
+      "transfers_aeroporto_necessarios": 26000,
+      "deslocamentos_hotel_evento_dia": 39600,
+      "aereos_estimados": 22000,
+      "jantares_executivos_grupos": 35
+    },
+    "budget_alvo_estimado": 5400000
+  },
+  {
+    "id": "EVT-2026-024",
+    "nome": "Automec 2026 (Feira Internacional de Autopeças, Equipamentos e Serviços)",
+    "segmento": "Automotivo / Indústria",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-04-21",
+    "data_fim": "2026-04-25",
+    "dias_duracao": 5,
+    "dias_antecedencia": 30,
+    "publico_total_estimado": 75000,
+    "percentual_fora_da_cidade": 0.52,
+    "empresa_organizadora": "RX Brasil (Reed Exhibitions)",
+    "cnpj_organizador": "55.888.777/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Eduardo Ferreira",
+        "cargo": "Gerente Geral do Setor Automotivo",
+        "email": "eduardo.ferreira@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 39000,
+      "room_nights_estimados": 195000,
+      "transfers_aeroporto_necessarios": 24000,
+      "deslocamentos_hotel_evento_dia": 39000,
+      "aereos_estimados": 20000,
+      "jantares_executivos_grupos": 27
+    },
+    "budget_alvo_estimado": 4800000
+  },
+  {
+    "id": "EVT-2026-025",
+    "nome": "Bett Brasil 2026 (Maior Encontro de Educação Básica & EdTech da AL)",
+    "segmento": "Educação / Tecnologia",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-04-28",
+    "data_fim": "2026-05-01",
+    "dias_duracao": 4,
+    "dias_antecedencia": 35,
+    "publico_total_estimado": 35000,
+    "percentual_fora_da_cidade": 0.58,
+    "empresa_organizadora": "Hyve Group Brasil",
+    "cnpj_organizador": "04.567.890/0001-22",
+    "decisores_identificados": [
+      {
+        "nome": "Claudia Valério",
+        "cargo": "Diretora de Operações e Conteúdo",
+        "email": "claudia.valerio@bettbrasil.com"
+      },
+      {
+        "nome": "Rodrigo Neves",
+        "cargo": "Hospitality & Corporate Travel Manager",
+        "email": "rodrigo.neves@bettbrasil.com"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 20300,
+      "room_nights_estimados": 81200,
+      "transfers_aeroporto_necessarios": 13000,
+      "deslocamentos_hotel_evento_dia": 20300,
+      "aereos_estimados": 11500,
+      "jantares_executivos_grupos": 15
+    },
+    "budget_alvo_estimado": 2400000
+  },
+  {
+    "id": "EVT-2026-026",
+    "nome": "Fenalaw 2026 (Maior Congresso & Exposição Jurídica da América Latina)",
+    "segmento": "Jurídico / Compliance",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-21",
+    "data_fim": "2026-10-23",
+    "dias_duracao": 3,
+    "dias_antecedencia": 85,
+    "publico_total_estimado": 10000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "01.440.048/0001-14",
+    "decisores_identificados": [
+      {
+        "nome": "Juliana Manzato",
+        "cargo": "Diretora de Marca & Relações Institucionais Fenalaw",
+        "email": "juliana.manzato@informa.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 4500,
+      "room_nights_estimados": 13500,
+      "transfers_aeroporto_necessarios": 3500,
+      "deslocamentos_hotel_evento_dia": 4500,
+      "aereos_estimados": 3100,
+      "jantares_executivos_grupos": 16
+    },
+    "budget_alvo_estimado": 1800000
+  },
+  {
+    "id": "EVT-2026-027",
+    "nome": "Congresso Brasileiro de Radiologia 2026 (CBR 26)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-15",
+    "data_fim": "2026-10-17",
+    "dias_duracao": 3,
+    "dias_antecedencia": 75,
+    "publico_total_estimado": 7500,
+    "percentual_fora_da_cidade": 0.72,
+    "empresa_organizadora": "Colégio Brasileiro de Radiologia e Diagnóstico por Imagem (CBR)",
+    "cnpj_organizador": "43.765.432/0001-19",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Valdair Muglia",
+        "cargo": "Diretor Científico e de Congressos CBR",
+        "email": "eventos@cbr.org.br"
+      },
+      {
+        "nome": "Luciana Meirelles",
+        "cargo": "Coordenadora de Receptivo de Palestrantes",
+        "email": "luciana.meirelles@cbr.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 5400,
+      "room_nights_estimados": 16200,
+      "transfers_aeroporto_necessarios": 4200,
+      "deslocamentos_hotel_evento_dia": 5400,
+      "aereos_estimados": 3800,
+      "jantares_executivos_grupos": 14
+    },
+    "budget_alvo_estimado": 2200000
+  },
+  {
+    "id": "EVT-2026-028",
+    "nome": "RD Summit São Paulo 2026 (Marketing, Vendas & Inovação Digital)",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-04",
+    "data_fim": "2026-11-06",
+    "dias_duracao": 3,
+    "dias_antecedencia": 100,
+    "publico_total_estimado": 20000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "RD Station / TOTVS",
+    "cnpj_organizador": "13.021.584/0001-86",
+    "decisores_identificados": [
+      {
+        "nome": "Denis Briso",
+        "cargo": "Head de Eventos e Experiências de Marca",
+        "email": "denis.briso@rdstation.com"
+      },
+      {
+        "nome": "Mariana Lopes",
+        "cargo": "Travel & Strategic Procurement Lead",
+        "email": "mariana.lopes@rdstation.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 12000,
+      "room_nights_estimados": 36000,
+      "transfers_aeroporto_necessarios": 9000,
+      "deslocamentos_hotel_evento_dia": 12000,
+      "aereos_estimados": 8200,
+      "jantares_executivos_grupos": 20
+    },
+    "budget_alvo_estimado": 3000000
+  },
+  {
+    "id": "EVT-2026-029",
+    "nome": "FCE Pharma & FCE Cosmetique 2026 (Tecnologia para Indústria Farmacêutica)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-02",
+    "data_fim": "2026-06-04",
+    "dias_duracao": 3,
+    "dias_antecedencia": 40,
+    "publico_total_estimado": 24000,
+    "percentual_fora_da_cidade": 0.54,
+    "empresa_organizadora": "NürnbergMesse Brasil",
+    "cnpj_organizador": "09.123.456/0001-78",
+    "decisores_identificados": [
+      {
+        "nome": "Nadja Bento",
+        "cargo": "Head de Life Sciences & Feiras Farmacêuticas",
+        "email": "nadja.bento@nuernbergmesse-brasil.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 12960,
+      "room_nights_estimados": 38880,
+      "transfers_aeroporto_necessarios": 9500,
+      "deslocamentos_hotel_evento_dia": 12960,
+      "aereos_estimados": 8500,
+      "jantares_executivos_grupos": 16
+    },
+    "budget_alvo_estimado": 2600000
+  },
+  {
+    "id": "EVT-2026-030",
+    "nome": "Intermodal South America 2026 (Logística Internacional & Comércio Exterior)",
+    "segmento": "Logística / Frotas",
+    "local_evento": "sp_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-03-17",
+    "data_fim": "2026-03-19",
+    "dias_duracao": 3,
+    "dias_antecedencia": 15,
+    "publico_total_estimado": 42000,
+    "percentual_fora_da_cidade": 0.62,
+    "empresa_organizadora": "Informa Markets Brasil",
+    "cnpj_organizador": "01.440.048/0001-14",
+    "decisores_identificados": [
+      {
+        "nome": "Hermano Pinto Jr.",
+        "cargo": "Diretor do Portfólio de Infraestrutura e Logística",
+        "email": "hermano.jr@informa.com"
+      },
+      {
+        "nome": "Carina Vilela",
+        "cargo": "Gerente de Facilities & Viagens Corporativas",
+        "email": "carina.vilela@informa.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 26040,
+      "room_nights_estimados": 78120,
+      "transfers_aeroporto_necessarios": 18000,
+      "deslocamentos_hotel_evento_dia": 26040,
+      "aereos_estimados": 16000,
+      "jantares_executivos_grupos": 26
+    },
+    "budget_alvo_estimado": 3900000
+  },
+  {
+    "id": "EVT-2026-031",
+    "nome": "Congresso Brasileiro de Oncologia Clínica 2026 (XXVII SBOC)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-19",
+    "data_fim": "2026-11-21",
+    "dias_duracao": 3,
+    "dias_antecedencia": 125,
+    "publico_total_estimado": 6500,
+    "percentual_fora_da_cidade": 0.8,
+    "empresa_organizadora": "Sociedade Brasileira de Oncologia Clínica (SBOC)",
+    "cnpj_organizador": "49.123.789/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Carlos Gil Ferreira",
+        "cargo": "Presidente SBOC & Relações Médicas",
+        "email": "diretoria@sboc.org.br"
+      },
+      {
+        "nome": "Renata Silveira",
+        "cargo": "Head de Hospitalidade & Compliance Interfarma",
+        "email": "renata.silveira@sboc.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 5200,
+      "room_nights_estimados": 15600,
+      "transfers_aeroporto_necessarios": 4500,
+      "deslocamentos_hotel_evento_dia": 5200,
+      "aereos_estimados": 4000,
+      "jantares_executivos_grupos": 15
+    },
+    "budget_alvo_estimado": 3100000
+  },
+  {
+    "id": "EVT-2026-032",
+    "nome": "Salão Internacional do Automóvel de São Paulo 2026 (Edição Retomada)",
+    "segmento": "Automotivo / Indústria",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-29",
+    "data_fim": "2026-11-08",
+    "dias_duracao": 11,
+    "dias_antecedencia": 90,
+    "publico_total_estimado": 450000,
+    "percentual_fora_da_cidade": 0.4,
+    "empresa_organizadora": "ANFAVEA & RX Brasil",
+    "cnpj_organizador": "62.333.444/0001-55",
+    "decisores_identificados": [
+      {
+        "nome": "Márcio de Lima Leite",
+        "cargo": "Presidente Executivo ANFAVEA",
+        "email": "marcio.leite@anfavea.com.br"
+      },
+      {
+        "nome": "Amanda Lemos",
+        "cargo": "Diretora de Logística & Delegações Executivas",
+        "email": "amanda.lemos@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 180000,
+      "room_nights_estimados": 900000,
+      "transfers_aeroporto_necessarios": 60000,
+      "deslocamentos_hotel_evento_dia": 180000,
+      "aereos_estimados": 55000,
+      "jantares_executivos_grupos": 60
+    },
+    "budget_alvo_estimado": 8500000
+  },
+  {
+    "id": "EVT-2026-033",
+    "nome": "Convenção Nacional de Vendas Ambev 2026 (Trade & Liderança)",
+    "segmento": "Varejo / Alimentos",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-02-23",
+    "data_fim": "2026-02-25",
+    "dias_duracao": 3,
+    "dias_antecedencia": 10,
+    "publico_total_estimado": 450,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Ambev S.A. (Diretoria de Vendas & Gente e Gestão)",
+    "cnpj_organizador": "07.526.557/0001-00",
+    "decisores_identificados": [
+      {
+        "nome": "Rodrigo Figueiredo",
+        "cargo": "Vice-Presidente de Vendas e Trade Marketing",
+        "email": "rodrigo.figueiredo@ambev.com.br"
+      },
+      {
+        "nome": "Juliana Rossi",
+        "cargo": "Gerente de Eventos Corporativos & Compras Indiretas",
+        "email": "juliana.rossi@ambev.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 380,
+      "room_nights_estimados": 1140,
+      "transfers_aeroporto_necessarios": 380,
+      "deslocamentos_hotel_evento_dia": 380,
+      "aereos_estimados": 350,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 650000
+  },
+  {
+    "id": "EVT-2026-034",
+    "nome": "Convenção Anual Nestlé Health Science 2026 (Medical Nutrition)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-03-24",
+    "data_fim": "2026-03-26",
+    "dias_duracao": 3,
+    "dias_antecedencia": 20,
+    "publico_total_estimado": 280,
+    "percentual_fora_da_cidade": 0.9,
+    "empresa_organizadora": "Nestlé Brasil Ltda (Divisão Health Science)",
+    "cnpj_organizador": "60.409.075/0001-52",
+    "decisores_identificados": [
+      {
+        "nome": "Monique Meirelles",
+        "cargo": "Head de Marketing Médico & Eventos Científicos",
+        "email": "monique.meirelles@br.nestle.com"
+      },
+      {
+        "nome": "Eduardo Castilho",
+        "cargo": "Coordenador de Compras e Viagens Corporativas",
+        "email": "eduardo.castilho@br.nestle.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 250,
+      "room_nights_estimados": 750,
+      "transfers_aeroporto_necessarios": 250,
+      "deslocamentos_hotel_evento_dia": 250,
+      "aereos_estimados": 240,
+      "jantares_executivos_grupos": 3
+    },
+    "budget_alvo_estimado": 480000
+  },
+  {
+    "id": "EVT-2026-035",
+    "nome": "Convenção Nacional de Franqueados Cacau Show 2026",
+    "segmento": "Varejo / Alimentos",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-18",
+    "data_fim": "2026-05-20",
+    "dias_duracao": 3,
+    "dias_antecedencia": 40,
+    "publico_total_estimado": 650,
+    "percentual_fora_da_cidade": 0.75,
+    "empresa_organizadora": "Cacau Show (Cacau Franchising Ltda)",
+    "cnpj_organizador": "04.770.828/0001-20",
+    "decisores_identificados": [
+      {
+        "nome": "Alexandre Tadeu da Costa",
+        "cargo": "CEO & Fundador",
+        "email": "presidencia@cacaushow.com.br"
+      },
+      {
+        "nome": "Carla Nogueira",
+        "cargo": "Gerente de Expansão e Eventos de Franquia",
+        "email": "carla.nogueira@cacaushow.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 490,
+      "room_nights_estimados": 1470,
+      "transfers_aeroporto_necessarios": 450,
+      "deslocamentos_hotel_evento_dia": 490,
+      "aereos_estimados": 420,
+      "jantares_executivos_grupos": 6
+    },
+    "budget_alvo_estimado": 790000
+  },
+  {
+    "id": "EVT-2026-036",
+    "nome": "Encontro de Liderança Santander & Empresas Parceiras 2026",
+    "segmento": "Financeiro / Fintech",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-04-14",
+    "data_fim": "2026-04-15",
+    "dias_duracao": 2,
+    "dias_antecedencia": 30,
+    "publico_total_estimado": 350,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Banco Santander (Brasil) S.A.",
+    "cnpj_organizador": "90.400.888/0001-42",
+    "decisores_identificados": [
+      {
+        "nome": "Marcelo Labuto",
+        "cargo": "Diretor Executivo de Rede & Parcerias",
+        "email": "marcelo.labuto@santander.com.br"
+      },
+      {
+        "nome": "Beatriz Vilela",
+        "cargo": "Head de Compras MICE & Hospitality",
+        "email": "beatriz.vilela@santander.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 230,
+      "room_nights_estimados": 460,
+      "transfers_aeroporto_necessarios": 230,
+      "deslocamentos_hotel_evento_dia": 230,
+      "aereos_estimados": 210,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 520000
+  },
+  {
+    "id": "EVT-2026-037",
+    "nome": "Advisory Board Internacional de Imunooncologia AstraZeneca 2026",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-08",
+    "data_fim": "2026-05-10",
+    "dias_duracao": 3,
+    "dias_antecedencia": 45,
+    "publico_total_estimado": 120,
+    "percentual_fora_da_cidade": 0.95,
+    "empresa_organizadora": "AstraZeneca do Brasil Ltda",
+    "cnpj_organizador": "60.315.777/0001-59",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Fernando Moura",
+        "cargo": "Diretor Médico de Oncologia",
+        "email": "fernando.moura@astrazeneca.com"
+      },
+      {
+        "nome": "Lucia Guimarães",
+        "cargo": "Compliance & Medical Travel Specialist",
+        "email": "lucia.guimaraes@astrazeneca.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 115,
+      "room_nights_estimados": 345,
+      "transfers_aeroporto_necessarios": 115,
+      "deslocamentos_hotel_evento_dia": 115,
+      "aereos_estimados": 110,
+      "jantares_executivos_grupos": 3
+    },
+    "budget_alvo_estimado": 420000
+  },
+  {
+    "id": "EVT-2026-038",
+    "nome": "Simpósio Internacional de Cirurgia Robótica & Urologia Einstein 2026",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-25",
+    "data_fim": "2026-06-27",
+    "dias_duracao": 3,
+    "dias_antecedencia": 60,
+    "publico_total_estimado": 400,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "Sociedade Beneficente Israelita Brasileira Albert Einstein",
+    "cnpj_organizador": "60.765.823/0001-30",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Namir Cavalli",
+        "cargo": "Coordenador de Ensino e Eventos Cirúrgicos",
+        "email": "namir.cavalli@einstein.br"
+      },
+      {
+        "nome": "Paula Vasconcellos",
+        "cargo": "Supervisora de Hospitalidade e Viagens Acadêmicas",
+        "email": "paula.vasconcellos@einstein.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 280,
+      "room_nights_estimados": 840,
+      "transfers_aeroporto_necessarios": 260,
+      "deslocamentos_hotel_evento_dia": 280,
+      "aereos_estimados": 240,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 580000
+  },
+  {
+    "id": "EVT-2026-039",
+    "nome": "Jornada Paulista de Dermatologia & Cosmiatria Avançada 2026",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-14",
+    "data_fim": "2026-08-16",
+    "dias_duracao": 3,
+    "dias_antecedencia": 70,
+    "publico_total_estimado": 850,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Sociedade Brasileira de Dermatologia - Resp. São Paulo (SBD-RESP)",
+    "cnpj_organizador": "56.987.123/0001-99",
+    "decisores_identificados": [
+      {
+        "nome": "Dra. Christine Prado",
+        "cargo": "Presidente da Comissão Organizadora",
+        "email": "eventos@sbd-resp.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 465,
+      "room_nights_estimados": 1395,
+      "transfers_aeroporto_necessarios": 380,
+      "deslocamentos_hotel_evento_dia": 465,
+      "aereos_estimados": 350,
+      "jantares_executivos_grupos": 5
+    },
+    "budget_alvo_estimado": 690000
+  },
+  {
+    "id": "EVT-2026-040",
+    "nome": "SAP NOW Executive Summit Brasil 2026 (C-Level & Partners)",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-09-02",
+    "data_fim": "2026-09-03",
+    "dias_duracao": 2,
+    "dias_antecedencia": 80,
+    "publico_total_estimado": 1800,
+    "percentual_fora_da_cidade": 0.52,
+    "empresa_organizadora": "SAP Brasil Ltda",
+    "cnpj_organizador": "00.778.675/0001-09",
+    "decisores_identificados": [
+      {
+        "nome": "Adriana Aroulho",
+        "cargo": "Presidente SAP Brasil",
+        "email": "adriana.aroulho@sap.com"
+      },
+      {
+        "nome": "Gustavo Faria",
+        "cargo": "Head de Marketing de Campo & Eventos Executivos",
+        "email": "gustavo.faria@sap.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 935,
+      "room_nights_estimados": 1870,
+      "transfers_aeroporto_necessarios": 750,
+      "deslocamentos_hotel_evento_dia": 935,
+      "aereos_estimados": 680,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 1250000
+  },
+  {
+    "id": "EVT-2026-041",
+    "nome": "AWS Community Day & Cloud Leaders São Paulo 2026",
+    "segmento": "Tecnologia / Telecom / IA",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-05",
+    "data_fim": "2026-08-06",
+    "dias_duracao": 2,
+    "dias_antecedencia": 65,
+    "publico_total_estimado": 750,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Amazon AWS Brasil & Comunidade Cloud SP",
+    "cnpj_organizador": "15.419.640/0001-88",
+    "decisores_identificados": [
+      {
+        "nome": "Cleber Morais",
+        "cargo": "Diretor Geral AWS Brasil",
+        "email": "cleber.morais@amazon.com"
+      },
+      {
+        "nome": "Fernanda Queiroz",
+        "cargo": "Senior Developer Marketing & Event Coordinator",
+        "email": "fqueiroz@amazon.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 340,
+      "room_nights_estimados": 680,
+      "transfers_aeroporto_necessarios": 280,
+      "deslocamentos_hotel_evento_dia": 340,
+      "aereos_estimados": 260,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 490000
+  },
+  {
+    "id": "EVT-2026-042",
+    "nome": "Fintech Revolution Summit São Paulo 2026 (Banking & Open Finance)",
+    "segmento": "Financeiro / Fintech",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-07-08",
+    "data_fim": "2026-07-09",
+    "dias_duracao": 2,
+    "dias_antecedencia": 50,
+    "publico_total_estimado": 900,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "StartSe University & FinTech Club",
+    "cnpj_organizador": "23.456.789/0001-01",
+    "decisores_identificados": [
+      {
+        "nome": "Junior Borneli",
+        "cargo": "Co-Fundador & CEO StartSe",
+        "email": "junior@startse.com"
+      },
+      {
+        "nome": "Jessica Fontes",
+        "cargo": "Head de Parcerias e Operações de Eventos",
+        "email": "jessica.fontes@startse.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 450,
+      "room_nights_estimados": 900,
+      "transfers_aeroporto_necessarios": 360,
+      "deslocamentos_hotel_evento_dia": 450,
+      "aereos_estimados": 320,
+      "jantares_executivos_grupos": 5
+    },
+    "budget_alvo_estimado": 620000
+  },
+  {
+    "id": "EVT-2026-043",
+    "nome": "Fórum de Líderes Empresariais & CEOs LIDE 2026",
+    "segmento": "Governança / Liderança C-Level",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-25",
+    "data_fim": "2026-08-26",
+    "dias_duracao": 2,
+    "dias_antecedencia": 75,
+    "publico_total_estimado": 180,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "Grupo Doria / LIDE (Grupo de Líderes Empresariais)",
+    "cnpj_organizador": "05.111.222/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "João Doria Neto",
+        "cargo": "Diretor Executivo LIDE",
+        "email": "diretoria@lide.com.br"
+      },
+      {
+        "nome": "Silvia Andrade",
+        "cargo": "Head de Cerimonial e Hospitalidade C-Level",
+        "email": "silvia.andrade@lide.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 126,
+      "room_nights_estimados": 252,
+      "transfers_aeroporto_necessarios": 126,
+      "deslocamentos_hotel_evento_dia": 126,
+      "aereos_estimados": 115,
+      "jantares_executivos_grupos": 3
+    },
+    "budget_alvo_estimado": 450000
+  },
+  {
+    "id": "EVT-2026-044",
+    "nome": "AgroFinance & Barter Summit São Paulo 2026 (Crédito & CPRs)",
+    "segmento": "Agronegócio / Financeiro",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-09-15",
+    "data_fim": "2026-09-16",
+    "dias_duracao": 2,
+    "dias_antecedencia": 90,
+    "publico_total_estimado": 520,
+    "percentual_fora_da_cidade": 0.78,
+    "empresa_organizadora": "Agrotools & Datagro Publicações",
+    "cnpj_organizador": "08.987.654/0001-21",
+    "decisores_identificados": [
+      {
+        "nome": "Plinio Nastari",
+        "cargo": "Presidente Datagro",
+        "email": "nastari@datagro.com"
+      },
+      {
+        "nome": "Marcio Albuquerque",
+        "cargo": "Coordenador de Viagens & Produtores VIP",
+        "email": "marcio.albuquerque@datagro.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 405,
+      "room_nights_estimados": 810,
+      "transfers_aeroporto_necessarios": 360,
+      "deslocamentos_hotel_evento_dia": 405,
+      "aereos_estimados": 350,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 610000
+  },
+  {
+    "id": "EVT-2026-045",
+    "nome": "Congresso Brasileiro de Direito Tributário & M&A 2026",
+    "segmento": "Jurídico / Compliance",
+    "local_evento": "frei_caneca",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-18",
+    "data_fim": "2026-11-20",
+    "dias_duracao": 3,
+    "dias_antecedencia": 115,
+    "publico_total_estimado": 380,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "Instituto Brasileiro de Estudos Tributários (IBET)",
+    "cnpj_organizador": "50.123.456/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "Paulo de Barros Carvalho",
+        "cargo": "Presidente Emérito IBET",
+        "email": "presidencia@ibet.com.br"
+      },
+      {
+        "nome": "Heloisa Moretto",
+        "cargo": "Coordenadora Executiva de Eventos Jurídicos",
+        "email": "heloisa.moretto@ibet.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 228,
+      "room_nights_estimados": 684,
+      "transfers_aeroporto_necessarios": 200,
+      "deslocamentos_hotel_evento_dia": 228,
+      "aereos_estimados": 190,
+      "jantares_executivos_grupos": 3
+    },
+    "budget_alvo_estimado": 470000
+  },
+  {
+    "id": "EVT-2026-046",
+    "nome": "Agrishow 2026 (30ª Feira Internacional de Tecnologia Agrícola em Ação)",
+    "segmento": "Agronegócio / Máquinas Agrícolas",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Ribeirão Preto",
+    "data_inicio": "2026-04-27",
+    "data_fim": "2026-05-01",
+    "dias_duracao": 5,
+    "dias_antecedencia": 150,
+    "publico_total_estimado": 195000,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Informa Markets Brasil & ABIMAQ / ABAG / ANDA / SRB",
+    "cnpj_organizador": "01.440.048/0001-14",
+    "decisores_identificados": [
+      {
+        "nome": "João Carlos Marchesan",
+        "cargo": "Presidente do Conselho de Administração da ABIMAQ",
+        "email": "presidencia@abimaq.org.br"
+      },
+      {
+        "nome": "Liliane Bortoluci",
+        "cargo": "Diretora do Portfólio Agrishow Informa Markets",
+        "email": "liliane.bortoluci@informa.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 165750,
+      "room_nights_estimados": 828750,
+      "transfers_aeroporto_necessarios": 45000,
+      "deslocamentos_hotel_evento_dia": 165750,
+      "aereos_estimados": 38000,
+      "jantares_executivos_grupos": 85
+    },
+    "budget_alvo_estimado": 12000000
+  },
+  {
+    "id": "EVT-2026-047",
+    "nome": "Fenasucro & Agrocana 2026 (32ª Feira Internacional de Bioenergia & Tecnologia Canavieira)",
+    "segmento": "Agronegócio / Bioenergia & Sucroalcooleiro",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Sertãozinho / Ribeirão Preto",
+    "data_inicio": "2026-08-11",
+    "data_fim": "2026-08-14",
+    "dias_duracao": 4,
+    "dias_antecedencia": 120,
+    "publico_total_estimado": 45000,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "RX Brasil (Reed Exhibitions) & CEISE Br",
+    "cnpj_organizador": "55.888.777/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Paulo Montabone",
+        "cargo": "Diretor da Fenasucro & Agrocana",
+        "email": "paulo.montabone@rxglobal.com"
+      },
+      {
+        "nome": "Mariana Diniz",
+        "cargo": "Coordenadora de Hospitalidade & Viagens de Usinas",
+        "email": "mariana.diniz@rxglobal.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 31500,
+      "room_nights_estimados": 126000,
+      "transfers_aeroporto_necessarios": 18000,
+      "deslocamentos_hotel_evento_dia": 31500,
+      "aereos_estimados": 14000,
+      "jantares_executivos_grupos": 35
+    },
+    "budget_alvo_estimado": 4500000
+  },
+  {
+    "id": "EVT-2026-048",
+    "nome": "Encontro Nacional de Confinamento e Pecuária de Corte 2026 (Enconpec)",
+    "segmento": "Pecuária / Corte & Confinamento",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Ribeirão Preto",
+    "data_inicio": "2026-03-10",
+    "data_fim": "2026-03-12",
+    "dias_duracao": 3,
+    "dias_antecedencia": 80,
+    "publico_total_estimado": 2200,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Associação Nacional dos Confinadores (Assocon)",
+    "cnpj_organizador": "09.432.123/0001-45",
+    "decisores_identificados": [
+      {
+        "nome": "Thiago Pereira",
+        "cargo": "Diretor Executivo Assocon",
+        "email": "diretoria@assocon.com.br"
+      },
+      {
+        "nome": "Carla Zanetti",
+        "cargo": "Head de Eventos & Relações com Frigoríficos",
+        "email": "carla.zanetti@assocon.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 1870,
+      "room_nights_estimados": 5610,
+      "transfers_aeroporto_necessarios": 1600,
+      "deslocamentos_hotel_evento_dia": 1870,
+      "aereos_estimados": 1400,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 1100000
+  },
+  {
+    "id": "EVT-2026-049",
+    "nome": "Convenção Nacional de Revendedores e Concessionárias John Deere 2026",
+    "segmento": "Agronegócio / Máquinas & Tecnologia",
+    "local_evento": "campinas_resorts",
+    "cidade": "Campinas",
+    "data_inicio": "2026-05-12",
+    "data_fim": "2026-05-15",
+    "dias_duracao": 4,
+    "dias_antecedencia": 90,
+    "publico_total_estimado": 850,
+    "percentual_fora_da_cidade": 0.9,
+    "empresa_organizadora": "John Deere Brasil Ltda",
+    "cnpj_organizador": "89.851.354/0001-20",
+    "decisores_identificados": [
+      {
+        "nome": "Alfredo Miguel Neto",
+        "cargo": "Diretor de Assuntos Corporativos América Latina",
+        "email": "miguelnetoalfredo@johndeere.com"
+      },
+      {
+        "nome": "Thais Beltrame",
+        "cargo": "Global Travel & Meeting Services Lead",
+        "email": "beltramethais@johndeere.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 765,
+      "room_nights_estimados": 3060,
+      "transfers_aeroporto_necessarios": 750,
+      "deslocamentos_hotel_evento_dia": 765,
+      "aereos_estimados": 700,
+      "jantares_executivos_grupos": 5
+    },
+    "budget_alvo_estimado": 1650000
+  },
+  {
+    "id": "EVT-2026-050",
+    "nome": "Convenção Nacional de Vendas Syngenta & Campo Forte 2026",
+    "segmento": "Agronegócio / Defensivos & Sementes",
+    "local_evento": "campinas_resorts",
+    "cidade": "Atibaia",
+    "data_inicio": "2026-06-08",
+    "data_fim": "2026-06-11",
+    "dias_duracao": 4,
+    "dias_antecedencia": 100,
+    "publico_total_estimado": 600,
+    "percentual_fora_da_cidade": 0.92,
+    "empresa_organizadora": "Syngenta Proteção de Cultivos Ltda",
+    "cnpj_organizador": "60.744.463/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "André Savino",
+        "cargo": "Diretor Geral de Negócios Brasil",
+        "email": "andre.savino@syngenta.com"
+      },
+      {
+        "nome": "Larissa Silveira",
+        "cargo": "Head de Compras MICE & Viagens Estratégicas",
+        "email": "larissa.silveira@syngenta.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 550,
+      "room_nights_estimados": 2200,
+      "transfers_aeroporto_necessarios": 550,
+      "deslocamentos_hotel_evento_dia": 550,
+      "aereos_estimados": 520,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 1400000
+  },
+  {
+    "id": "EVT-2026-051",
+    "nome": "Hortitec 2026 (30ª Exposição Técnica de Horticultura, Cultivo Protegido e Flores)",
+    "segmento": "Agronegócio / Hortifruticultura",
+    "local_evento": "campinas_resorts",
+    "cidade": "Holambra / Campinas",
+    "data_inicio": "2026-06-24",
+    "data_fim": "2026-06-26",
+    "dias_duracao": 3,
+    "dias_antecedencia": 70,
+    "publico_total_estimado": 32000,
+    "percentual_fora_da_cidade": 0.75,
+    "empresa_organizadora": "RBB Eventos & Hortitec Feiras",
+    "cnpj_organizador": "02.890.123/0001-88",
+    "decisores_identificados": [
+      {
+        "nome": "Renato Rusche",
+        "cargo": "Diretor Geral Hortitec",
+        "email": "hortitec@hortitec.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 24000,
+      "room_nights_estimados": 72000,
+      "transfers_aeroporto_necessarios": 15000,
+      "deslocamentos_hotel_evento_dia": 24000,
+      "aereos_estimados": 12000,
+      "jantares_executivos_grupos": 18
+    },
+    "budget_alvo_estimado": 2800000
+  },
+  {
+    "id": "EVT-2026-052",
+    "nome": "Expo Rio Preto 2026 (62ª Exposição Agropecuária de São José do Rio Preto)",
+    "segmento": "Pecuária / Leilões & Genética Nelore",
+    "local_evento": "sao_jose_rio_preto_aracatuba",
+    "cidade": "São José do Rio Preto",
+    "data_inicio": "2026-09-16",
+    "data_fim": "2026-09-21",
+    "dias_duracao": 6,
+    "dias_antecedencia": 110,
+    "publico_total_estimado": 55000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "Secretaria de Agricultura de SJRP & Associação de Criadores",
+    "cnpj_organizador": "46.588.970/0001-30",
+    "decisores_identificados": [
+      {
+        "nome": "Pedro Roberto Gomes",
+        "cargo": "Coordenador Geral da Expo Rio Preto",
+        "email": "exporiopreto@riopreto.sp.gov.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 33000,
+      "room_nights_estimados": 198000,
+      "transfers_aeroporto_necessarios": 18000,
+      "deslocamentos_hotel_evento_dia": 33000,
+      "aereos_estimados": 14000,
+      "jantares_executivos_grupos": 25
+    },
+    "budget_alvo_estimado": 4200000
+  },
+  {
+    "id": "EVT-2026-053",
+    "nome": "Expô Araçatuba Agro 2026 (Feira Agropecuária do Noroeste Paulista)",
+    "segmento": "Pecuária / Corte & Genética",
+    "local_evento": "sao_jose_rio_preto_aracatuba",
+    "cidade": "Araçatuba",
+    "data_inicio": "2026-09-04",
+    "data_fim": "2026-09-09",
+    "dias_duracao": 6,
+    "dias_antecedencia": 105,
+    "publico_total_estimado": 65000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Rural Eventos & Sindicato Rural de Araçatuba",
+    "cnpj_organizador": "44.123.456/0001-77",
+    "decisores_identificados": [
+      {
+        "nome": "Guilherme Rangel",
+        "cargo": "Diretor de Eventos Agropecuários",
+        "email": "contato@expoaracatuba.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 35750,
+      "room_nights_estimados": 214500,
+      "transfers_aeroporto_necessarios": 19000,
+      "deslocamentos_hotel_evento_dia": 35750,
+      "aereos_estimados": 15000,
+      "jantares_executivos_grupos": 22
+    },
+    "budget_alvo_estimado": 3800000
+  },
+  {
+    "id": "EVT-2026-054",
+    "nome": "AgTech Summit Piracicaba 2026 (Inovação & Startups do Agro - ESALQ USP)",
+    "segmento": "Agronegócio / AgTech & Bioinsumos",
+    "local_evento": "piracicaba_agtech",
+    "cidade": "Piracicaba",
+    "data_inicio": "2026-07-22",
+    "data_fim": "2026-07-24",
+    "dias_duracao": 3,
+    "dias_antecedencia": 85,
+    "publico_total_estimado": 3500,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "AgTech Garage (PwC Brasil) & ESALQ USP",
+    "cnpj_organizador": "32.123.789/0001-09",
+    "decisores_identificados": [
+      {
+        "nome": "José Augusto Tomé",
+        "cargo": "CEO AgTech Garage & Sócio PwC",
+        "email": "tome@agtechgarage.com"
+      },
+      {
+        "nome": "Fabiana Rossi",
+        "cargo": "Head de Eventos & Venture Agro",
+        "email": "fabiana.rossi@agtechgarage.com"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 2450,
+      "room_nights_estimados": 7350,
+      "transfers_aeroporto_necessarios": 2100,
+      "deslocamentos_hotel_evento_dia": 2450,
+      "aereos_estimados": 1900,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 1350000
+  },
+  {
+    "id": "EVT-2026-055",
+    "nome": "EMAPA 2026 (54ª Exposição Municipal Agropecuária e Equinocultura de Avaré)",
+    "segmento": "Pecuária / Equinocultura & Quarto de Milha",
+    "local_evento": "piracicaba_agtech",
+    "cidade": "Avaré",
+    "data_inicio": "2026-12-02",
+    "data_fim": "2026-12-08",
+    "dias_duracao": 7,
+    "dias_antecedencia": 140,
+    "publico_total_estimado": 80000,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Prefeitura da Estância Turística de Avaré & ABQM",
+    "cnpj_organizador": "46.634.168/0001-50",
+    "decisores_identificados": [
+      {
+        "nome": "Antonio Carlos Ribeiro",
+        "cargo": "Coordenador Geral EMAPA",
+        "email": "emapa@avare.sp.gov.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 52000,
+      "room_nights_estimados": 364000,
+      "transfers_aeroporto_necessarios": 28000,
+      "deslocamentos_hotel_evento_dia": 52000,
+      "aereos_estimados": 22000,
+      "jantares_executivos_grupos": 30
+    },
+    "budget_alvo_estimado": 5200000
+  },
+  {
+    "id": "EVT-2026-056",
+    "nome": "Fórum de Inverno do Agronegócio e Liderança 2026 (AgroLeaders)",
+    "segmento": "Agronegócio / Liderança & Macroeconomia",
+    "local_evento": "campos_jordao",
+    "cidade": "Campos do Jordão",
+    "data_inicio": "2026-07-16",
+    "data_fim": "2026-07-18",
+    "dias_duracao": 3,
+    "dias_antecedencia": 75,
+    "publico_total_estimado": 450,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Sociedade Rural Brasileira (SRB) & LIDE Agro",
+    "cnpj_organizador": "60.555.444/0001-11",
+    "decisores_identificados": [
+      {
+        "nome": "Sérgio Bortolozzo",
+        "cargo": "Presidente SRB",
+        "email": "presidencia@srb.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 380,
+      "room_nights_estimados": 1140,
+      "transfers_aeroporto_necessarios": 380,
+      "deslocamentos_hotel_evento_dia": 380,
+      "aereos_estimados": 340,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 880000
+  },
+  {
+    "id": "EVT-2026-057",
+    "nome": "Fórum Agro Export & Logística de Grãos 2026 (Santos Export)",
+    "segmento": "Agronegócio / Comércio Exterior & Logística Portuária",
+    "local_evento": "santos_litoral",
+    "cidade": "Santos",
+    "data_inicio": "2026-08-19",
+    "data_fim": "2026-08-20",
+    "dias_duracao": 2,
+    "dias_antecedencia": 80,
+    "publico_total_estimado": 1500,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Brasil Export & Sistema Santa Cecília",
+    "cnpj_organizador": "12.345.678/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "Fabrizio Pierdomenico",
+        "cargo": "Coordenador Geral Santos Export",
+        "email": "fabrizio@santosexport.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 975,
+      "room_nights_estimados": 1950,
+      "transfers_aeroporto_necessarios": 750,
+      "deslocamentos_hotel_evento_dia": 975,
+      "aereos_estimados": 680,
+      "jantares_executivos_grupos": 6
+    },
+    "budget_alvo_estimado": 1200000
+  },
+  {
+    "id": "EVT-2026-058",
+    "nome": "Congresso Brasileiro de Cirurgia Bariátrica e Metabólica 2026 (SBCBM)",
+    "segmento": "Farmacêutico / Saúde",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-10-21",
+    "data_fim": "2026-10-24",
+    "dias_duracao": 4,
+    "dias_antecedencia": 95,
+    "publico_total_estimado": 3800,
+    "percentual_fora_da_cidade": 0.78,
+    "empresa_organizadora": "Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)",
+    "cnpj_organizador": "02.456.789/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Antônio Carlos Valezi",
+        "cargo": "Presidente da Comissão Organizadora SBCBM",
+        "email": "eventos@sbcbm.org.br"
+      },
+      {
+        "nome": "Renata Lemos",
+        "cargo": "Gerente de Hospitalidade e Relações com a Indústria Farmacêutica",
+        "email": "renata.lemos@sbcbm.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 2964,
+      "room_nights_estimados": 11856,
+      "transfers_aeroporto_necessarios": 2300,
+      "deslocamentos_hotel_evento_dia": 2964,
+      "aereos_estimados": 2100,
+      "jantares_executivos_grupos": 12
+    },
+    "budget_alvo_estimado": 2450000
+  },
+  {
+    "id": "EVT-2026-059",
+    "nome": "Seminário Nacional de Logística Integrada & Frotas do Agro 2026 (AgroLog SP)",
+    "segmento": "Agronegócio / Logística & Frotas",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Ribeirão Preto",
+    "data_inicio": "2026-09-22",
+    "data_fim": "2026-09-24",
+    "dias_duracao": 3,
+    "dias_antecedencia": 65,
+    "publico_total_estimado": 1400,
+    "percentual_fora_da_cidade": 0.8,
+    "empresa_organizadora": "Associação Brasileira de Logística Agroindustrial (ABLOG Agro)",
+    "cnpj_organizador": "18.987.654/0001-22",
+    "decisores_identificados": [
+      {
+        "nome": "Eduardo Campelo",
+        "cargo": "Diretor de Logística & Transportes Agro",
+        "email": "campelo@ablogagro.org.br"
+      },
+      {
+        "nome": "Mariana Siqueira",
+        "cargo": "Coordenadora de Viagens e Congressistas",
+        "email": "mariana@ablogagro.org.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 1120,
+      "room_nights_estimados": 3360,
+      "transfers_aeroporto_necessarios": 950,
+      "deslocamentos_hotel_evento_dia": 1120,
+      "aereos_estimados": 850,
+      "jantares_executivos_grupos": 5
+    },
+    "budget_alvo_estimado": 890000
+  },
+  {
+    "id": "EVT-2026-060",
+    "nome": "Convenção Nacional de Franqueados Smart Fit 2026 (Liderança & Expansão)",
+    "segmento": "Varejo / Franquias & Fitness",
+    "local_evento": "wds_wtc",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-04",
+    "data_fim": "2026-11-06",
+    "dias_duracao": 3,
+    "dias_antecedencia": 110,
+    "publico_total_estimado": 750,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Smartfit Escola de Ginástica e Dança S.A.",
+    "cnpj_organizador": "07.594.978/0001-78",
+    "decisores_identificados": [
+      {
+        "nome": "Edgard Corona",
+        "cargo": "CEO & Fundador Grupo Smart Fit",
+        "email": "presidencia@smartfit.com"
+      },
+      {
+        "nome": "Talita Pinheiro",
+        "cargo": "Head de Expansão e Eventos Globais",
+        "email": "talita.pinheiro@smartfit.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 638,
+      "room_nights_estimados": 1914,
+      "transfers_aeroporto_necessarios": 580,
+      "deslocamentos_hotel_evento_dia": 638,
+      "aereos_estimados": 520,
+      "jantares_executivos_grupos": 6
+    },
+    "budget_alvo_estimado": 950000
+  },
+  {
+    "id": "EVT-2026-061",
+    "nome": "Lollapalooza Brasil 2026 (13ª Edição & Camarotes Corporativos)",
+    "segmento": "Agronegócio / Bioinsumos & Sustentabilidade",
+    "local_evento": "piracicaba_agtech",
+    "cidade": "Piracicaba",
+    "data_inicio": "2026-10-14",
+    "data_fim": "2026-10-16",
+    "dias_duracao": 3,
+    "dias_antecedencia": 85,
+    "publico_total_estimado": 240000,
+    "percentual_fora_da_cidade": 0.65,
+    "empresa_organizadora": "Embrapa Meio Ambiente & ESALQ USP",
+    "cnpj_organizador": "00.348.003/0001-10",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Marcelo Morandi",
+        "cargo": "Chefe-Geral da Embrapa Meio Ambiente",
+        "email": "marcelo.morandi@embrapa.br"
+      },
+      {
+        "nome": "Juliana Basso",
+        "cargo": "Coordenadora de Eventos Científicos",
+        "email": "juliana.basso@embrapa.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 156000,
+      "room_nights_estimados": 468000,
+      "transfers_aeroporto_necessarios": 95000,
+      "deslocamentos_hotel_evento_dia": 156000,
+      "aereos_estimados": 85000,
+      "jantares_executivos_grupos": 45
+    },
+    "budget_alvo_estimado": 12500000
+  },
+  {
+    "id": "EVT-2026-062",
+    "nome": "Temporada de Shows Internacionais de Estádio (Allianz Parque 2026)",
+    "segmento": "Varejo / Cosméticos & Franquias",
+    "local_evento": "campinas_resorts",
+    "cidade": "Campinas",
+    "data_inicio": "2026-10-06",
+    "data_fim": "2026-10-09",
+    "dias_duracao": 4,
+    "dias_antecedencia": 75,
+    "publico_total_estimado": 190000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Grupo Boticário (Botica Comercial Farmacêutica Ltda)",
+    "cnpj_organizador": "77.388.007/0001-57",
+    "decisores_identificados": [
+      {
+        "nome": "Fernando Modé",
+        "cargo": "CEO Grupo Boticário",
+        "email": "fmode@grupoboticario.com.br"
+      },
+      {
+        "nome": "Camila Alcantara",
+        "cargo": "Diretora de MICE & Experiências Corporativas",
+        "email": "camila.alcantara@grupoboticario.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 104500,
+      "room_nights_estimados": 209000,
+      "transfers_aeroporto_necessarios": 62000,
+      "deslocamentos_hotel_evento_dia": 104500,
+      "aereos_estimados": 55000,
+      "jantares_executivos_grupos": 35
+    },
+    "budget_alvo_estimado": 8900000
+  },
+  {
+    "id": "EVT-2026-063",
+    "nome": "Mega Shows Estádio do MorumBIS 2026 (Grandes Bandas & Camarotes VIP)",
+    "segmento": "Shows / Estádios / Turnês Globais",
+    "local_evento": "morumbi_estadio",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-11-06",
+    "data_fim": "2026-11-08",
+    "dias_duracao": 3,
+    "dias_antecedencia": 85,
+    "publico_total_estimado": 195000,
+    "percentual_fora_da_cidade": 0.58,
+    "empresa_organizadora": "MorumBIS Entretenimento & 30e",
+    "cnpj_organizador": "31.222.111/0001-88",
+    "decisores_identificados": [
+      {
+        "nome": "Pepeu Correa",
+        "cargo": "CEO da 30e Entretenimento",
+        "email": "pepeu@30e.com.br"
+      },
+      {
+        "nome": "Mariana Faria",
+        "cargo": "Gerente Geral de Hospitalidade & Receptivo MorumBIS",
+        "email": "hospitality@morumbis.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 113100,
+      "room_nights_estimados": 339300,
+      "transfers_aeroporto_necessarios": 68000,
+      "deslocamentos_hotel_evento_dia": 113100,
+      "aereos_estimados": 60000,
+      "jantares_executivos_grupos": 30
+    },
+    "budget_alvo_estimado": 9800000
+  },
+  {
+    "id": "EVT-2026-064",
+    "nome": "71ª Festa do Peão de Boiadeiro de Barretos 2026 (Maior Circuito de Shows Sertanejos)",
+    "segmento": "Shows / Festivais Sertanejos / Entretenimento Agro",
+    "local_evento": "barretos_parque_peao",
+    "cidade": "Barretos",
+    "data_inicio": "2026-08-20",
+    "data_fim": "2026-08-30",
+    "dias_duracao": 10,
+    "dias_antecedencia": 180,
+    "publico_total_estimado": 900000,
+    "percentual_fora_da_cidade": 0.82,
+    "empresa_organizadora": "Associação Os Independentes de Barretos",
+    "cnpj_organizador": "44.876.543/0001-21",
+    "decisores_identificados": [
+      {
+        "nome": "Hussein Gemha Júnior",
+        "cargo": "Presidente de Os Independentes & Parque do Peão",
+        "email": "presidencia@osindependentes.com.br"
+      },
+      {
+        "nome": "Jerônimo Muzetti",
+        "cargo": "Diretor Financeiro e Relações Corporativas",
+        "email": "patrocinios@osindependentes.com.br"
+      },
+      {
+        "nome": "Fernando Moni",
+        "cargo": "Coordenador de Camarotes Corporativos (Brahma / Super Bull)",
+        "email": "camarotes@barretos.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 738000,
+      "room_nights_estimados": 2214000,
+      "transfers_aeroporto_necessarios": 180000,
+      "deslocamentos_hotel_evento_dia": 738000,
+      "aereos_estimados": 120000,
+      "jantares_executivos_grupos": 85
+    },
+    "budget_alvo_estimado": 18500000
+  },
+  {
+    "id": "EVT-2026-065",
+    "nome": "Festival João Rock Ribeirão Preto 2026 (Maior Festival de Rock Nacional do Brasil)",
+    "segmento": "Shows / Festivais de Rock / Música Brasileira",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Ribeirão Preto",
+    "data_inicio": "2026-06-13",
+    "data_fim": "2026-06-14",
+    "dias_duracao": 2,
+    "dias_antecedencia": 50,
+    "publico_total_estimado": 75000,
+    "percentual_fora_da_cidade": 0.68,
+    "empresa_organizadora": "João Rock Produções & EPTV",
+    "cnpj_organizador": "05.432.198/0001-77",
+    "decisores_identificados": [
+      {
+        "nome": "Luit Marques",
+        "cargo": "Sócio-Diretor e Organizador Geral",
+        "email": "luit@joaorock.com.br"
+      },
+      {
+        "nome": "Marcelo Rocci",
+        "cargo": "Diretor Comercial & Camarote Colorado",
+        "email": "comercial@joaorock.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 51000,
+      "room_nights_estimados": 102000,
+      "transfers_aeroporto_necessarios": 28000,
+      "deslocamentos_hotel_evento_dia": 51000,
+      "aereos_estimados": 22000,
+      "jantares_executivos_grupos": 20
+    },
+    "budget_alvo_estimado": 3800000
+  },
+  {
+    "id": "EVT-2026-066",
+    "nome": "37ª Festa do Peão de Americana 2026 (Circuito de Shows e Camarotes Corporativos)",
+    "segmento": "Shows / Festivais Sertanejos / Rodeio",
+    "local_evento": "campinas_resorts",
+    "cidade": "Americana",
+    "data_inicio": "2026-06-10",
+    "data_fim": "2026-06-21",
+    "dias_duracao": 6,
+    "dias_antecedencia": 70,
+    "publico_total_estimado": 400000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "Clube dos Cavaleiros de Americana (CCA)",
+    "cnpj_organizador": "51.345.678/0001-43",
+    "decisores_identificados": [
+      {
+        "nome": "Beto Lahr",
+        "cargo": "Presidente do Clube dos Cavaleiros de Americana",
+        "email": "beto@festadopeaodeamericana.com.br"
+      },
+      {
+        "nome": "Rodrigo Françoso",
+        "cargo": "Diretor de Marketing & Camarotes Empresariais",
+        "email": "comercial@cca.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 240000,
+      "room_nights_estimados": 480000,
+      "transfers_aeroporto_necessarios": 60000,
+      "deslocamentos_hotel_evento_dia": 240000,
+      "aereos_estimados": 45000,
+      "jantares_executivos_grupos": 40
+    },
+    "budget_alvo_estimado": 6800000
+  },
+  {
+    "id": "EVT-2026-067",
+    "nome": "Jaguariúna Rodeo Festival & Shows 2026 (Red Park / Circuito Brahma)",
+    "segmento": "Shows / Festivais / Entretenimento",
+    "local_evento": "campinas_resorts",
+    "cidade": "Jaguariúna",
+    "data_inicio": "2026-09-18",
+    "data_fim": "2026-09-27",
+    "dias_duracao": 4,
+    "dias_antecedencia": 45,
+    "publico_total_estimado": 120000,
+    "percentual_fora_da_cidade": 0.7,
+    "empresa_organizadora": "Diverti & Circuito Sertanejo",
+    "cnpj_organizador": "14.234.567/0001-89",
+    "decisores_identificados": [
+      {
+        "nome": "Gui Marconi",
+        "cargo": "CEO da Diverti & Organizador JRF",
+        "email": "gui@diverti.com.br"
+      },
+      {
+        "nome": "Fabiana Pires",
+        "cargo": "Gerente de Hospitality & Patrocinadores",
+        "email": "patrocinio@jaguariunarodeo.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 84000,
+      "room_nights_estimados": 168000,
+      "transfers_aeroporto_necessarios": 35000,
+      "deslocamentos_hotel_evento_dia": 84000,
+      "aereos_estimados": 30000,
+      "jantares_executivos_grupos": 25
+    },
+    "budget_alvo_estimado": 4900000
+  },
+  {
+    "id": "EVT-2026-068",
+    "nome": "Só Track Boa Festival SP 2026 (Maior Festival de Música Eletrônica Nacional)",
+    "segmento": "Shows / Festivais / Música Eletrônica",
+    "local_evento": "interlagos_arena",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-22",
+    "data_fim": "2026-05-23",
+    "dias_duracao": 2,
+    "dias_antecedencia": 30,
+    "publico_total_estimado": 45000,
+    "percentual_fora_da_cidade": 0.55,
+    "empresa_organizadora": "Entourage Conteúdo Artístico & Vintage Culture",
+    "cnpj_organizador": "22.333.444/0001-55",
+    "decisores_identificados": [
+      {
+        "nome": "Guga Trevisani",
+        "cargo": "Diretor Executivo da Entourage & STB",
+        "email": "guga@entourage.com.br"
+      },
+      {
+        "nome": "Carolina Rossi",
+        "cargo": "Head de Camarotes & Backstage VIP",
+        "email": "vip@sotrackboa.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 24750,
+      "room_nights_estimados": 49500,
+      "transfers_aeroporto_necessarios": 15000,
+      "deslocamentos_hotel_evento_dia": 24750,
+      "aereos_estimados": 14000,
+      "jantares_executivos_grupos": 15
+    },
+    "budget_alvo_estimado": 2900000
+  },
+  {
+    "id": "EVT-2026-069",
+    "nome": "C6 Fest 2026 (Jazz, MPB & Pop Internacional no Parque Ibirapuera)",
+    "segmento": "Shows / Festivais Boutique / Jazz & MPB",
+    "local_evento": "ibirapuera_arenas",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-21",
+    "data_fim": "2026-05-24",
+    "dias_duracao": 4,
+    "dias_antecedencia": 25,
+    "publico_total_estimado": 28000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "Dueto Produções & C6 Bank",
+    "cnpj_organizador": "02.876.543/0001-19",
+    "decisores_identificados": [
+      {
+        "nome": "Monique Gardenberg",
+        "cargo": "Diretora Geral Dueto Produções",
+        "email": "monique@duetoproducoes.com.br"
+      },
+      {
+        "nome": "Alexandra Pain",
+        "cargo": "Head de Marketing & Eventos do C6 Bank",
+        "email": "alexandra.pain@c6bank.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 14000,
+      "room_nights_estimados": 42000,
+      "transfers_aeroporto_necessarios": 9000,
+      "deslocamentos_hotel_evento_dia": 14000,
+      "aereos_estimados": 8500,
+      "jantares_executivos_grupos": 25
+    },
+    "budget_alvo_estimado": 2600000
+  },
+  {
+    "id": "EVT-2026-070",
+    "nome": "Temporada de Shows Corporativos no Espaço Unimed 2026 (Grandes Turnês)",
+    "segmento": "Shows / Casas de Show / Corporativo & Entretenimento",
+    "local_evento": "allianz_parque",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-07-10",
+    "data_fim": "2026-07-12",
+    "dias_duracao": 3,
+    "dias_antecedencia": 40,
+    "publico_total_estimado": 25000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Grupo São Paulo Eventos & Espaço Unimed",
+    "cnpj_organizador": "09.876.543/0001-99",
+    "decisores_identificados": [
+      {
+        "nome": "Marco Antônio Tobias",
+        "cargo": "Diretor Comercial do Espaço Unimed & Audio",
+        "email": "marco@espacounimed.com.br"
+      },
+      {
+        "nome": "Renata Abreu",
+        "cargo": "Gerente de Camarotes e Eventos Corporativos",
+        "email": "camarotes@espacounimed.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 11250,
+      "room_nights_estimados": 22500,
+      "transfers_aeroporto_necessarios": 7500,
+      "deslocamentos_hotel_evento_dia": 11250,
+      "aereos_estimados": 6500,
+      "jantares_executivos_grupos": 18
+    },
+    "budget_alvo_estimado": 1950000
+  },
+  {
+    "id": "EVT-2026-071",
+    "nome": "Shows & Eventos no Vibra São Paulo 2026 (Ex-Credicard Hall)",
+    "segmento": "Shows / Casas de Show / Executivo",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-08-14",
+    "data_fim": "2026-08-16",
+    "dias_duracao": 3,
+    "dias_antecedencia": 35,
+    "publico_total_estimado": 21000,
+    "percentual_fora_da_cidade": 0.45,
+    "empresa_organizadora": "Opus Entretenimento & Vibra Energia",
+    "cnpj_organizador": "13.456.789/0001-33",
+    "decisores_identificados": [
+      {
+        "nome": "Carlos Konrath",
+        "cargo": "Presidente da Opus Entretenimento",
+        "email": "ckonrath@opusentretenimento.com"
+      },
+      {
+        "nome": "Patrícia Lima",
+        "cargo": "Gerente de Eventos & Hospitalidade Vibra SP",
+        "email": "corporativo@vibrasaopaulo.com"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 9450,
+      "room_nights_estimados": 18900,
+      "transfers_aeroporto_necessarios": 6000,
+      "deslocamentos_hotel_evento_dia": 9450,
+      "aereos_estimados": 5500,
+      "jantares_executivos_grupos": 14
+    },
+    "budget_alvo_estimado": 1650000
+  },
+  {
+    "id": "EVT-2026-072",
+    "nome": "56º Festival Internacional de Inverno de Campos do Jordão 2026 (Música Clássica & Jazz)",
+    "segmento": "Shows / Festivais / Música Erudita & Jazz",
+    "local_evento": "campos_jordao",
+    "cidade": "Campos do Jordão",
+    "data_inicio": "2026-07-03",
+    "data_fim": "2026-07-26",
+    "dias_duracao": 24,
+    "dias_antecedencia": 90,
+    "publico_total_estimado": 65000,
+    "percentual_fora_da_cidade": 0.85,
+    "empresa_organizadora": "Fundação OSESP & Secretaria da Cultura de SP",
+    "cnpj_organizador": "50.123.456/0001-90",
+    "decisores_identificados": [
+      {
+        "nome": "Marcelo Lopes",
+        "cargo": "Diretor Executivo da Fundação OSESP",
+        "email": "mlopes@osesp.art.br"
+      },
+      {
+        "nome": "Cláudia Assumpção",
+        "cargo": "Coordenadora de Viagens e Hospitalidade de Solistas Internacionais",
+        "email": "viagens@osesp.art.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 55250,
+      "room_nights_estimados": 165750,
+      "transfers_aeroporto_necessarios": 25000,
+      "deslocamentos_hotel_evento_dia": 55250,
+      "aereos_estimados": 20000,
+      "jantares_executivos_grupos": 30
+    },
+    "budget_alvo_estimado": 4200000
+  },
+  {
+    "id": "EVT-2026-073",
+    "nome": "Festival Turá SP 2026 (Música Brasileira, Gastronomia & Cultura no Ibirapuera)",
+    "segmento": "Shows / Festivais / Cultura & MPB",
+    "local_evento": "ibirapuera_arenas",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-06-27",
+    "data_fim": "2026-06-28",
+    "dias_duracao": 2,
+    "dias_antecedencia": 28,
+    "publico_total_estimado": 35000,
+    "percentual_fora_da_cidade": 0.5,
+    "empresa_organizadora": "T4F Entretenimento (Time For Fun)",
+    "cnpj_organizador": "03.888.999/0001-44",
+    "decisores_identificados": [
+      {
+        "nome": "Fernando Alterio",
+        "cargo": "Presidente do Conselho T4F",
+        "email": "alterio@t4f.com.br"
+      },
+      {
+        "nome": "Francesca Alterio",
+        "cargo": "Diretora de Festivais T4F (Turá / Grls)",
+        "email": "francesca@t4f.com.br"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 17500,
+      "room_nights_estimados": 35000,
+      "transfers_aeroporto_necessarios": 11000,
+      "deslocamentos_hotel_evento_dia": 17500,
+      "aereos_estimados": 9500,
+      "jantares_executivos_grupos": 15
+    },
+    "budget_alvo_estimado": 2750000
+  },
+  {
+    "id": "EVT-2026-074",
+    "nome": "Time Warp Brasil 2026 (Festival Internacional de Techno & Experiência Audiovisual)",
+    "segmento": "Shows / Festivais / Música Eletrônica & Tech",
+    "local_evento": "anhembi",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-05-01",
+    "data_fim": "2026-05-02",
+    "dias_duracao": 2,
+    "dias_antecedencia": 20,
+    "publico_total_estimado": 38000,
+    "percentual_fora_da_cidade": 0.6,
+    "empresa_organizadora": "Entourage & Time Warp Global (Cosmopop)",
+    "cnpj_organizador": "22.333.444/0001-55",
+    "decisores_identificados": [
+      {
+        "nome": "Marcio Ribeiro",
+        "cargo": "Head de Produção Internacional Time Warp",
+        "email": "marcio@entourage.com.br"
+      },
+      {
+        "nome": "Carla Silveira",
+        "cargo": "Gerente de Hospitalidade para DJs e Comitivas Internacionais",
+        "email": "hospitality@timewarpbrasil.com"
+      }
+    ],
+    "poder_economico_segmento": "ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 22800,
+      "room_nights_estimados": 45600,
+      "transfers_aeroporto_necessarios": 14000,
+      "deslocamentos_hotel_evento_dia": 22800,
+      "aereos_estimados": 13000,
+      "jantares_executivos_grupos": 12
+    },
+    "budget_alvo_estimado": 2850000
+  },
+  {
+    "id": "EVT-2026-075",
+    "nome": "34º Festival Forró da Lua Cheia 2026 (Altinópolis / Ribeirão Preto)",
+    "segmento": "Shows / Festivais / Música Brasileira & Multicultural",
+    "local_evento": "ribeirao_preto",
+    "cidade": "Altinópolis",
+    "data_inicio": "2026-05-28",
+    "data_fim": "2026-05-31",
+    "dias_duracao": 4,
+    "dias_antecedencia": 35,
+    "publico_total_estimado": 14000,
+    "percentual_fora_da_cidade": 0.8,
+    "empresa_organizadora": "Produções Lua Cheia & Hotel Fazenda Vale das Grutas",
+    "cnpj_organizador": "07.654.321/0001-11",
+    "decisores_identificados": [
+      {
+        "nome": "Leonardo Moretti",
+        "cargo": "Diretor Geral do Festival Lua Cheia",
+        "email": "contato@festivalforrodaluacheia.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO",
+    "demanda_estimada": {
+      "hospedes_estimados": 11200,
+      "room_nights_estimados": 44800,
+      "transfers_aeroporto_necessarios": 6000,
+      "deslocamentos_hotel_evento_dia": 11200,
+      "aereos_estimados": 5000,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 1450000
+  },
+  {
+    "id": "EVT-2026-076",
+    "nome": "Shows de Temporada no Tokio Marine Hall 2026 (Ex-Tom Brasil)",
+    "segmento": "Shows / Casas de Show / MPB & Pop",
+    "local_evento": "transamerica_expo",
+    "cidade": "São Paulo",
+    "data_inicio": "2026-09-04",
+    "data_fim": "2026-09-06",
+    "dias_duracao": 3,
+    "dias_antecedencia": 30,
+    "publico_total_estimado": 12000,
+    "percentual_fora_da_cidade": 0.4,
+    "empresa_organizadora": "Grupo Tom Brasil & Tokio Marine Seguradora",
+    "cnpj_organizador": "62.345.678/0001-54",
+    "decisores_identificados": [
+      {
+        "nome": "Gladstone Lobato",
+        "cargo": "Diretor de Eventos Corporativos Tokio Marine Hall",
+        "email": "corporativo@tokiomarinehall.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MEDIO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 4800,
+      "room_nights_estimados": 9600,
+      "transfers_aeroporto_necessarios": 3200,
+      "deslocamentos_hotel_evento_dia": 4800,
+      "aereos_estimados": 2800,
+      "jantares_executivos_grupos": 10
+    },
+    "budget_alvo_estimado": 1100000
+  },
+  {
+    "id": "EVT-2026-077",
+    "nome": "Simpósio Internacional de Bioinsumos & Regeneração de Solos 2026",
+    "segmento": "Agronegócio / Bioinsumos & Sustentabilidade",
+    "local_evento": "piracicaba_agtech",
+    "cidade": "Piracicaba",
+    "data_inicio": "2026-10-14",
+    "data_fim": "2026-10-16",
+    "dias_duracao": 3,
+    "dias_antecedencia": 85,
+    "publico_total_estimado": 950,
+    "percentual_fora_da_cidade": 0.75,
+    "empresa_organizadora": "Embrapa Meio Ambiente & ESALQ USP",
+    "cnpj_organizador": "00.348.003/0001-10",
+    "decisores_identificados": [
+      {
+        "nome": "Dr. Marcelo Morandi",
+        "cargo": "Chefe-Geral da Embrapa Meio Ambiente",
+        "email": "marcelo.morandi@embrapa.br"
+      },
+      {
+        "nome": "Juliana Basso",
+        "cargo": "Coordenadora de Eventos Científicos",
+        "email": "juliana.basso@embrapa.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 712,
+      "room_nights_estimados": 2136,
+      "transfers_aeroporto_necessarios": 600,
+      "deslocamentos_hotel_evento_dia": 712,
+      "aereos_estimados": 540,
+      "jantares_executivos_grupos": 4
+    },
+    "budget_alvo_estimado": 780000
+  },
+  {
+    "id": "EVT-2026-078",
+    "nome": "Convenção Anual de Vendas Boticário & Beleza na Web 2026",
+    "segmento": "Varejo / Cosméticos & Franquias",
+    "local_evento": "campinas_resorts",
+    "cidade": "Campinas",
+    "data_inicio": "2026-10-06",
+    "data_fim": "2026-10-09",
+    "dias_duracao": 4,
+    "dias_antecedencia": 75,
+    "publico_total_estimado": 1100,
+    "percentual_fora_da_cidade": 0.88,
+    "empresa_organizadora": "Grupo Boticário (Botica Comercial Farmacêutica Ltda)",
+    "cnpj_organizador": "77.388.007/0001-57",
+    "decisores_identificados": [
+      {
+        "nome": "Fernando Modé",
+        "cargo": "CEO Grupo Boticário",
+        "email": "fmode@grupoboticario.com.br"
+      },
+      {
+        "nome": "Camila Alcantara",
+        "cargo": "Diretora de MICE & Experiências Corporativas",
+        "email": "camila.alcantara@grupoboticario.com.br"
+      }
+    ],
+    "poder_economico_segmento": "MUITO_ALTO",
+    "demanda_estimada": {
+      "hospedes_estimados": 968,
+      "room_nights_estimados": 3872,
+      "transfers_aeroporto_necessarios": 920,
+      "deslocamentos_hotel_evento_dia": 968,
+      "aereos_estimados": 850,
+      "jantares_executivos_grupos": 8
+    },
+    "budget_alvo_estimado": 2100000
+  }
+]
